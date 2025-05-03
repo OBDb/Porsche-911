@@ -1,0 +1,40 @@
+generations:
+  - name: "Original 911 (901)"
+    start_year: 1964
+    end_year: 1973
+    description: "The original Porsche 911, initially designated as the 901 until Peugeot objected to the name, established the iconic rear-engine sports car formula that continues to define the model today. Designed by Ferdinand 'Butzi' Porsche, it featured a rear-mounted air-cooled 2.0-liter flat-six engine initially producing 130 horsepower. Throughout this generation, displacement increased to 2.4 liters and power up to 190 horsepower in the Carrera RS version. The distinctive silhouette, round headlights, and sloping rear deck became 911 hallmarks. Despite challenging handling characteristics due to its rear weight bias, the car quickly developed a devoted following for its unique driving experience and versatility as both a daily driver and competition vehicle."
+
+  - name: "G-Series"
+    start_year: 1974
+    end_year: 1989
+    description: "The G-Series 911 introduced significant safety and modernization updates while maintaining the core rear-engine, air-cooled formula. Most visibly, it added impact-absorbing bumpers to meet US regulations. Engine displacement grew from 2.7 to 3.2 liters by the end of production, and the high-performance 911 Turbo (Type 930) was introduced, becoming the brand's flagship with its distinctive wide body and whale tail rear spoiler. Electronic fuel injection replaced mechanical systems, improving reliability and emissions. The model range expanded significantly, including Targa and Cabriolet variants alongside the coupe. This generation's 15-year production run made it the longest-lived 911 series and cemented the model's place in automotive culture."
+
+  - name: "964"
+    start_year: 1989
+    end_year: 1994
+    description: "The 964 generation represented the most significant technological update to the 911 in its history to that point, with Porsche claiming 85% new components while maintaining the classic silhouette. Key innovations included coil springs replacing torsion bars, ABS brakes, power steering, and available all-wheel drive in the Carrera 4 model. The air-cooled flat-six grew to 3.6 liters producing 250 horsepower in standard form, while the Turbo initially carried over the 3.3-liter engine before receiving a 3.6-liter unit in its final years. A new Tiptronic automatic transmission option broadened appeal. The 964 maintained the core 911 driving experience while significantly improving refinement, handling precision, and everyday usability."
+
+  - name: "993"
+    start_year: 1995
+    end_year: 1998
+    description: "The 993 generation, designed by Englishman Tony Hatter, is widely regarded as the pinnacle of air-cooled 911 development and the last of the air-cooled models. Its redesigned body featured a more integrated bumper design, smoother curves, and a wider stance. Mechanical improvements included a new multi-link rear suspension that dramatically improved handling and tamed the 911's tendency for lift-off oversteer. The standard 3.6-liter engine produced 272 horsepower initially, while the twin-turbocharged variant made up to 450 horsepower in ultimate Turbo S form. The 993 introduced all-wheel drive across Carrera models in addition to the Turbo. Particularly prized for its combination of classic 911 character with modern refinement and reliability, the 993 has become highly collectible as the final expression of the original air-cooled concept."
+
+  - name: "996"
+    start_year: 1999
+    end_year: 2004
+    description: "The 996 marked the most radical redesign in 911 history, adopting water-cooled engines and a completely new body design sharing components with the less expensive Boxster. Breaking with tradition, the iconic round headlights were replaced with 'fried egg' shaped units, and the interior was completely modernized. The new 3.4-liter (later 3.6-liter) flat-six engines were more powerful, efficient, and environmentally friendly than their air-cooled predecessors. Despite initial resistance from purists, the 996 broadened the 911's appeal with improved comfort, refinement, and daily usability. The GT3 model was introduced as a more track-focused variant, while the Turbo utilized a completely different engine derived from the GT1 race car. Though controversial when new, the 996 has been reassessed as a pivotal transition model that secured the 911's future in an era of increasing regulatory requirements."
+
+  - name: "997"
+    start_year: 2005
+    end_year: 2012
+    description: "The 997 generation represented an evolution of the water-cooled concept introduced with the 996, but with styling that returned to traditional 911 design cues, most notably with the return of circular headlights. Available in Carrera (rear-wheel drive) and Carrera 4 (all-wheel drive) variants, with either 3.6-liter or 3.8-liter engines in standard and S models respectively, power ranged from 325 to 385 horsepower in non-specialized models. The first generation (997.1) used essentially refined 996 engines, while the second phase (997.2) introduced direct fuel injection and dual-clutch PDK transmission options. The model range expanded significantly with numerous special editions and the introduction of the GT2 RS and GT3 RS 4.0 as ultimate performance variants. The 997 is widely considered to have successfully modernized the 911 while recapturing the traditional character somewhat diluted in the 996 generation."
+
+  - name: "991"
+    start_year: 2012
+    end_year: 2019
+    description: "The 991 generation grew slightly in size but actually reduced weight through increased use of aluminum in its construction. For the first time, it utilized electric power steering instead of hydraulic systems. The standard 3.4-liter and 3.8-liter engines in Carrera and Carrera S models respectively were upgraded to turbocharged 3.0-liter units in the 991.2 mid-cycle refresh, marking the end of naturally aspirated engines in standard 911 models. Performance reached new heights across the range, with even base Carrera models capable of sub-4.5 second 0-60 mph times. Technology integration increased significantly with advanced infotainment systems and driver assistance features. The GT3 models maintained naturally aspirated engines and offered both PDK and manual transmission options after enthusiast feedback. The 991 successfully evolved the 911 concept with increased everyday refinement while maintaining its sports car credentials and achieving new performance benchmarks."
+
+  - name: "992"
+    start_year: 2019
+    end_year: null
+    description: "The current 992 generation builds upon the 991's foundation with evolutionary styling changes including a more pronounced rear light bar, flush door handles, and wider fenders applied across all models rather than just all-wheel drive variants. The 3.0-liter twin-turbocharged flat-six engines produce 379 horsepower in base Carrera models and 443 horsepower in Carrera S versions, paired with an 8-speed PDK dual-clutch transmission or optional 7-speed manual in select models. Notable innovations include a 'Wet Mode' that detects water on the road and adjusts vehicle systems accordingly, plus significantly enhanced digital interfaces inside the cabin while maintaining some traditional 911 elements like the center tachometer. The 992 GT3 continues with a naturally aspirated 4.0-liter engine producing 502 horsepower. This generation prepares the 911 for potential hybridization while maintaining the distinctive driving character that has defined the model for nearly 60 years."
