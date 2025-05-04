@@ -1,0 +1,16 @@
+command_id: 7E0.7E8.22F442
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80562F4422FFD
+  expected_values:
+    PORSCHE_VPWR: 12.285
+- response: 7E80562F4423010
+  expected_values:
+    PORSCHE_VPWR: 12.304
+- response: 7E80562F44230D4
+  expected_values:
+    PORSCHE_VPWR: 12.5
+- response: 7E80562F4423924
+  expected_values:
+    PORSCHE_VPWR: 14.628

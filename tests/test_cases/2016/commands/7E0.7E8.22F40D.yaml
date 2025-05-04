@@ -1,0 +1,28 @@
+command_id: 7E0.7E8.22F40D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462F40D13
+  expected_values:
+    PORSCHE_VSS: 19
+- response: 7E80462F40D18
+  expected_values:
+    PORSCHE_VSS: 24
+- response: 7E80462F40D26
+  expected_values:
+    PORSCHE_VSS: 38
+- response: 7E80462F40D2B
+  expected_values:
+    PORSCHE_VSS: 43
+- response: 7E80462F40D31
+  expected_values:
+    PORSCHE_VSS: 49
+- response: 7E80462F40D35
+  expected_values:
+    PORSCHE_VSS: 53
+- response: 7E80462F40D43
+  expected_values:
+    PORSCHE_VSS: 67
+- response: 7E80462F40D45
+  expected_values:
+    PORSCHE_VSS: 69

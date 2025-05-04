@@ -1,0 +1,34 @@
+command_id: 7E0.015C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803415C40
+  expected_values:
+    EOT: 24
+- response: 7E803415C41
+  expected_values:
+    EOT: 25
+- response: 7E803415C42
+  expected_values:
+    EOT: 26
+- response: 7E803415C45
+  expected_values:
+    EOT: 29
+- response: 7E803415C47
+  expected_values:
+    EOT: 31
+- response: 7E803415C49
+  expected_values:
+    EOT: 33
+- response: 7E803415C4D
+  expected_values:
+    EOT: 37
+- response: 7E803415C50
+  expected_values:
+    EOT: 40
+- response: 7E803415C53
+  expected_values:
+    EOT: 43
+- response: 7E803415C57
+  expected_values:
+    EOT: 47

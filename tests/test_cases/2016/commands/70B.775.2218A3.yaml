@@ -1,0 +1,24 @@
+command_id: 70B.775.2218A3
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    775100D6218A321B2A2
+    77521EF00FF153D144C
+  expected_values:
+    PORSCHE_TP_4: 2.1
+- response: |-
+    775100D6218A321B2A2
+    77521EF00FF153E144C
+  expected_values:
+    PORSCHE_TP_4: 2.1
+- response: |-
+    775100D6218A321B2A2
+    77521EF00FF153F144C
+  expected_values:
+    PORSCHE_TP_4: 2.1
+- response: |-
+    775100D6218A321B2A2
+    77521EF00FF1540144C
+  expected_values:
+    PORSCHE_TP_4: 2.1
