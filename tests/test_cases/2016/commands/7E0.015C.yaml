@@ -32,3 +32,30 @@ test_cases:
 - response: 7E803415C57
   expected_values:
     EOT: 47
+- response: 7E803415C65
+  expected_values:
+    EOT: 61
+- response: 7E803415C67
+  expected_values:
+    EOT: 63
+- response: 7E803415C69
+  expected_values:
+    EOT: 65
+- response: 7E803415C6B
+  expected_values:
+    EOT: 67
+- response: 7E803415C6D
+  expected_values:
+    EOT: 69
+- response: 7E803415C6F
+  expected_values:
+    EOT: 71
+- response: 7E803415C71
+  expected_values:
+    EOT: 73
+- response: 7E803415C74
+  expected_values:
+    EOT: 76
+- response: 7E803415C77
+  expected_values:
+    EOT: 79

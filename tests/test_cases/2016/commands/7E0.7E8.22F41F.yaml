@@ -2,33 +2,126 @@ command_id: 7E0.7E8.22F41F
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E80562F41F0010
+  expected_values:
+    PORSCHE_RUNTM: 16
+- response: 7E80562F41F0015
+  expected_values:
+    PORSCHE_RUNTM: 21
+- response: 7E80562F41F001D
+  expected_values:
+    PORSCHE_RUNTM: 29
+- response: 7E80562F41F0035
+  expected_values:
+    PORSCHE_RUNTM: 53
+- response: 7E80562F41F003A
+  expected_values:
+    PORSCHE_RUNTM: 58
+- response: 7E80562F41F0055
+  expected_values:
+    PORSCHE_RUNTM: 85
+- response: 7E80562F41F0059
+  expected_values:
+    PORSCHE_RUNTM: 89
+- response: 7E80562F41F0073
+  expected_values:
+    PORSCHE_RUNTM: 115
 - response: 7E80562F41F0078
   expected_values:
     PORSCHE_RUNTM: 120
+- response: 7E80562F41F0079
+  expected_values:
+    PORSCHE_RUNTM: 121
+- response: 7E80562F41F0091
+  expected_values:
+    PORSCHE_RUNTM: 145
+- response: 7E80562F41F0092
+  expected_values:
+    PORSCHE_RUNTM: 146
+- response: 7E80562F41F0097
+  expected_values:
+    PORSCHE_RUNTM: 151
 - response: 7E80562F41F0099
   expected_values:
     PORSCHE_RUNTM: 153
+- response: 7E80562F41F00AF
+  expected_values:
+    PORSCHE_RUNTM: 175
+- response: 7E80562F41F00B2
+  expected_values:
+    PORSCHE_RUNTM: 178
+- response: 7E80562F41F00B5
+  expected_values:
+    PORSCHE_RUNTM: 181
 - response: 7E80562F41F00B8
   expected_values:
     PORSCHE_RUNTM: 184
+- response: 7E80562F41F00CD
+  expected_values:
+    PORSCHE_RUNTM: 205
+- response: 7E80562F41F00D0
+  expected_values:
+    PORSCHE_RUNTM: 208
+- response: 7E80562F41F00D3
+  expected_values:
+    PORSCHE_RUNTM: 211
 - response: 7E80562F41F00D6
   expected_values:
     PORSCHE_RUNTM: 214
+- response: 7E80562F41F00EB
+  expected_values:
+    PORSCHE_RUNTM: 235
+- response: 7E80562F41F00EE
+  expected_values:
+    PORSCHE_RUNTM: 238
+- response: 7E80562F41F00F1
+  expected_values:
+    PORSCHE_RUNTM: 241
 - response: 7E80562F41F00F4
   expected_values:
     PORSCHE_RUNTM: 244
+- response: 7E80562F41F0109
+  expected_values:
+    PORSCHE_RUNTM: 265
+- response: 7E80562F41F010C
+  expected_values:
+    PORSCHE_RUNTM: 268
+- response: 7E80562F41F010F
+  expected_values:
+    PORSCHE_RUNTM: 271
 - response: 7E80562F41F0112
   expected_values:
     PORSCHE_RUNTM: 274
+- response: 7E80562F41F0127
+  expected_values:
+    PORSCHE_RUNTM: 295
+- response: 7E80562F41F012B
+  expected_values:
+    PORSCHE_RUNTM: 299
+- response: 7E80562F41F012D
+  expected_values:
+    PORSCHE_RUNTM: 301
 - response: 7E80562F41F0130
   expected_values:
     PORSCHE_RUNTM: 304
+- response: 7E80562F41F0148
+  expected_values:
+    PORSCHE_RUNTM: 328
+- response: 7E80562F41F014B
+  expected_values:
+    PORSCHE_RUNTM: 331
 - response: 7E80562F41F014E
   expected_values:
     PORSCHE_RUNTM: 334
+- response: 7E80562F41F0166
+  expected_values:
+    PORSCHE_RUNTM: 358
 - response: 7E80562F41F016C
   expected_values:
     PORSCHE_RUNTM: 364
+- response: 7E80562F41F0184
+  expected_values:
+    PORSCHE_RUNTM: 388
 - response: 7E80562F41F018A
   expected_values:
     PORSCHE_RUNTM: 394

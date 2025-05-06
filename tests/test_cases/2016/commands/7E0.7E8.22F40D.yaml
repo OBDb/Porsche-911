@@ -2,18 +2,72 @@ command_id: 7E0.7E8.22F40D
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E80462F40D00
+  expected_values:
+    PORSCHE_VSS: 0
+- response: 7E80462F40D01
+  expected_values:
+    PORSCHE_VSS: 1
+- response: 7E80462F40D04
+  expected_values:
+    PORSCHE_VSS: 4
+- response: 7E80462F40D08
+  expected_values:
+    PORSCHE_VSS: 8
+- response: 7E80462F40D09
+  expected_values:
+    PORSCHE_VSS: 9
+- response: 7E80462F40D0A
+  expected_values:
+    PORSCHE_VSS: 10
+- response: 7E80462F40D0C
+  expected_values:
+    PORSCHE_VSS: 12
+- response: 7E80462F40D0D
+  expected_values:
+    PORSCHE_VSS: 13
+- response: 7E80462F40D11
+  expected_values:
+    PORSCHE_VSS: 17
+- response: 7E80462F40D12
+  expected_values:
+    PORSCHE_VSS: 18
 - response: 7E80462F40D13
   expected_values:
     PORSCHE_VSS: 19
+- response: 7E80462F40D15
+  expected_values:
+    PORSCHE_VSS: 21
 - response: 7E80462F40D18
   expected_values:
     PORSCHE_VSS: 24
+- response: 7E80462F40D19
+  expected_values:
+    PORSCHE_VSS: 25
+- response: 7E80462F40D1A
+  expected_values:
+    PORSCHE_VSS: 26
+- response: 7E80462F40D1C
+  expected_values:
+    PORSCHE_VSS: 28
+- response: 7E80462F40D1D
+  expected_values:
+    PORSCHE_VSS: 29
+- response: 7E80462F40D25
+  expected_values:
+    PORSCHE_VSS: 37
 - response: 7E80462F40D26
   expected_values:
     PORSCHE_VSS: 38
+- response: 7E80462F40D2A
+  expected_values:
+    PORSCHE_VSS: 42
 - response: 7E80462F40D2B
   expected_values:
     PORSCHE_VSS: 43
+- response: 7E80462F40D2E
+  expected_values:
+    PORSCHE_VSS: 46
 - response: 7E80462F40D31
   expected_values:
     PORSCHE_VSS: 49
@@ -23,6 +77,12 @@ test_cases:
 - response: 7E80462F40D43
   expected_values:
     PORSCHE_VSS: 67
+- response: 7E80462F40D44
+  expected_values:
+    PORSCHE_VSS: 68
 - response: 7E80462F40D45
   expected_values:
     PORSCHE_VSS: 69
+- response: 7E80462F40D4A
+  expected_values:
+    PORSCHE_VSS: 74

@@ -8,9 +8,63 @@ test_cases:
 - response: 7E80562F4423010
   expected_values:
     PORSCHE_VPWR: 12.304
+- response: 7E80562F4423037
+  expected_values:
+    PORSCHE_VPWR: 12.343
 - response: 7E80562F44230D4
   expected_values:
     PORSCHE_VPWR: 12.5
+- response: 7E80562F442320C
+  expected_values:
+    PORSCHE_VPWR: 12.812
+- response: 7E80562F442357B
+  expected_values:
+    PORSCHE_VPWR: 13.691
+- response: 7E80562F4423617
+  expected_values:
+    PORSCHE_VPWR: 13.847
+- response: 7E80562F4423665
+  expected_values:
+    PORSCHE_VPWR: 13.925
+- response: 7E80562F4423679
+  expected_values:
+    PORSCHE_VPWR: 13.945
+- response: 7E80562F44236A0
+  expected_values:
+    PORSCHE_VPWR: 13.984
+- response: 7E80562F44236B3
+  expected_values:
+    PORSCHE_VPWR: 14.003
+- response: 7E80562F44236C7
+  expected_values:
+    PORSCHE_VPWR: 14.023
+- response: 7E80562F44236DA
+  expected_values:
+    PORSCHE_VPWR: 14.042
+- response: 7E80562F4423702
+  expected_values:
+    PORSCHE_VPWR: 14.082
+- response: 7E80562F4423715
+  expected_values:
+    PORSCHE_VPWR: 14.101
+- response: 7E80562F4423729
+  expected_values:
+    PORSCHE_VPWR: 14.121
+- response: 7E80562F4423763
+  expected_values:
+    PORSCHE_VPWR: 14.179
+- response: 7E80562F4423777
+  expected_values:
+    PORSCHE_VPWR: 14.199
+- response: 7E80562F442378A
+  expected_values:
+    PORSCHE_VPWR: 14.218
+- response: 7E80562F442379E
+  expected_values:
+    PORSCHE_VPWR: 14.238
+- response: 7E80562F44237B1
+  expected_values:
+    PORSCHE_VPWR: 14.257
 - response: 7E80562F4423924
   expected_values:
     PORSCHE_VPWR: 14.628
