@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2208D2
+test_cases:
+- expected_values:
+    PORSCHE_HVBAT_SOC_DISP: 0
+  response: 7E8056208D20000
+- expected_values:
+    PORSCHE_HVBAT_SOC_DISP: 0.01
+  response: 7E8056208D20001

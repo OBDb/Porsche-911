@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22028D
+test_cases:
+- expected_values:
+    PORSCHE_ECU_TEMP: 0
+  response: 7E80762028D00000000

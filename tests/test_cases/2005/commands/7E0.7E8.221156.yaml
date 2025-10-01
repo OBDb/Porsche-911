@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221156
+test_cases:
+- expected_values:
+    PORSCHE_HVBAT_SOC: 0
+  response: 7E807621156000003E8
