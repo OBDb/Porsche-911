@@ -1,7 +1,14 @@
 command_id: 7E0.7E8.22F431
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80562F4311B38
-  expected_values:
+- expected_values:
     PORSCHE_CLR_DIST: 6968
+  response: 7E80562F4311B38
+- expected_values:
+    PORSCHE_CLR_DIST: 7167
+  response: 7E80562F4311BFF
+- expected_values:
+    PORSCHE_CLR_DIST: 7168
+  response: 7E80562F4311C00
+- expected_values:
+    PORSCHE_CLR_DIST: 7685
+  response: 7E80562F4311E05

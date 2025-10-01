@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222B1E
+test_cases:
+- expected_values:
+    PORSCHE_TIRE_RR_SPD: 0
+  response: 7E905622B1E0000
+- expected_values:
+    PORSCHE_TIRE_RR_SPD: 76.6
+  response: 7E905622B1E02FE
+- expected_values:
+    PORSCHE_TIRE_RR_SPD: 128.8
+  response: 7E905622B1E0508

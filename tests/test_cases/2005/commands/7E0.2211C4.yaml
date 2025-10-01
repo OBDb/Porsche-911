@@ -1,0 +1,5 @@
+command_id: 7E0.2211C4
+test_cases:
+- expected_values:
+    PORSCHE_OIL_MAX: 4.096
+  response: 7E8056211C40400

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22115B
+test_cases:
+- expected_values:
+    PORSCHE_VSS_DIR: 0
+  response: 7E80762115B00000000
