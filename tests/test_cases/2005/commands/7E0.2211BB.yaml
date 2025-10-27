@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2211BB
+command_id: 7E0.2211BB
 test_cases:
 - expected_values:
     PORSCHE_OIL_CRIT: 1.576
