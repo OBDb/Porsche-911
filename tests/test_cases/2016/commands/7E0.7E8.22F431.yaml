@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
-    PORSCHE_CLR_DIST: 6968
-  response: 7E80562F4311B38
+    PORSCHE_CLR_DIST: 0
+  response: 7E80562F4310000
 - expected_values:
-    PORSCHE_CLR_DIST: 7167
-  response: 7E80562F4311BFF
+    PORSCHE_CLR_DIST: 255
+  response: 7E80562F43100FF
 - expected_values:
-    PORSCHE_CLR_DIST: 7168
-  response: 7E80562F4311C00
-- expected_values:
-    PORSCHE_CLR_DIST: 7685
-  response: 7E80562F4311E05
+    PORSCHE_CLR_DIST: 8448
+  response: 7E80562F4312100

@@ -10,5 +10,5 @@ test_cases:
     PORSCHE_VPWR: 14.335
   response: 7E80562F44237FF
 - expected_values:
-    PORSCHE_VPWR: 14.609
-  response: 7E80562F4423911
+    PORSCHE_VPWR: 14.863
+  response: 7E80562F4423A0F

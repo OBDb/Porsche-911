@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22F430
 test_cases:
 - expected_values:
+    PORSCHE_WARM_UPS: 0
+  response: 7E80462F43000
+- expected_values:
+    PORSCHE_WARM_UPS: 1
+  response: 7E80462F43001
+- expected_values:
+    PORSCHE_WARM_UPS: 2
+  response: 7E80462F43002
+- expected_values:
+    PORSCHE_WARM_UPS: 3
+  response: 7E80462F43003
+- expected_values:
     PORSCHE_WARM_UPS: 255
   response: 7E80462F430FF
