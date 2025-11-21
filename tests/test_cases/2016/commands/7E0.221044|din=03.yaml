@@ -1,0 +1,5 @@
+command_id: 7E0.221044|din=03
+test_cases:
+- expected_values:
+    PORSCHE_DPF_SFC_T: -273.1
+  response: '7E8056210440000'

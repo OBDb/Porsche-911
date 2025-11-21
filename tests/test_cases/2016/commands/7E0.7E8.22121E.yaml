@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22121E
+test_cases:
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: 119000
+  response: 7E80562121E04A6
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: 119500
+  response: 7E80562121E04AB
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: 120000
+  response: 7E80562121E04B0
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: 120500
+  response: 7E80562121E04B5
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: 121100
+  response: 7E80562121E04BB
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: 261400
+  response: 7E80562121E0A36
