@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 0
+  response: '7E8056211390000'
