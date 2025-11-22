@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     PORSCHE_SPEC_VALUE_RAIL_P: 261400
   response: 7E80562121E0A36
+- expected_values:
+    PORSCHE_SPEC_VALUE_RAIL_P: -100
+  response: 7E80562121EFFFF
