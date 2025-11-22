@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     PORSCHE_HIGH_FUEL_P_CONTROL_DEVIATION: 1249200
   response: 7E80562121F30CC
+- expected_values:
+    PORSCHE_HIGH_FUEL_P_CONTROL_DEVIATION: -3276800
+  response: 7E80562121F8000
