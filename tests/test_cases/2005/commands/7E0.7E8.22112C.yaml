@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22112C
+test_cases:
+- expected_values:
+    PORSCHE_ACT: 0
+  response: 7E80762112C00000000
