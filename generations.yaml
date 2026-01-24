@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Porsche_911"
+
 generations:
   - name: "Original 911 (901)"
     start_year: 1964
