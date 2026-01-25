@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.222062
+test_cases:
+- expected_values:
+    PORSCHE_APP_POS2: 1.873
+  response: '7E8056220620751'
+- expected_values:
+    PORSCHE_APP_POS2: 1.916
+  response: 7E805622062077C
+- expected_values:
+    PORSCHE_APP_POS2: 1.922
+  response: '7E8056220620782'
+- expected_values:
+    PORSCHE_APP_POS2: 2.239
+  response: 7E80562206208BF
+- expected_values:
+    PORSCHE_APP_POS2: 2.539
+  response: 7E80562206209EB
+- expected_values:
+    PORSCHE_APP_POS2: 2.575
+  response: 7E8056220620A0F
+- expected_values:
+    PORSCHE_APP_POS2: 2.636
+  response: 7E8056220620A4C
+- expected_values:
+    PORSCHE_APP_POS2: 2.777
+  response: 7E8056220620AD9

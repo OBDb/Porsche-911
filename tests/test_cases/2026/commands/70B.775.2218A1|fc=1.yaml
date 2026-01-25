@@ -1,0 +1,22 @@
+command_id: 70B.775.2218A1|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_TID_2: 100
+    PORSCHE_TPOS_2: RL
+    PORSCHE_TPS_2: 0
+    PORSCHE_TP_2: 5.2
+    PORSCHE_TP_FL: 3.3
+    PORSCHE_TT_2: 92
+  response: |-
+    775100C6218A126936D
+    77521FA0284348400CC
+- expected_values:
+    PORSCHE_TID_2: 100
+    PORSCHE_TPOS_2: RL
+    PORSCHE_TPS_2: 0
+    PORSCHE_TP_2: 5.3
+    PORSCHE_TP_FL: 3.3
+    PORSCHE_TT_2: 92
+  response: |-
+    775100C6218A126936D
+    77521FA0284358400CC

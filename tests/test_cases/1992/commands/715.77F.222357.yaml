@@ -1,0 +1,6 @@
+command_id: 715.77F.222357
+test_cases:
+- expected_values:
+    PORSCHE_CRASH_CNT_ROLL: 0
+    PORSCHE_CRASH_CNT_ROLLOVER: 0
+  response: 77F0462235700

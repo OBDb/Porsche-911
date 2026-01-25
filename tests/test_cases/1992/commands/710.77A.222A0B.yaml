@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0B
+test_cases:
+- expected_values:
+    PORSCHE_SSB_T: 18
+  response: 77A04622A0B3A
+- expected_values:
+    PORSCHE_SSB_T: 19
+  response: 77A04622A0B3B

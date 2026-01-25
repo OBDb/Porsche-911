@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221159
+test_cases:
+- expected_values:
+    PORSCHE_MAX_CHA_CUR_2: 398.5
+  response: 7E8056211590F91
+- expected_values:
+    PORSCHE_MAX_CHA_CUR_2: 398.6
+  response: 7E8056211590F92
+- expected_values:
+    PORSCHE_MAX_CHA_CUR_2: 398.7
+  response: 7E8056211590F93
+- expected_values:
+    PORSCHE_MAX_CHA_CUR_2: 398.8
+  response: 7E8056211590F94

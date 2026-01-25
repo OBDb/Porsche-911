@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221187
+test_cases:
+- expected_values:
+    PORSCHE_ACCELERATION: 2.699
+  response: 7E8056211870A8B
+- expected_values:
+    PORSCHE_ACCELERATION: 2.764
+  response: 7E8056211870ACC
+- expected_values:
+    PORSCHE_ACCELERATION: 2.806
+  response: 7E8056211870AF6
+- expected_values:
+    PORSCHE_ACCELERATION: 2.816
+  response: 7E8056211870B00
+- expected_values:
+    PORSCHE_ACCELERATION: 2.818
+  response: 7E8056211870B02
+- expected_values:
+    PORSCHE_ACCELERATION: 2.835
+  response: 7E8056211870B13
+- expected_values:
+    PORSCHE_ACCELERATION: 2.88
+  response: 7E8056211870B40
+- expected_values:
+    PORSCHE_ACCELERATION: 2.889
+  response: 7E8056211870B49
+- expected_values:
+    PORSCHE_ACCELERATION: 2.897
+  response: 7E8056211870B51

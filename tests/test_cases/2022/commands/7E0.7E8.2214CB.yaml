@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2214CB
+test_cases:
+- expected_values:
+    PORSCHE_GEAR_V2: 0
+  response: 7E8046214CB00

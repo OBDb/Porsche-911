@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221187
+test_cases:
+- expected_values:
+    PORSCHE_ACCELERATION: 2.945
+  response: 7E8056211870B81
+- expected_values:
+    PORSCHE_ACCELERATION: 3.281
+  response: 7E8056211870CD1
