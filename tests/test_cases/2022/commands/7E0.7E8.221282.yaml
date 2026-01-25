@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221282
+test_cases:
+- expected_values:
+    PORSCHE_EXHAUST_GAS_T_BEFORE_CATALYST: -189.57
+  response: 7E80562128200DA
+- expected_values:
+    PORSCHE_EXHAUST_GAS_T_BEFORE_CATALYST: -189.55
+  response: 7E80562128200DB
+- expected_values:
+    PORSCHE_EXHAUST_GAS_T_BEFORE_CATALYST: -189.53
+  response: 7E80562128200DC
+- expected_values:
+    PORSCHE_EXHAUST_GAS_T_BEFORE_CATALYST: -189.45
+  response: 7E80562128200E0

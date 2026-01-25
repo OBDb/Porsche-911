@@ -1,0 +1,10 @@
+command_id: 70B.775.2218A1|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_TID_2: 100
+    PORSCHE_TPS_2: 25.5
+    PORSCHE_TP_2: 16.7
+    PORSCHE_TT_2: 48
+  response: |-
+    775100C6218A1231CE5
+    77521F021FFA758FFAA

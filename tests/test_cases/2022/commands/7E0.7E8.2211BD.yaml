@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211BD
+test_cases:
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4164
+  response: 7E8056211BD0DD5
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4192
+  response: 7E8056211BD0DDC
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4204
+  response: 7E8056211BD0DDF
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4224
+  response: 7E8056211BD0DE4
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4232
+  response: 7E8056211BD0DE6
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4244
+  response: 7E8056211BD0DE9
+- expected_values:
+    PORSCHE_OIL_LEVEL_WARN: 1.4252
+  response: 7E8056211BD0DEB

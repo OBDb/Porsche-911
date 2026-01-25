@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211CC
+test_cases:
+- expected_values:
+    PORSCHE_BOOST_REGULATOR_FEEDBACK: 0
+  response: 7E8076211CC00000000

@@ -1,0 +1,12 @@
+command_id: 710.77A.222AB6|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_RANGE: 438
+  response: |-
+    77A100A622AB601B601
+    77A21B607FD00AAAAAA
+- expected_values:
+    PORSCHE_RANGE: 439
+  response: |-
+    77A100A622AB601B701
+    77A21B707FD00AAAAAA

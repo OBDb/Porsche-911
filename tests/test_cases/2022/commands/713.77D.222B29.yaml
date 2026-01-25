@@ -1,0 +1,8 @@
+command_id: 713.77D.222B29
+test_cases:
+- expected_values:
+    PORSCHE_STEER_ANGLE: -0.041
+  response: 77D05622B29FFD7
+- expected_values:
+    PORSCHE_STEER_ANGLE: -0.039
+  response: 77D05622B29FFD9

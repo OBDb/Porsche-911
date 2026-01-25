@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 160.71
+  response: 7E8056211393EC7
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 162.72
+  response: 7E8056211393F90
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 162.8
+  response: 7E8056211393F98
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 162.81
+  response: 7E8056211393F99
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 162.85
+  response: 7E8056211393F9D
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 163.28
+  response: 7E8056211393FC8
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 163.43
+  response: 7E8056211393FD7
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 163.59
+  response: 7E8056211393FE7
+- expected_values:
+    PORSCHE_MEAN_INJ_QUANTITY: 163.74
+  response: 7E8056211393FF6

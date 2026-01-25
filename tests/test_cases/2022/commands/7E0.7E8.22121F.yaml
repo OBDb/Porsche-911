@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22121F
+test_cases:
+- expected_values:
+    PORSCHE_HIGH_FUEL_P_CONTROL_DEVIATION: 0
+  response: 7E80762121F00000000

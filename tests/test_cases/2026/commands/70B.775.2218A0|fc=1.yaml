@@ -1,0 +1,32 @@
+command_id: 70B.775.2218A0|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPOS_1: RL
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 5.2
+    PORSCHE_TP_FR: 3.3
+    PORSCHE_TT_1: 92
+  response: |-
+    775100C6218A026936D
+    775216A0284348400CC
+- expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPOS_1: RL
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 5.2
+    PORSCHE_TP_FR: 3.325
+    PORSCHE_TT_1: 92
+  response: |-
+    775100C6218A026936D
+    775216A0285348400CC
+- expected_values:
+    PORSCHE_TID_1: 100
+    PORSCHE_TPOS_1: RL
+    PORSCHE_TPS_1: 0
+    PORSCHE_TP_1: 5.3
+    PORSCHE_TP_FR: 3.325
+    PORSCHE_TT_1: 92
+  response: |-
+    775100C6218A026936D
+    775216A0285358400CC

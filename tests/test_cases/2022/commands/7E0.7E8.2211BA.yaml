@@ -1,0 +1,38 @@
+command_id: 7E0.7E8.2211BA
+test_cases:
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.3868
+    PORSCHE_OIL_LVL: 53.868
+  response: 7E8056211BA349B
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.4412
+    PORSCHE_OIL_LVL: 54.412
+  response: 7E8056211BA3523
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.4452
+    PORSCHE_OIL_LVL: 54.452
+  response: 7E8056211BA352D
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.4524
+    PORSCHE_OIL_LVL: 54.524
+  response: 7E8056211BA353F
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.4636
+    PORSCHE_OIL_LVL: 54.636
+  response: 7E8056211BA355B
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.474
+    PORSCHE_OIL_LVL: 54.74
+  response: 7E8056211BA3575
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.4888
+    PORSCHE_OIL_LVL: 54.888
+  response: 7E8056211BA359A
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.502
+    PORSCHE_OIL_LVL: 55.02
+  response: 7E8056211BA35BB
+- expected_values:
+    PORSCHE_OIL_LEVEL: 5.544
+    PORSCHE_OIL_LVL: 55.44
+  response: 7E8056211BA3624

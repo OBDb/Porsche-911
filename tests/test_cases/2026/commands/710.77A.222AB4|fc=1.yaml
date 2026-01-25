@@ -1,0 +1,14 @@
+command_id: 710.77A.222AB4|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_HVBAT_CSMP_AVG_INT: 16
+    PORSCHE_RANGE_EST_INT: 0
+  response: |-
+    77A100D622AB401B500
+    77A2100000000000010
+- expected_values:
+    PORSCHE_HVBAT_CSMP_AVG_INT: 16
+    PORSCHE_RANGE_EST_INT: 0
+  response: |-
+    77A100D622AB401B600
+    77A2100000000000010

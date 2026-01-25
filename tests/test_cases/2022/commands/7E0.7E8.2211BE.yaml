@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BE
+test_cases:
+- expected_values:
+    PORSCHE_EOT: 12
+  response: 7E8056211BE000C
