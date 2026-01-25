@@ -1,0 +1,14 @@
+command_id: 710.77A.222A0C
+test_cases:
+- expected_values:
+    PORSCHE_BAT_SOC: 74
+    PORSCHE_SSB_SOC: 74
+  response: 77A04622A0C4A
+- expected_values:
+    PORSCHE_BAT_SOC: 77
+    PORSCHE_SSB_SOC: 77
+  response: 77A04622A0C4D
+- expected_values:
+    PORSCHE_BAT_SOC: 78
+    PORSCHE_SSB_SOC: 78
+  response: 77A04622A0C4E

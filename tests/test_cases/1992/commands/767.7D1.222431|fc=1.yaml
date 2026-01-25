@@ -1,0 +1,10 @@
+command_id: 767.7D1.222431|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_GPS_SATS_TRACKED: 23
+    PORSCHE_GPS_SATS_VISIBLE: 4
+  response: 7D106622431041712
+- expected_values:
+    PORSCHE_GPS_SATS_TRACKED: 25
+    PORSCHE_GPS_SATS_VISIBLE: 4
+  response: 7D106622431041910

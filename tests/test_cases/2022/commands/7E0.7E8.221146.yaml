@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221146
+test_cases:
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15038
+  response: 7E8056211463ABE
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15205
+  response: 7E8056211463B65
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15221
+  response: 7E8056211463B75
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15262
+  response: 7E8056211463B9E
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15277
+  response: 7E8056211463BAD
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15285
+  response: 7E8056211463BB5
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15303
+  response: 7E8056211463BC7
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15327
+  response: 7E8056211463BDF
+- expected_values:
+    PORSCHE_MISFIRES_TOTAL: 15377
+  response: 7E8056211463C11

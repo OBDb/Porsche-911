@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22113F
+test_cases:
+- expected_values:
+    PORSCHE_FUEL_CONS: 1.93
+  response: 7E80562113F00C1
+- expected_values:
+    PORSCHE_FUEL_CONS: 1.98
+  response: 7E80562113F00C6

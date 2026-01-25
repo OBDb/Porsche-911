@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    PORSCHE_RUNTM: 256
+  response: 7E80562F41F0100
+- expected_values:
+    PORSCHE_RUNTM: 328
+  response: 7E80562F41F0148
+- expected_values:
+    PORSCHE_RUNTM: 358
+  response: 7E80562F41F0166
+- expected_values:
+    PORSCHE_RUNTM: 420
+  response: 7E80562F41F01A4
+- expected_values:
+    PORSCHE_RUNTM: 471
+  response: 7E80562F41F01D7
+- expected_values:
+    PORSCHE_RUNTM: 494
+  response: 7E80562F41F01EE
+- expected_values:
+    PORSCHE_RUNTM: 518
+  response: 7E80562F41F0206
+- expected_values:
+    PORSCHE_RUNTM: 541
+  response: 7E80562F41F021D
+- expected_values:
+    PORSCHE_RUNTM: 570
+  response: 7E80562F41F023A
