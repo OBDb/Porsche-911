@@ -2,6 +2,7 @@ command_id: 710.77A.222A0E
 test_cases:
 - expected_values:
     PORSCHE_BAT_INT_R: 3.4
+    PORSCHE_MQB_BAT_INT_RES: 3.4
     PORSCHE_SSB_R: 3.4
     PORSCHE_SSB_RES_INT: 3.4
   response: 77A04622A0E11

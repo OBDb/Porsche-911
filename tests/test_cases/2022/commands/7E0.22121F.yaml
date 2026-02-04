@@ -1,0 +1,5 @@
+command_id: 7E0.22121F
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: 0
+  response: 7E80762121F00000000

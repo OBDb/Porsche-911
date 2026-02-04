@@ -2,4 +2,5 @@ command_id: 7E0.7E8.2211BE
 test_cases:
 - expected_values:
     PORSCHE_EOT: 12
+    PORSCHE_PQ35_OIL_T_2: -271.9
   response: 7E8056211BE000C
