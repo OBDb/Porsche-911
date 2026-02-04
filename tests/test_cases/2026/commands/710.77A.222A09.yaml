@@ -2,37 +2,46 @@ command_id: 710.77A.222A09
 test_cases:
 - expected_values:
     PORSCHE_BAT_I: -2999.991
+    PORSCHE_MQB_BAT_I: 2.408
     PORSCHE_SSB_C: 2.408
   response: 77A07622A0900000968
 - expected_values:
     PORSCHE_BAT_I: -2999.99
+    PORSCHE_MQB_BAT_I: 2.641
     PORSCHE_SSB_C: 2.641
   response: 77A07622A0900000A51
 - expected_values:
     PORSCHE_BAT_I: -2999.99
+    PORSCHE_MQB_BAT_I: 2.69
     PORSCHE_SSB_C: 2.69
   response: 77A07622A0900000A82
 - expected_values:
     PORSCHE_BAT_I: -2999.989
+    PORSCHE_MQB_BAT_I: 2.84
     PORSCHE_SSB_C: 2.84
   response: 77A07622A0900000B18
 - expected_values:
     PORSCHE_BAT_I: -2999.987
+    PORSCHE_MQB_BAT_I: 3.361
     PORSCHE_SSB_C: 3.361
   response: 77A07622A0900000D21
 - expected_values:
     PORSCHE_BAT_I: -2999.986
+    PORSCHE_MQB_BAT_I: 3.632
     PORSCHE_SSB_C: 3.632
   response: 77A07622A0900000E30
 - expected_values:
     PORSCHE_BAT_I: -2999.974
+    PORSCHE_MQB_BAT_I: 6.769
     PORSCHE_SSB_C: 6.769
   response: 77A07622A0900001A71
 - expected_values:
     PORSCHE_BAT_I: -2999.972
+    PORSCHE_MQB_BAT_I: 7.376
     PORSCHE_SSB_C: 7.376
   response: 77A07622A0900001CD0
 - expected_values:
     PORSCHE_BAT_I: -2999.97
+    PORSCHE_MQB_BAT_I: 7.839
     PORSCHE_SSB_C: 7.839
   response: 77A07622A0900001E9F

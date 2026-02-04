@@ -1,5 +1,6 @@
 command_id: 710.77A.222A00|fc=1
 test_cases:
 - expected_values:
+    PORSCHE_MQB_GEN_TRG_V: 14.7
     PORSCHE_SSB_VT: 14.7
   response: 77A04622A0029

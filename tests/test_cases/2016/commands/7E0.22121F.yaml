@@ -1,0 +1,20 @@
+command_id: 7E0.22121F
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: 1129800
+  response: 7E80562121F2C22
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: 1246400
+  response: 7E80562121F30B0
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: 1247300
+  response: 7E80562121F30B9
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: 1248000
+  response: 7E80562121F30C0
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: 1249200
+  response: 7E80562121F30CC
+- expected_values:
+    PORSCHE_PQ35_FUEL_P_CTL_DEV: -3276800
+  response: 7E80562121F8000

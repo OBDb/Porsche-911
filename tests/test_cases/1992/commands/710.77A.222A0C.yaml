@@ -1,6 +1,6 @@
 command_id: 710.77A.222A0C
 test_cases:
 - expected_values:
-    PORSCHE_BAT_SOC: 93
+    PORSCHE_MQB_BAT_CHG_COND: 93
     PORSCHE_SSB_SOC: 93
   response: 77A04622A0C5D

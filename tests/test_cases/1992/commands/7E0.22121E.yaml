@@ -1,5 +1,5 @@
-command_id: 7E0.7E8.22121E
+command_id: 7E0.22121E
 test_cases:
 - expected_values:
-    PORSCHE_SPEC_VALUE_RAIL_P: 0
+    PORSCHE_PQ35_FUEL_P_REG_SPEC: 0
   response: 7E80762121E00000000
