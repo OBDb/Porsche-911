@@ -1,8 +1,10 @@
-command_id: 7E0.7E8.221139
+command_id: 7E0.221139
 test_cases:
 - expected_values:
     PORSCHE_MEAN_INJ_QUANTITY: 161.06
+    PORSCHE_PQ35_AVG_CYCLE_CON: 161.06
   response: 7E8056211393EEA
 - expected_values:
     PORSCHE_MEAN_INJ_QUANTITY: 164.48
+    PORSCHE_PQ35_AVG_CYCLE_CON: 164.48
   response: '7E8056211394040'

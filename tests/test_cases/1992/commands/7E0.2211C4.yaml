@@ -2,4 +2,5 @@ command_id: 7E0.2211C4
 test_cases:
 - expected_values:
     PORSCHE_OIL_MAX: 0
+    PORSCHE_PQ35_OIL_LVL_MAX: 0
   response: 7E8076211C400000000

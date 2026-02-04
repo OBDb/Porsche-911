@@ -2,7 +2,9 @@ command_id: 7E0.7E8.221148
 test_cases:
 - expected_values:
     PORSCHE_MISFIRES_1000REV_C3: 0
+    PORSCHE_PQ35_FUEL_METER: 0
   response: '7E8056211480000'
 - expected_values:
     PORSCHE_MISFIRES_1000REV_C3: 1
+    PORSCHE_PQ35_FUEL_METER: 0.01
   response: '7E8056211480001'
