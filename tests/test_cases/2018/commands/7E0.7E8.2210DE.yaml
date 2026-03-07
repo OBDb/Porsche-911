@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210DE
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_INJ_4_RAIL_P_3: 0
+  response: 7E8056210DE0000

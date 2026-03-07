@@ -1,0 +1,5 @@
+command_id: 7E0.22105C|din=03
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_GEN_LOAD: 100
+  response: 7E80562105CFFFA

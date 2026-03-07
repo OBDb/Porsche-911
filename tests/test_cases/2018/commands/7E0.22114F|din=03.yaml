@@ -1,0 +1,6 @@
+command_id: 7E0.22114F|din=03
+test_cases:
+- expected_values:
+    PORSCHE_MISFIRES_C1: 8974
+    PORSCHE_PQ35_SOOT_MASS_CALC: 89.74
+  response: 7E80562114F230E
