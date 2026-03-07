@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221153
+test_cases:
+- expected_values:
+    PORSCHE_EM_TORQ_1: 215.21875
+    PORSCHE_PQ35_DPF_OIL_ASH_VOL: 68.87
+  response: 7E8056211531AE7
+- expected_values:
+    PORSCHE_EM_TORQ_1: 215.25
+    PORSCHE_PQ35_DPF_OIL_ASH_VOL: 68.88
+  response: 7E8056211531AE8

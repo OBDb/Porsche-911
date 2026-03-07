@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221814
+test_cases:
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 29.9
+  response: 7E805621814012B
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 62.7
+  response: '7E8056218140273'

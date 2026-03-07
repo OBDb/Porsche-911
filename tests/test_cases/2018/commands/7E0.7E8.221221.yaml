@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221221
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_ACCEL_PED_1: -15.8
+  response: 7E805621221FFB1

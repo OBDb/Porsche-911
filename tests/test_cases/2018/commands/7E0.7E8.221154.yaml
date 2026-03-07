@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221154
+test_cases:
+- expected_values:
+    PORSCHE_EM_TORQ_2: 219.5625
+  response: 7E8056211541B72

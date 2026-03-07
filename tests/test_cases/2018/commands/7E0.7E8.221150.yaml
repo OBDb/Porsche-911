@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221150
+test_cases:
+- expected_values:
+    PORSCHE_MISFIRES_C3: 8099
+  response: 7E8056211501FA3

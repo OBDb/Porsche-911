@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221131
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_POST_INJ_3_START: 46.56
+  response: '7E8056211310918'
+- expected_values:
+    PORSCHE_PQ35_POST_INJ_3_START: 48.04
+  response: '7E8056211310962'
