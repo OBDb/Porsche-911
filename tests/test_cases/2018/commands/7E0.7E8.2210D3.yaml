@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210D3
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_INJ_2_RAIL_P_1: 0.0001
+  response: 7E8056210D30002
+- expected_values:
+    PORSCHE_PQ35_INJ_2_RAIL_P_1: -0.00015
+  response: 7E8056210D3FFFD

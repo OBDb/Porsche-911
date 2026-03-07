@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221002
+test_cases:
+- expected_values:
+    PORSCHE_AC_COMP_T: 3.2
+  response: '7E8056210020020'
+- expected_values:
+    PORSCHE_AC_COMP_T: 3.5
+  response: '7E8056210020023'

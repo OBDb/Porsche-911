@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2214CE
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_POST_INJ_3_ACTIVATION_DURATION: 3.4748
+  response: 7E8056214CE21EF

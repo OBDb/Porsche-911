@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221189
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_CAMS_EDGE_POS_2: -32
+  response: '7E8056211890000'

@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.2211BA
+test_cases:
+- expected_values:
+    PORSCHE_OIL_LEVEL: 6.9136
+    PORSCHE_OIL_LVL: 69.136
+  response: 7E8056211BA4384
+- expected_values:
+    PORSCHE_OIL_LEVEL: 7.4828
+    PORSCHE_OIL_LVL: 74.828
+  response: 7E8056211BA4913

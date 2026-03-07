@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114A
+test_cases:
+- expected_values:
+    PORSCHE_MISFIRES_1000REV_C2: 0
+  response: 7E80562114A0000
