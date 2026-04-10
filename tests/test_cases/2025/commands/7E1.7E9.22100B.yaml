@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22100B
+test_cases:
+- expected_values:
+    PORSCHE_MQB_TCM_DRIVER_DEMAND_TORQUE: 0
+  response: 7E90562100B0000
+- expected_values:
+    PORSCHE_MQB_TCM_DRIVER_DEMAND_TORQUE: 51.15
+  response: 7E90562100B03FF
+- expected_values:
+    PORSCHE_MQB_TCM_DRIVER_DEMAND_TORQUE: 131.75
+  response: 7E90562100B0A4B

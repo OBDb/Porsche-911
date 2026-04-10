@@ -1,0 +1,11 @@
+command_id: 713.77D.222B1D
+test_cases:
+- expected_values:
+    PORSCHE_TIRE_RL_SPD_V3: 0
+  response: 77D05622B1D0000
+- expected_values:
+    PORSCHE_TIRE_RL_SPD_V3: 14.34375
+  response: 77D05622B1D00FF
+- expected_values:
+    PORSCHE_TIRE_RL_SPD_V3: 129.99375
+  response: 77D05622B1D0907

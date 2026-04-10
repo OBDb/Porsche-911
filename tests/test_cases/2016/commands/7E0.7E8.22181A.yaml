@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22181A
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_BOOST_P_BEFORE_THROTTLE_CALCULATED_ACT: -37500
+  response: 7E80562181AFFF1

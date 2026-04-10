@@ -1,0 +1,6 @@
+command_id: 715.77F.222353|fc=1
+test_cases:
+- expected_values:
+    PORSCHE_CRASH_CNT_FRONT: 0
+    PORSCHE_CRSH_FRONT: 0
+  response: 77F0462235300

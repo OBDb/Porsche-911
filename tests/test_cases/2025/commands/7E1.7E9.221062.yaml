@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221062
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_CLUTCH_1_FRICTION_VALUE_CORRECTION_FACTOR: 0
+  response: 7E907621062FFFFFFFF

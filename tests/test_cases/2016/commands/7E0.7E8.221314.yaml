@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221314
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 53
+  response: 7E80562131406A0
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 58.8125
+  response: 7E805621314075A
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 75.03125
+  response: '7E8056213140961'
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 75.4375
+  response: 7E805621314096E
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 76.90625
+  response: 7E805621314099D
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 77.3125
+  response: 7E80562131409AA
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 77.625
+  response: 7E80562131409B4

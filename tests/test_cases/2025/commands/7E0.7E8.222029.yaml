@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222029
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_CHARGE_AIR_P_SPECIFIED: 394.4
+  response: '7E8056220291342'
+- expected_values:
+    PORSCHE_PQ35_CHARGE_AIR_P_SPECIFIED: 1024
+  response: '7E8056220293200'
+- expected_values:
+    PORSCHE_PQ35_CHARGE_AIR_P_SPECIFIED: 1454
+  response: 7E80562202946FF
+- expected_values:
+    PORSCHE_PQ35_CHARGE_AIR_P_SPECIFIED: 1474.56
+  response: '7E8056220294800'
