@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222061
+test_cases:
+- expected_values:
+    PORSCHE_APP_POS1: 3.747
+  response: 7E8056220610EA3
+- expected_values:
+    PORSCHE_APP_POS1: 4.351
+  response: 7E80562206110FF
+- expected_values:
+    PORSCHE_APP_POS1: 5.377
+  response: '7E8056220611501'
+- expected_values:
+    PORSCHE_APP_POS1: 13.018
+  response: 7E80562206132DA

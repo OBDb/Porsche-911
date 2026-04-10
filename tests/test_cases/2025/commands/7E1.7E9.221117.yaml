@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221117
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_REACHED_MAXIMUM_T: 0
+  response: '7E90762111700000000'

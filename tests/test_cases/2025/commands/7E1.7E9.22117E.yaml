@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22117E
+test_cases:
+- expected_values:
+    PORSCHE_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G6: 0
+  response: 7E90662117E000000

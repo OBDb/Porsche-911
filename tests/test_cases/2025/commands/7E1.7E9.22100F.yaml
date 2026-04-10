@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22100F
+test_cases:
+- expected_values:
+    PORSCHE_MQB_TCM_ENGINE_TORQUE_LOSS: 0
+  response: 7E90562100F0000
+- expected_values:
+    PORSCHE_MQB_TCM_ENGINE_TORQUE_LOSS: -12.75
+  response: 7E90562100F01FF
+- expected_values:
+    PORSCHE_MQB_TCM_ENGINE_TORQUE_LOSS: 25.85
+  response: 7E90562100F0502

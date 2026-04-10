@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22200B
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_2: -22.5
+  response: 7E80562200B4400

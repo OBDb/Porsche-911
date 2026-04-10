@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221007
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_CAMS_START: 0
+  response: '7E80762100700000000'

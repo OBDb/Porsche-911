@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22200A
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_1: -48
+  response: 7E80462200A00
+- expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_1: 46.5
+  response: 7E80462200AFC
+- expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_1: 46.875
+  response: 7E80462200AFD
+- expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_1: 47.25
+  response: 7E80462200AFE
+- expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_1: 47.625
+  response: 7E80462200AFF
