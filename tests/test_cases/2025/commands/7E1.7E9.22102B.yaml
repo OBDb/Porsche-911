@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22102B
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_CLUTCH_1_T: 0
+  response: 7E90762102B00000000

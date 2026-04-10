@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221010
+test_cases:
+- expected_values:
+    PORSCHE_MQB_TCM_CONVERTER_LOSS_TORQUE: 0
+  response: '7E9056210100000'
+- expected_values:
+    PORSCHE_MQB_TCM_CONVERTER_LOSS_TORQUE: 12.75
+  response: 7E90562101000FF
+- expected_values:
+    PORSCHE_MQB_TCM_CONVERTER_LOSS_TORQUE: 64.05
+  response: '7E9056210100501'

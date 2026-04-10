@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22100D
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_GEAR: 0
+  response: 7E80462100D00

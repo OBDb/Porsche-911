@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22105D
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_3_POS: -0.01
+  response: 7E90562105DFFFF

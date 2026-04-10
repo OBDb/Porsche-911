@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221814
+test_cases:
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 175
+  response: 7E80562181406D6
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 230.4
+  response: '7E8056218140900'
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 233.6
+  response: '7E8056218140920'
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 246.2
+  response: 7E805621814099E
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 246.3
+  response: 7E805621814099F
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 248.4
+  response: 7E80562181409B4
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 254.4
+  response: 7E80562181409F0
+- expected_values:
+    PORSCHE_MQB_EGR_VALVE_2_B1_MASS_I_SPEC: 254.9
+  response: 7E80562181409F5

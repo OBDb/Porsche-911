@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22112B
+test_cases:
+- expected_values:
+    PORSCHE_PQ35_COMP_TEST_CYL_3: 1350.5
+  response: 7E80562112B0A8D

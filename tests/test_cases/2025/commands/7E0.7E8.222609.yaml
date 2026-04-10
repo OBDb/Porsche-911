@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222609
+test_cases:
+- expected_values:
+    PORSCHE_MQB_DPF_SOOT_MASS_CALCULATED: 26.41
+  response: 7E8056226090A51
+- expected_values:
+    PORSCHE_MQB_DPF_SOOT_MASS_CALCULATED: 28.11
+  response: 7E8056226090AFB
+- expected_values:
+    PORSCHE_MQB_DPF_SOOT_MASS_CALCULATED: 28.16
+  response: 7E8056226090B00
