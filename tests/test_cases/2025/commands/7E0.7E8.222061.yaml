@@ -4,8 +4,8 @@ test_cases:
     PORSCHE_APP_POS1: 3.747
   response: 7E8056220610EA3
 - expected_values:
-    PORSCHE_APP_POS1: 4.351
-  response: 7E80562206110FF
+    PORSCHE_APP_POS1: 4.095
+  response: 7E8056220610FFF
 - expected_values:
     PORSCHE_APP_POS1: 5.377
   response: '7E8056220611501'
