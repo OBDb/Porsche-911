@@ -2,7 +2,7 @@ command_id: 7E1.7E9.221003
 test_cases:
 - expected_values:
     PORSCHE_TIRE_RR_SPD_V2: 255
-  response: '7E9056210031388'
+  response: '7E9056210031387'
 - expected_values:
     PORSCHE_TIRE_RR_SPD_V2: 255
   response: '7E9056210031395'
