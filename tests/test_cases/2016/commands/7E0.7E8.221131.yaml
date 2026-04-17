@@ -10,5 +10,8 @@ test_cases:
     PORSCHE_PQ35_POST_INJ_3_START: 132.74
   response: 7E80562113119ED
 - expected_values:
+    PORSCHE_PQ35_POST_INJ_3_START: 133.38
+  response: 7E8056211311A0D
+- expected_values:
     PORSCHE_PQ35_POST_INJ_3_START: 159.62
   response: 7E8056211311F2D
