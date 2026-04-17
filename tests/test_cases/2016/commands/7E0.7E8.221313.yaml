@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.221313
 test_cases:
 - expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 166.6
-  response: '7E8056213130682'
+    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 157.6
+  response: '7E8056213130628'
 - expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 168
-  response: '7E8056213130690'
+    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 179.1
+  response: 7E80562131306FF
 - expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 193.6
-  response: '7E8056213130790'
+    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 179.8
+  response: '7E8056213130706'
 - expected_values:
     PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 235.5
   response: '7E8056213130933'
-- expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 238
-  response: 7E805621313094C
-- expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 238.8
-  response: '7E8056213130954'
-- expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 239
-  response: '7E8056213130956'
-- expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 241.3
-  response: 7E805621313096D
-- expected_values:
-    PORSCHE_MQB_EGR_VALVE_2_B1_FLOW: 253.2
-  response: 7E80562131309E4

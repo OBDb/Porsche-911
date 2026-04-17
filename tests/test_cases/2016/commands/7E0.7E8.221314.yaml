@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     PORSCHE_PQ35_MEAN_AIR_MASS: 77.625
   response: 7E80562131409B4
+- expected_values:
+    PORSCHE_PQ35_MEAN_AIR_MASS: 78.90625
+  response: 7E80562131409DD

@@ -44,6 +44,16 @@ test_cases:
     PORSCHE_TID_2: 100
     PORSCHE_TPOS_2: FR
     PORSCHE_TPS_2: 2
+    PORSCHE_TPW_2: 7.2
+    PORSCHE_TP_2: 1.9
+    PORSCHE_TT_2: 20
+  response: |-
+    775100D6218A121B2B4
+    775217E01FF133C1448
+- expected_values:
+    PORSCHE_TID_2: 100
+    PORSCHE_TPOS_2: FR
+    PORSCHE_TPS_2: 2
     PORSCHE_TPW_2: 12.7
     PORSCHE_TT_2: 100
   response: |-

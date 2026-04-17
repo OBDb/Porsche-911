@@ -13,5 +13,8 @@ test_cases:
     PORSCHE_PQ35_ACCEL_PED_1: 37.2
   response: 7E80562122100BA
 - expected_values:
+    PORSCHE_PQ35_ACCEL_PED_1: 47
+  response: 7E80562122100EB
+- expected_values:
     PORSCHE_PQ35_ACCEL_PED_1: -0.2
   response: 7E805621221FFFF
