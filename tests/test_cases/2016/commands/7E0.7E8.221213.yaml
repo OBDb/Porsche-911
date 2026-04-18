@@ -5,7 +5,7 @@ test_cases:
   response: '7E8056212130000'
 - expected_values:
     PORSCHE_PQ35_ENVD_CAM_IN_1: 255
-  response: 7E805621213FF26
+  response: 7E805621213FF10
 - expected_values:
     PORSCHE_PQ35_ENVD_CAM_IN_1: 255
   response: 7E805621213FFFE
