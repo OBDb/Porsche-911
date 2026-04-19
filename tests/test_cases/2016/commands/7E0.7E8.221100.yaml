@@ -7,8 +7,8 @@ test_cases:
     PORSCHE_PQ35_INJ_DEV_CYL_3: 105.06
   response: 7E805621100290A
 - expected_values:
-    PORSCHE_PQ35_INJ_DEV_CYL_3: 112.37
-  response: 7E8056211002BE5
+    PORSCHE_PQ35_INJ_DEV_CYL_3: 109.85
+  response: 7E8056211002AE9
 - expected_values:
     PORSCHE_PQ35_INJ_DEV_CYL_3: 129.85
   response: 7E80562110032B9
