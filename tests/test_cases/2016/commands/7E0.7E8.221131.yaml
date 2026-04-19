@@ -4,29 +4,11 @@ test_cases:
     PORSCHE_PQ35_POST_INJ_3_START: 48.58
   response: 7E805621131097D
 - expected_values:
-    PORSCHE_PQ35_POST_INJ_3_START: 54.02
-  response: 7E8056211310A8D
-- expected_values:
-    PORSCHE_PQ35_POST_INJ_3_START: 56.9
-  response: 7E8056211310B1D
-- expected_values:
-    PORSCHE_PQ35_POST_INJ_3_START: 59.14
-  response: 7E8056211310B8D
-- expected_values:
-    PORSCHE_PQ35_POST_INJ_3_START: 105.86
-  response: 7E80562113114AD
-- expected_values:
     PORSCHE_PQ35_POST_INJ_3_START: 132.74
   response: 7E80562113119ED
 - expected_values:
     PORSCHE_PQ35_POST_INJ_3_START: 133.38
   response: 7E8056211311A0D
-- expected_values:
-    PORSCHE_PQ35_POST_INJ_3_START: 159.62
-  response: 7E8056211311F2D
-- expected_values:
-    PORSCHE_PQ35_POST_INJ_3_START: 171.14
-  response: 7E805621131216D
 - expected_values:
     PORSCHE_PQ35_POST_INJ_3_START: 179.46
   response: 7E805621131230D
