@@ -7,8 +7,8 @@ test_cases:
     PORSCHE_PQ35_COMP_TEST_CYL_2: 1398.5
   response: 7E80562112A0AED
 - expected_values:
-    PORSCHE_PQ35_COMP_TEST_CYL_2: 2694.5
-  response: 7E80562112A150D
+    PORSCHE_PQ35_COMP_TEST_CYL_2: 1414.5
+  response: 7E80562112A0B0D
 - expected_values:
     PORSCHE_PQ35_COMP_TEST_CYL_2: 4558.5
   response: 7E80562112A239D
