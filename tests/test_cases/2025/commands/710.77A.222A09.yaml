@@ -11,6 +11,11 @@ test_cases:
     PORSCHE_SSB_C: 0.768
   response: 77A07622A0900000300
 - expected_values:
+    PORSCHE_BAT_I: -2999.98
+    PORSCHE_MQB_BAT_I: 5.375
+    PORSCHE_SSB_C: 5.375
+  response: 77A07622A09000014FF
+- expected_values:
     PORSCHE_BAT_I: 13776.062
     PORSCHE_MQB_BAT_I: -295.26
     PORSCHE_SSB_C: 0
@@ -20,11 +25,6 @@ test_cases:
     PORSCHE_MQB_BAT_I: -57.84
     PORSCHE_SSB_C: 0
   response: 77A07622A09FFFF1E10
-- expected_values:
-    PORSCHE_BAT_I: 13777.201
-    PORSCHE_MQB_BAT_I: -3.585
-    PORSCHE_SSB_C: 0
-  response: 77A07622A09FFFFF1FF
 - expected_values:
     PORSCHE_BAT_I: 13777.215
     PORSCHE_MQB_BAT_I: -0.213
