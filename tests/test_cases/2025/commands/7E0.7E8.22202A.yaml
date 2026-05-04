@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22202A
 test_cases:
 - expected_values:
-    PORSCHE_PQ35_CHARGE_AIR_P_ACTUAL: 1001.6
-  response: 7E80562202A30E8
+    PORSCHE_PQ35_CHARGE_AIR_P_ACTUAL: 997.6
+  response: 7E80562202A30B6
 - expected_values:
     PORSCHE_PQ35_CHARGE_AIR_P_ACTUAL: 1024
   response: 7E80562202A3200
