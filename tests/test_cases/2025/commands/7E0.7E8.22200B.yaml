@@ -4,6 +4,9 @@ test_cases:
     PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_2: -48
   response: 7E80462200B00
 - expected_values:
+    PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_2: 45.75
+  response: 7E80462200BFA
+- expected_values:
     PORSCHE_PQ35_TIMING_ANGLE_RETARDATION_CYL_2: 46.125
   response: 7E80462200BFB
 - expected_values:
