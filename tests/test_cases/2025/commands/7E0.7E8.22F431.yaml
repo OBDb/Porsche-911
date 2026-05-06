@@ -10,5 +10,5 @@ test_cases:
     PORSCHE_CLR_DIST: 1536
   response: 7E80562F4310600
 - expected_values:
-    PORSCHE_CLR_DIST: 3074
-  response: 7E80562F4310C02
+    PORSCHE_CLR_DIST: 3328
+  response: 7E80562F4310D00
