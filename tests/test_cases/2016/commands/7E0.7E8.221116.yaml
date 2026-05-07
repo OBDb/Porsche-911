@@ -13,6 +13,9 @@ test_cases:
     PORSCHE_PQ35_COOL_FAN_1_DUTY: 30.33
   response: 7E8056211160BD9
 - expected_values:
+    PORSCHE_PQ35_COOL_FAN_1_DUTY: 32.03
+  response: 7E8056211160C83
+- expected_values:
     PORSCHE_PQ35_COOL_FAN_1_DUTY: 53.03
   response: 7E80562111614B7
 - expected_values:
