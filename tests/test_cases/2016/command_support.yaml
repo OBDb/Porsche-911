@@ -54,6 +54,7 @@ supported_commands_by_ecu:
   - 7E0.010D:VSS
   - 7E0.010E:SPARKADV
   - 7E0.010F:IAT
+  - 7E0.0111:TP
   - 7E0.011C:OBDSUP
   - 7E0.0123:FRP
   - 7E0.012E:EVAP_PCT
@@ -66,6 +67,7 @@ supported_commands_by_ecu:
   - 7E0.0142:VPWR
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT
+  - 7E0.0147:TP_B
   - 7E0.014C:TAC_PCT
   - 7E0.0151:FUEL_TYP
   - 7E0.0156:LGSO2FT1
