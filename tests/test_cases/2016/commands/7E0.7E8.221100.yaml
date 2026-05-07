@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221100
 test_cases:
 - expected_values:
-    PORSCHE_PQ35_INJ_DEV_CYL_3: 31.81
-  response: 7E8056211000C6D
+    PORSCHE_PQ35_INJ_DEV_CYL_3: 31.6
+  response: 7E8056211000C58
 - expected_values:
     PORSCHE_PQ35_INJ_DEV_CYL_3: 105.06
   response: 7E805621100290A
