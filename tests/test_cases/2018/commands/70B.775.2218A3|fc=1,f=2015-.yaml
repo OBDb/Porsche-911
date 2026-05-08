@@ -1,0 +1,22 @@
+command_id: 70B.775.2218A3|fc=1,f=2015-
+test_cases:
+- expected_values:
+    911_TID_FL: 100
+    911_TPOS_FL: RL
+    911_TPS_FL: 2.5
+    911_TPW_FL: 7.9
+    911_TP_FL: 2.4
+    911_TT_FL: 16
+  response: |-
+    775100D6218A320C960
+    77521F902FF1838194F
+- expected_values:
+    911_TID_FL: 100
+    911_TPOS_FL: RL
+    911_TPS_FL: 2.5
+    911_TPW_FL: 7.9
+    911_TP_FL: 2.4
+    911_TT_FL: 17
+  response: |-
+    775100D6218A320C960
+    77521F902FF1839194F

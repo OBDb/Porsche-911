@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221156
-test_cases:
-- expected_values:
-    PORSCHE_MQB_DQ250_CLUTCH_ADAPT_VALUES_IKP0_K1: 0
-  response: '7E90462115600'

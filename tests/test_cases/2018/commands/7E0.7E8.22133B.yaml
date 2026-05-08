@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.22133B
-test_cases:
-- expected_values:
-    PORSCHE_PQ35_CAMS_SPD: 71.1
-  response: 7E80562133B00ED

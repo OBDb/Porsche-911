@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.221146
-test_cases:
-- expected_values:
-    PORSCHE_MISFIRES_TOTAL: 0
-  response: '7E8056211460000'
-- expected_values:
-    PORSCHE_MISFIRES_TOTAL: 2
-  response: '7E8056211460002'
