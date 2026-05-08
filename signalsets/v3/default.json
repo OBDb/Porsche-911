@@ -21,7 +21,7 @@
     {"id": "911_TT_FR",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Front right tire temperature",        "suggestedMetric": "frontRightTireTemperature"},
     {"id": "911_TPS_FR", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Front right tire specified pressure"},
     {"id": "911_TPW_FR", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Front right tire warning pressure"},
-    {"id": "911_TPOS_FR", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+    {"id": "911_TPOS_FR", "path": "Tires", "name": "Tire 2 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },
           "2": { "description": "Rear left",   "value": "RL" },
@@ -36,7 +36,7 @@
     {"id": "911_TT_RR",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Rear right tire temperature",        "suggestedMetric": "rearRightTireTemperature"},
     {"id": "911_TPS_RR", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Rear right tire specified pressure"},
     {"id": "911_TPW_RR", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Rear right tire warning pressure"},
-    {"id": "911_TPOS_RR", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+    {"id": "911_TPOS_RR", "path": "Tires", "name": "Tire 3 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },
           "2": { "description": "Rear left",   "value": "RL" },
@@ -51,7 +51,7 @@
     {"id": "911_TT_FL",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40,                "unit": "celsius" }, "name": "Front left tire temperature",        "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "911_TPS_FL", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Front left tire specified pressure"},
     {"id": "911_TPW_FL", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                            "unit": "bars"    }, "name": "Front left tire warning pressure"},
-    {"id": "911_TPOS_FL", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+    {"id": "911_TPOS_FL", "path": "Tires", "name": "Tire 4 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },
           "2": { "description": "Rear left",   "value": "RL" },
