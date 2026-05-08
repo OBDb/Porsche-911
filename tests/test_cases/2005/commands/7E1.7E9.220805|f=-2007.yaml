@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.220805|f=-2007
+test_cases:
+- expected_values:
+    911_BRAKE_LIGHT_ON: 0
+    911_BRAKE_LIGHT_ON_VALID: 0
+    911_BRAKE_PRESSED: 0
+    911_BRAKE_PRESSED_VALID: 0
+  response: '7E90462080500'
+- expected_values:
+    911_BRAKE_LIGHT_ON: 1
+    911_BRAKE_LIGHT_ON_VALID: 0
+    911_BRAKE_PRESSED: 0
+    911_BRAKE_PRESSED_VALID: 0
+  response: '7E90462080501'

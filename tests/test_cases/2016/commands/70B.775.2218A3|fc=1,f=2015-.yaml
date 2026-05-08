@@ -1,0 +1,41 @@
+command_id: 70B.775.2218A3|fc=1,f=2015-
+test_cases:
+- expected_values:
+    911_TID_FL: 100
+    911_TPOS_FL: FL
+    911_TPS_FL: 2
+    911_TPW_FL: 7.2
+    911_TP_FL: 1.6
+    911_TT_FL: 23
+  response: |-
+    775100D6218A321B2A2
+    77521EF00FF103F1448
+- expected_values:
+    911_TID_FL: 100
+    911_TPOS_FL: FL
+    911_TPS_FL: 2
+    911_TPW_FL: 7.3
+    911_TP_FL: 1.8
+    911_TT_FL: 8
+  response: |-
+    775100D6218A321B2A2
+    77521EF00FF12301449
+- expected_values:
+    911_TID_FL: 100
+    911_TPOS_FL: FL
+    911_TPS_FL: 2
+    911_TPW_FL: 12.7
+    911_TP_FL: 1.9
+    911_TT_FL: 20
+  response: |-
+    775100D6218A321B2A2
+    77521EF00FF133C147F
+- expected_values:
+    911_TID_FL: 100
+    911_TPOS_FL: FL
+    911_TPS_FL: 2
+    911_TPW_FL: 12.7
+    911_TT_FL: 100
+  response: |-
+    775100D6218A321B2A2
+    77521EF00FFFFFF147F

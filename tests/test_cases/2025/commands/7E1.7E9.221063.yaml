@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221063
-test_cases:
-- expected_values:
-    PORSCHE_PQ35_CLUTCH_1_CHAR_CURVE_SHIFT: -0.00098
-  response: 7E907621063FFFFFFFF

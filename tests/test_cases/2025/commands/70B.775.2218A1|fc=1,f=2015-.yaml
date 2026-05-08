@@ -1,0 +1,47 @@
+command_id: 70B.775.2218A1|fc=1,f=2015-
+test_cases:
+- expected_values:
+    911_TID_FR: 100
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
+    911_TP_FR: 3.8
+    911_TT_FR: 88
+  response: |-
+    775100C6218A124D91C
+    77521E00275268000CC
+- expected_values:
+    911_TID_FR: 100
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
+    911_TP_FR: 4.7
+    911_TT_FR: 88
+  response: |-
+    775100C6218A124D91C
+    77521E002792F8000CC
+- expected_values:
+    911_TID_FR: 100
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
+    911_TP_FR: 4.8
+    911_TT_FR: 88
+  response: |-
+    775100C6218A124D91C
+    77521E00279308000CC
+- expected_values:
+    911_TID_FR: 100
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
+    911_TP_FR: 5.7
+    911_TT_FR: 88
+  response: |-
+    775100C6218A124D91C
+    77521E00280398000CC
+- expected_values:
+    911_TID_FR: 100
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
+    911_TP_FR: 16.7
+    911_TT_FR: 88
+  response: |-
+    775100C6218A124D91C
+    77521E002FFA78000CC

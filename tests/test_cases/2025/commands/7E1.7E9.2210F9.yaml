@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.2210F9
-test_cases:
-- expected_values:
-    PORSCHE_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 24.5
-  response: 7E9046210F9FF

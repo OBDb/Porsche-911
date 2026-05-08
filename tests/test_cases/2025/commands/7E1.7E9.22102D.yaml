@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.22102D
-test_cases:
-- expected_values:
-    PORSCHE_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 0
-  response: 7E90762102D00000000

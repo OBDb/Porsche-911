@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221180
-test_cases:
-- expected_values:
-    PORSCHE_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_LOW_P_ON_CLUTCH_1: 0
-  response: '7E90762118000000002'

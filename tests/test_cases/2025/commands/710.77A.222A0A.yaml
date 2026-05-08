@@ -1,8 +1,0 @@
-command_id: 710.77A.222A0A
-test_cases:
-- expected_values:
-    PORSCHE_SSB_SENSOR_T: -1
-  response: 77A04622A0A27
-- expected_values:
-    PORSCHE_SSB_SENSOR_T: 36
-  response: 77A04622A0A4C

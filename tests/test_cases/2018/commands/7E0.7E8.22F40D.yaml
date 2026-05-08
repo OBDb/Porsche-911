@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.22F40D
-test_cases:
-- expected_values:
-    PORSCHE_VSS: 48
-  response: 7E80462F40D30
-- expected_values:
-    PORSCHE_VSS: 62
-  response: 7E80462F40D3E

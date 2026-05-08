@@ -1,0 +1,29 @@
+command_id: 70B.775.2218A0|fc=1,f=2015-
+test_cases:
+- expected_values:
+    911_TID_RL: 100
+    911_TPOS_RL: RL
+    911_TPS_RL: 0
+    911_TP_RL: 5.2
+    911_TT_RL: 92
+  response: |-
+    775100C6218A026936D
+    775216A0284348400CC
+- expected_values:
+    911_TID_RL: 100
+    911_TPOS_RL: RL
+    911_TPS_RL: 0
+    911_TP_RL: 5.2
+    911_TT_RL: 92
+  response: |-
+    775100C6218A026936D
+    775216A0285348400CC
+- expected_values:
+    911_TID_RL: 100
+    911_TPOS_RL: RL
+    911_TPS_RL: 0
+    911_TP_RL: 5.3
+    911_TT_RL: 92
+  response: |-
+    775100C6218A026936D
+    775216A0285358400CC

@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.221135
-test_cases:
-- expected_values:
-    PORSCHE_COOLANT_T: 97.3
-  response: 7E8056211350E78
-- expected_values:
-    PORSCHE_COOLANT_T: 98.1
-  response: 7E8056211350E80

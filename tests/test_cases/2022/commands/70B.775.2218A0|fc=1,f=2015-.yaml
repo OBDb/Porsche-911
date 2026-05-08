@@ -1,0 +1,10 @@
+command_id: 70B.775.2218A0|fc=1,f=2015-
+test_cases:
+- expected_values:
+    911_TID_RL: 100
+    911_TPS_RL: 25.5
+    911_TP_RL: 5.6
+    911_TT_RL: 48
+  response: |-
+    775100C6218A0231CEB
+    775211D204E3858FFAA
