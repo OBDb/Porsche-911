@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221144
-test_cases:
-- expected_values:
-    PORSCHE_MQB_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_1_3: 0
-  response: '7E90762114400000000'

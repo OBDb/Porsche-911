@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.22155A
-test_cases:
-- expected_values:
-    PORSCHE_PQ35_ENG_TORQUE: -1023.75
-  response: 7E80562155A8008

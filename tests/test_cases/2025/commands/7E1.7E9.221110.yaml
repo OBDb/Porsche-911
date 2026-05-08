@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221110
-test_cases:
-- expected_values:
-    PORSCHE_PQ35_WORKING_HOURS: 0
-  response: '7E90762111000000000'

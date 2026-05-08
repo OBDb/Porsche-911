@@ -1,8 +1,0 @@
-command_id: 7E0.7E8.221341
-test_cases:
-- expected_values:
-    PORSCHE_PQ35_CAMS_END: -27
-  response: 7E805621341FF79
-- expected_values:
-    PORSCHE_PQ35_CAMS_END: -6.4
-  response: 7E805621341FFE0
