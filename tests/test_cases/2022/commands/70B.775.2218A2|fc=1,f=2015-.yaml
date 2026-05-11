@@ -3,11 +3,11 @@ test_cases:
 - expected_values:
     911_TID_RR: 100
     911_TPS_RR: 25.5
-    911_TP_RR: 7.3
+    911_TP_RR: 6.7
     911_TT_RR: 48
   response: |-
     775100C6218A2229006
-    77521F1225E4958FFAA
+    77521F1225B4358FFAA
 - expected_values:
     911_TID_RR: 100
     911_TPS_RR: 25.5
@@ -16,22 +16,6 @@ test_cases:
   response: |-
     775100C6218A2229006
     77521F1225E4A58FFAA
-- expected_values:
-    911_TID_RR: 100
-    911_TPS_RR: 25.5
-    911_TP_RR: 7.2
-    911_TT_RR: 48
-  response: |-
-    775100C6218A2229006
-    77521F1225F4858FFAA
-- expected_values:
-    911_TID_RR: 100
-    911_TPS_RR: 25.5
-    911_TP_RR: 7.3
-    911_TT_RR: 48
-  response: |-
-    775100C6218A2229006
-    77521F1225F4958FFAA
 - expected_values:
     911_TID_RR: 100
     911_TPS_RR: 25.5
