@@ -1,6 +1,9 @@
 command_id: 7E0.2211BA
 test_cases:
 - expected_values:
+    911_OIL_LEVEL: 49.284
+  response: 7E8056211BA3021
+- expected_values:
     911_OIL_LEVEL: 53.868
   response: 7E8056211BA349B
 - expected_values:
