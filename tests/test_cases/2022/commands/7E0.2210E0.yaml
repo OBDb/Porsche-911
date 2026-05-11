@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     911_ODO_2: 10659
   response: 7E8076210E0000029A3
+- expected_values:
+    911_ODO_2: 19267
+  response: 7E8076210E000004B43
