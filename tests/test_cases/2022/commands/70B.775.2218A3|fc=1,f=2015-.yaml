@@ -3,6 +3,22 @@ test_cases:
 - expected_values:
     911_TID_FL: 100
     911_TPS_FL: 25.5
+    911_TP_FL: 6
+    911_TT_FL: 48
+  response: |-
+    775100C6218A3228F3B
+    775213823593C58FFAA
+- expected_values:
+    911_TID_FL: 100
+    911_TPS_FL: 25.5
+    911_TP_FL: 6.3
+    911_TT_FL: 48
+  response: |-
+    775100C6218A3228F3B
+    7752138235C3F58FFAA
+- expected_values:
+    911_TID_FL: 100
+    911_TPS_FL: 25.5
     911_TP_FL: 6.7
     911_TT_FL: 48
   response: |-
@@ -16,14 +32,6 @@ test_cases:
   response: |-
     775100C6218A3228F3B
     775213823604758FFAA
-- expected_values:
-    911_TID_FL: 100
-    911_TPS_FL: 25.5
-    911_TP_FL: 7.7
-    911_TT_FL: 48
-  response: |-
-    775100C6218A3228F3B
-    775213823604D58FFAA
 - expected_values:
     911_TID_FL: 100
     911_TPS_FL: 25.5
