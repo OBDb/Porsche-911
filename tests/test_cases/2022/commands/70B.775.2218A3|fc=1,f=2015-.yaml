@@ -15,15 +15,15 @@ test_cases:
     911_TT_FL: 48
   response: |-
     775100C6218A3228F3B
-    7752138235C3F58FFAA
+    7752138235B3F58FFAA
 - expected_values:
     911_TID_FL: 100
     911_TPS_FL: 25.5
-    911_TP_FL: 6.7
+    911_TP_FL: 6.4
     911_TT_FL: 48
   response: |-
     775100C6218A3228F3B
-    7752138235C4358FFAA
+    7752138235B4058FFAA
 - expected_values:
     911_TID_FL: 100
     911_TPS_FL: 25.5
