@@ -3,11 +3,11 @@ test_cases:
 - expected_values:
     911_TID_RL: 100
     911_TPS_RL: 25.5
-    911_TP_RL: 5.5
+    911_TP_RL: 5.2
     911_TT_RL: 40
   response: |-
     775100C6218A022900E
-    775219820493750FFAA
+    775219820473450FFAA
 - expected_values:
     911_TID_RL: 100
     911_TPS_RL: 25.5
