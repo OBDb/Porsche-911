@@ -13,20 +13,11 @@ test_cases:
     911_TID_RR: 100
     911_TPOS_RR: RL
     911_TPS_RR: 0
-    911_TP_RR: 5.3
-    911_TT_RR: 100
+    911_TP_RR: 6.3
+    911_TT_RR: 92
   response: |-
-    775100C6218A2269716
-    77521E80292359800CC
-- expected_values:
-    911_TID_RR: 100
-    911_TPOS_RR: RL
-    911_TPS_RR: 0
-    911_TP_RR: 5.3
-    911_TT_RR: 100
-  response: |-
-    775100C6218A2269716
-    77521E80293359800CC
+    775100C6218A226A716
+    77521B102893F8400CC
 - expected_values:
     911_TID_RR: 100
     911_TPOS_RR: RL
@@ -40,17 +31,17 @@ test_cases:
     911_TID_RR: 100
     911_TPOS_RR: RL
     911_TPS_RR: 0
-    911_TP_RR: 6.3
+    911_TP_RR: 7.3
     911_TT_RR: 92
   response: |-
     775100C6218A226A716
-    77521B1028A3F8400CC
+    77521B10290498400CC
 - expected_values:
     911_TID_RR: 100
     911_TPOS_RR: RL
     911_TPS_RR: 0
-    911_TP_RR: 6.4
+    911_TP_RR: 16.7
     911_TT_RR: 92
   response: |-
     775100C6218A226A716
-    77521B1028A408400CC
+    77521B102FFA78400CC
