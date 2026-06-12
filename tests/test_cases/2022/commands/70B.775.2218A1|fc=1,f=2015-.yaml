@@ -11,6 +11,14 @@ test_cases:
 - expected_values:
     911_TID_FR: 100
     911_TPS_FR: 25.5
+    911_TP_FR: 6.3
+    911_TT_FR: 40
+  response: |-
+    775100C6218A1228FC8
+    77521CE214F3F50FFAA
+- expected_values:
+    911_TID_FR: 100
+    911_TPS_FR: 25.5
     911_TP_FR: 6.4
     911_TT_FR: 40
   response: |-
@@ -24,14 +32,6 @@ test_cases:
   response: |-
     775100C6218A1228FC8
     77521CE21503850FFAA
-- expected_values:
-    911_TID_FR: 100
-    911_TPS_FR: 25.5
-    911_TP_FR: 6.3
-    911_TT_FR: 40
-  response: |-
-    775100C6218A1228FC8
-    77521CE21503F50FFAA
 - expected_values:
     911_TID_FR: 100
     911_TPS_FR: 25.5
