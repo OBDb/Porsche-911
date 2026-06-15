@@ -82,6 +82,7 @@ supported_commands_by_ecu:
   - 7E0.0144:EQ_RAT
   - 7E0.0146:AAT
   - 7E0.015C:EOT
+  - 7E0.01A6:ODO
   - 7E0.22295A:911_ODO
   - 7E0.7E8.22028D
   - 7E0.7E8.222061
