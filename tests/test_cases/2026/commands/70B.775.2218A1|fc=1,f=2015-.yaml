@@ -13,6 +13,15 @@ test_cases:
     911_TID_FR: 100
     911_TPOS_FR: RL
     911_TPS_FR: 0
+    911_TP_FR: 6.1
+    911_TT_FR: 100
+  response: |-
+    775100C6218A126A876
+    775216302943D9400CC
+- expected_values:
+    911_TID_FR: 100
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
     911_TP_FR: 6.3
     911_TT_FR: 100
   response: |-
