@@ -35,11 +35,11 @@ test_cases:
     911_TPOS_FL: FL
     911_TPS_FL: 2
     911_TPW_FL: 7.1
-    911_TP_FL: 2.3
-    911_TT_FL: 29
+    911_TP_FL: 2.2
+    911_TT_FL: 22
   response: |-
     775100D6218A321B2A2
-    77521EF00FF17451447
+    77521EF00FF163E1447
 - expected_values:
     911_TID_FL: 100
     911_TPOS_FL: FL
