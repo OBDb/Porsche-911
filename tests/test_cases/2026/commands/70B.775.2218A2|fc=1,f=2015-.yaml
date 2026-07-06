@@ -22,20 +22,20 @@ test_cases:
     911_TID_RR: 100
     911_TPOS_RR: RL
     911_TPS_RR: 0
+    911_TP_RR: 6.4
+    911_TT_RR: 92
+  response: |-
+    775100C6218A226A716
+    77521B10287408400CC
+- expected_values:
+    911_TID_RR: 100
+    911_TPOS_RR: RL
+    911_TPS_RR: 0
     911_TP_RR: 6.3
     911_TT_RR: 92
   response: |-
     775100C6218A226A716
     77521B102883F8400CC
-- expected_values:
-    911_TID_RR: 100
-    911_TPOS_RR: RL
-    911_TPS_RR: 0
-    911_TP_RR: 6.4
-    911_TT_RR: 92
-  response: |-
-    775100C6218A226A716
-    77521B10288408400CC
 - expected_values:
     911_TID_RR: 100
     911_TPOS_RR: RL
