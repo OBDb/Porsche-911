@@ -45,11 +45,11 @@ test_cases:
     911_TPOS_RR: RR
     911_TPS_RR: 2.2
     911_TPW_RR: 7.2
-    911_TP_RR: 2.5
-    911_TT_RR: 19
+    911_TP_RR: 2.4
+    911_TT_RR: 16
   response: |-
     775100D6218A221B2B9
-    77521D703FF193B1648
+    77521D703FF18381648
 - expected_values:
     911_TID_RR: 100
     911_TPOS_RR: RR
