@@ -13,11 +13,11 @@ test_cases:
     911_TID_FL: 100
     911_TPOS_FL: RL
     911_TPS_FL: 0
-    911_TP_FL: 6.5
+    911_TP_FL: 6.1
     911_TT_FL: 92
   response: |-
     775100C6218A326A716
-    775213C0285418400CC
+    775213C02823D8400CC
 - expected_values:
     911_TID_FL: 100
     911_TPOS_FL: RL
@@ -26,7 +26,7 @@ test_cases:
     911_TT_FL: 92
   response: |-
     775100C6218A326A716
-    775213C02873F8400CC
+    775213C02843F8400CC
 - expected_values:
     911_TID_FL: 100
     911_TPOS_FL: RL
@@ -35,7 +35,7 @@ test_cases:
     911_TT_FL: 92
   response: |-
     775100C6218A326A716
-    775213C0288408400CC
+    775213C0284408400CC
 - expected_values:
     911_TID_FL: 100
     911_TPOS_FL: RL
