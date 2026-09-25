@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_TID_RL", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Rear left tire sensor id"},
     {"id": "911_TP_RL",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Rear left tire current pressure",   "suggestedMetric": "rearLeftTirePressure"},
@@ -14,7 +14,7 @@
         }}
     }
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_TID_FR", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Front right tire sensor id"},
     {"id": "911_TP_FR",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Front right tire current pressure",   "suggestedMetric": "frontRightTirePressure"},
@@ -29,7 +29,7 @@
         }}
     }
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_TID_RR", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Rear right tire sensor id"},
     {"id": "911_TP_RR",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Rear right tire current pressure",   "suggestedMetric": "rearRightTirePressure"},
@@ -44,7 +44,7 @@
         }}
     }
   ]},
-{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_TID_FL", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                        "unit": "scalar"  }, "name": "Front left tire sensor id"},
     {"id": "911_TP_FL",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Front left tire current pressure",   "suggestedMetric": "frontLeftTirePressure"},
