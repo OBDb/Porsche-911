@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221147|f=2012-
+test_cases:
+- expected_values:
+    911_MISFIRES_1000REV_C1: 0
+  response: '7E8056211470000'

@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22100A|f=2020-
+test_cases:
+- expected_values:
+    911_VSS_TCM_RAW: 0
+  response: 7E90562100A0000
+- expected_values:
+    911_VSS_TCM_RAW: 1023
+  response: 7E90562100A03FF
+- expected_values:
+    911_VSS_TCM_RAW: 3403
+  response: 7E90562100A0D4B

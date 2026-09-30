@@ -55,7 +55,6 @@ test_cases:
     911_TPOS_RL: RL
     911_TPS_RL: 2.2
     911_TPW_RL: 12.7
-    911_TT_RL: 100
   response: |-
     775100D6218A021ACC8
     775215A02FFFFFF167F

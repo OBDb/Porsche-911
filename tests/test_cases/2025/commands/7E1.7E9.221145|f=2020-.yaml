@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221145|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_2_4: 0
+  response: '7E90762114500000000'

@@ -1,0 +1,5 @@
+command_id: 710.77A.222A0B|f=2020-
+test_cases:
+- expected_values:
+    911_SSB_T: 19
+  response: 77A04622A0B3B

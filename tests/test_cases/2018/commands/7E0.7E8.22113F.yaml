@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22113F
+test_cases:
+- expected_values:
+    911_FUEL_CONS: 7.86
+  response: 7E80562113F0312
+- expected_values:
+    911_FUEL_CONS: 8.46
+  response: 7E80562113F034E

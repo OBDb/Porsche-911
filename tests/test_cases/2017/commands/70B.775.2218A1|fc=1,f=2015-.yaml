@@ -65,7 +65,6 @@ test_cases:
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 12.7
-    911_TT_FR: 100
   response: |-
     775100D6218A121B2B4
     775217E01FFFFFF147F

@@ -1,0 +1,29 @@
+command_id: 710.77A.222A07|f=2020-
+test_cases:
+- expected_values:
+    911_SSB_V: 13.106
+  response: 77A05622A072392
+- expected_values:
+    911_SSB_V: 13.109
+  response: 77A05622A072395
+- expected_values:
+    911_SSB_V: 13.11
+  response: 77A05622A072396
+- expected_values:
+    911_SSB_V: 13.111
+  response: 77A05622A072397
+- expected_values:
+    911_SSB_V: 13.117
+  response: 77A05622A07239D
+- expected_values:
+    911_SSB_V: 13.119
+  response: 77A05622A07239F
+- expected_values:
+    911_SSB_V: 14.828
+  response: 77A05622A072A4C
+- expected_values:
+    911_SSB_V: 14.832
+  response: 77A05622A072A50
+- expected_values:
+    911_SSB_V: 14.833
+  response: 77A05622A072A51

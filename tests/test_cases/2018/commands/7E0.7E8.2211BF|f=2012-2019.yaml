@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BF|f=2012-2019
+test_cases:
+- expected_values:
+    911_FUEL_P_REG: 0
+  response: 7E8056211BF0000

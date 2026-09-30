@@ -1,0 +1,29 @@
+command_id: 710.77A.222A09|f=2020-
+test_cases:
+- expected_values:
+    911_SSB_C: 0.434
+  response: 77A07622A09000001B2
+- expected_values:
+    911_SSB_C: 2.779
+  response: 77A07622A0900000ADB
+- expected_values:
+    911_SSB_C: 4.087
+  response: 77A07622A0900000FF7
+- expected_values:
+    911_SSB_C: 7.395
+  response: 77A07622A0900001CE3
+- expected_values:
+    911_SSB_C: -3.262
+  response: 77A07622A09FFFFF342
+- expected_values:
+    911_SSB_C: -1.931
+  response: 77A07622A09FFFFF875
+- expected_values:
+    911_SSB_C: -1.644
+  response: 77A07622A09FFFFF994
+- expected_values:
+    911_SSB_C: -1.079
+  response: 77A07622A09FFFFFBC9
+- expected_values:
+    911_SSB_C: -0.426
+  response: 77A07622A09FFFFFE56
