@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222061|f=2020-;-2011
+test_cases:
+- expected_values:
+    911_APP_POS1: 3.747
+  response: 7E8056220610EA3
+- expected_values:
+    911_APP_POS1: 3.839
+  response: 7E8056220610EFF
+- expected_values:
+    911_APP_POS1: 4.864
+  response: '7E8056220611300'
+- expected_values:
+    911_APP_POS1: 13.018
+  response: 7E80562206132DA

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221019|f=2020-
+test_cases:
+- expected_values:
+    911_DRIVING_STRATEGY_SPORT_FACTOR: 6.66667
+  response: 7E90562101901F2
+- expected_values:
+    911_DRIVING_STRATEGY_SPORT_FACTOR: 100
+  response: 7E90562101914FF
+- expected_values:
+    911_DRIVING_STRATEGY_SPORT_FACTOR: 100
+  response: '7E9056210191901'
+- expected_values:
+    911_DRIVING_STRATEGY_SPORT_FACTOR: 100
+  response: '7E9056210192130'

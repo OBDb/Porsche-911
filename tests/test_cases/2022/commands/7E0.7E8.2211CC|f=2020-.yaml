@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211CC|f=2020-
+test_cases:
+- expected_values:
+    911_BOOST_REGULATOR: 0
+  response: 7E8076211CC00000000

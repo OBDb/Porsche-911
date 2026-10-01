@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210D6|f=2012-2019
+test_cases:
+- expected_values:
+    911_INJ_1_RAIL_P_2: 0
+  response: 7E8056210D60000
+- expected_values:
+    911_INJ_1_RAIL_P_2: -5.0000000000000002e-05
+  response: 7E8056210D6FFFF

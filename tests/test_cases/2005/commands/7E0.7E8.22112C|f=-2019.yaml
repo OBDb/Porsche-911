@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22112C|f=-2019
+test_cases:
+- expected_values:
+    911_SPARK_EFFICIENCY_DEV: 0
+  response: 7E80762112C00000000

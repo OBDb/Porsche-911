@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BE|f=2012-
+test_cases:
+- expected_values:
+    911_EOT: 1
+  response: 7E8056211BE0001

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222206|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_LEVEL_7E0_2206: 0
+  response: '7E8056222060000'
+- expected_values:
+    911_FUEL_LEVEL_7E0_2206: 15
+  response: 7E8056222060FE4
+- expected_values:
+    911_FUEL_LEVEL_7E0_2206: 17
+  response: 7E805622206110A

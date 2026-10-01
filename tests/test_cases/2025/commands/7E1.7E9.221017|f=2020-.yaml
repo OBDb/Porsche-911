@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221017|f=2020-
+test_cases:
+- expected_values:
+    911_ROAD_RESISTANCE: -31
+  response: 7E90562101701F2
+- expected_values:
+    911_ROAD_RESISTANCE: -28.861
+  response: 7E9056210170BFF
+- expected_values:
+    911_ROAD_RESISTANCE: -27.616
+  response: '7E9056210171000'
+- expected_values:
+    911_ROAD_RESISTANCE: -25.375
+  response: 7E905621017195E

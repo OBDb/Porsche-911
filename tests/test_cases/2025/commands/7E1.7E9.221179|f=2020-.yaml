@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221179|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1: 0
+  response: '7E9056211790000'

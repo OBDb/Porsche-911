@@ -7,5 +7,5 @@ test_cases:
     911_TIRE_RR_SPD_713: 25.5
   response: 77D05622B1E00FF
 - expected_values:
-    911_TIRE_RR_SPD_713: 1000
-  response: 77D05622B1EFFFE
+    911_TIRE_RR_SPD_713: 230.4
+  response: 77D05622B1E0900

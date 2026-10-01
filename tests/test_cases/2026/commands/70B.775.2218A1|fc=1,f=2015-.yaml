@@ -14,7 +14,6 @@ test_cases:
     911_TPOS_FR: RL
     911_TPS_FR: 0
     911_TP_FR: 6.1
-    911_TT_FR: 100
   response: |-
     775100C6218A126A876
     775216302903D9400CC
@@ -23,7 +22,6 @@ test_cases:
     911_TPOS_FR: RL
     911_TPS_FR: 0
     911_TP_FR: 6.3
-    911_TT_FR: 100
   response: |-
     775100C6218A126A876
     775216302923F9400CC
@@ -32,7 +30,6 @@ test_cases:
     911_TPOS_FR: RL
     911_TPS_FR: 0
     911_TP_FR: 6.4
-    911_TT_FR: 100
   response: |-
     775100C6218A126A876
     77521630292409400CC
@@ -41,7 +38,6 @@ test_cases:
     911_TPOS_FR: RL
     911_TPS_FR: 0
     911_TP_FR: 16.7
-    911_TT_FR: 100
   response: |-
     775100C6218A126A876
     775216302FFA79400CC

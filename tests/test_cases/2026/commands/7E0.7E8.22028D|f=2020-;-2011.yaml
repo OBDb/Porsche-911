@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22028D|f=2020-;-2011
+test_cases:
+- expected_values:
+    911_ECU_TEMP: 50
+  response: 7E80562028D0C9F

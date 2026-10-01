@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221018|f=2020-
+test_cases:
+- expected_values:
+    911_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0
+  response: '7E9056210180000'
+- expected_values:
+    911_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 4.31373
+  response: 7E9056210180BFF
+- expected_values:
+    911_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 8.62745
+  response: 7E905621018167B
