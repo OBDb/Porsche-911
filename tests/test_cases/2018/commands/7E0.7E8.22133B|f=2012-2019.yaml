@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22133B|f=2012-2019
+test_cases:
+- expected_values:
+    911_CAM_SPD: 71.1
+  response: 7E80562133B00ED

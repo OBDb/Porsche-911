@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22118A|f=2012-2019
+test_cases:
+- expected_values:
+    911_CAMS_EDGE_POS_3: -32
+  response: 7E80562118A0000

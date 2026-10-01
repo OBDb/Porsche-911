@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22105C|f=2012-2019,din=03
+test_cases:
+- expected_values:
+    911_GEN_LOAD: 100
+  response: 7E80562105CFFFA

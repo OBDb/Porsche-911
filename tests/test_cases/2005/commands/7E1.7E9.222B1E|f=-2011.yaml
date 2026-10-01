@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222B1E|f=-2011
+test_cases:
+- expected_values:
+    911_TIRE_RR_SPD_2: 0
+  response: 7E905622B1E0000
+- expected_values:
+    911_TIRE_RR_SPD_2: 76.6
+  response: 7E905622B1E02FE
+- expected_values:
+    911_TIRE_RR_SPD_2: 128.8
+  response: 7E905622B1E0508

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F430|f=2012-
+test_cases:
+- expected_values:
+    911_WARM_UPS: 4
+  response: 7E80462F43004

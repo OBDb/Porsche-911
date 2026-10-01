@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221213|f=2012-2019
+test_cases:
+- expected_values:
+    911_ENVD_CAM_IN_1: 0
+  response: '7E8056212130000'
+- expected_values:
+    911_ENVD_CAM_IN_1: 255
+  response: 7E805621213FF07
+- expected_values:
+    911_ENVD_CAM_IN_1: 255
+  response: 7E805621213FFFF

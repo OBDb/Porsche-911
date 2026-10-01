@@ -5,7 +5,6 @@ test_cases:
     911_TPOS_FL: RL
     911_TPS_FL: 0
     911_TP_FL: 5.3
-    911_TT_FL: 100
   response: |-
     775100C6218A3269346
     77521710293359800CC

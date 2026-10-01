@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BB|f=-2019
+test_cases:
+- expected_values:
+    911_OIL_CRIT: 1.576
+  response: 7E8056211BB0F64
