@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222062|f=2020-;-2011
+test_cases:
+- expected_values:
+    911_APP_POS2: null
+  response: 7E805622062FFFF

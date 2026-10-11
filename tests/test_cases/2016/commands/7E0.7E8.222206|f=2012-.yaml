@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     911_FUEL_LEVEL_7E0_2206: 17
   response: 7E805622206110A
+- expected_values:
+    911_FUEL_LEVEL_7E0_2206: null
+  response: 7E805622206FFD1
