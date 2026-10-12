@@ -5,11 +5,11 @@
   "commands": [
 { "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A0"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
-    {"id": "911_TID_RL", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                          "unit": "scalar"  }, "name": "Rear left tire sensor id"},
-    {"id": "911_TP_RL",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Rear left tire current pressure",   "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "911_TT_RL",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Rear left tire temperature",        "suggestedMetric": "rearLeftTireTemperature"},
-    {"id": "911_TPS_RL", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Rear left tire specified pressure"},
-    {"id": "911_TPW_RL", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                              "unit": "bars"    }, "name": "Rear left tire warning pressure"},
+    {"id": "911_TID_RL", "path": "Tires", "fmt": {           "len": 32, "max": 4294967295,                                         "unit": "scalar"  }, "name": "Rear left tire sensor id"},
+    {"id": "911_TP_RL",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Rear left tire current pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "911_TT_RL",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,                   "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Rear left tire temperature",        "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "911_TPS_RL", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Rear left tire specified pressure"},
+    {"id": "911_TPW_RL", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,       "div": 10,                              "unit": "bars"    }, "name": "Rear left tire warning pressure"},
     {"id": "911_TPOS_RL", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },
@@ -20,11 +20,11 @@
   ]},
 { "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A1"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
-    {"id": "911_TID_FR", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                          "unit": "scalar"  }, "name": "Front right tire sensor id"},
-    {"id": "911_TP_FR",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Front right tire current pressure",   "suggestedMetric": "frontRightTirePressure"},
-    {"id": "911_TT_FR",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Front right tire temperature",        "suggestedMetric": "frontRightTireTemperature"},
-    {"id": "911_TPS_FR", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Front right tire specified pressure"},
-    {"id": "911_TPW_FR", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                              "unit": "bars"    }, "name": "Front right tire warning pressure"},
+    {"id": "911_TID_FR", "path": "Tires", "fmt": {           "len": 32, "max": 4294967295,                                         "unit": "scalar"  }, "name": "Front right tire sensor id"},
+    {"id": "911_TP_FR",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Front right tire current pressure",   "suggestedMetric": "frontRightTirePressure"},
+    {"id": "911_TT_FR",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,                   "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Front right tire temperature",        "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "911_TPS_FR", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Front right tire specified pressure"},
+    {"id": "911_TPW_FR", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,       "div": 10,                              "unit": "bars"    }, "name": "Front right tire warning pressure"},
     {"id": "911_TPOS_FR", "path": "Tires", "name": "Tire 2 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },
@@ -35,11 +35,11 @@
   ]},
 { "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A2"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
-    {"id": "911_TID_RR", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                          "unit": "scalar"  }, "name": "Rear right tire sensor id"},
-    {"id": "911_TP_RR",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Rear right tire current pressure",   "suggestedMetric": "rearRightTirePressure"},
-    {"id": "911_TT_RR",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Rear right tire temperature",        "suggestedMetric": "rearRightTireTemperature"},
-    {"id": "911_TPS_RR", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Rear right tire specified pressure"},
-    {"id": "911_TPW_RR", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                              "unit": "bars"    }, "name": "Rear right tire warning pressure"},
+    {"id": "911_TID_RR", "path": "Tires", "fmt": {           "len": 32, "max": 4294967295,                                         "unit": "scalar"  }, "name": "Rear right tire sensor id"},
+    {"id": "911_TP_RR",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Rear right tire current pressure",   "suggestedMetric": "rearRightTirePressure"},
+    {"id": "911_TT_RR",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,                   "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Rear right tire temperature",        "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "911_TPS_RR", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Rear right tire specified pressure"},
+    {"id": "911_TPW_RR", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,       "div": 10,                              "unit": "bars"    }, "name": "Rear right tire warning pressure"},
     {"id": "911_TPOS_RR", "path": "Tires", "name": "Tire 3 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },
@@ -50,11 +50,11 @@
   ]},
 { "hdr": "70B", "rax": "775", "fcm1": true, "cmd": {"22": "18A3"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
-    {"id": "911_TID_FL", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                          "unit": "scalar"  }, "name": "Front left tire sensor id"},
-    {"id": "911_TP_FL",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Front left tire current pressure",   "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "911_TT_FL",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,             "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Front left tire temperature",        "suggestedMetric": "frontLeftTireTemperature"},
-    {"id": "911_TPS_FL", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5, "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Front left tire specified pressure"},
-    {"id": "911_TPW_FL", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5, "div": 10,                              "unit": "bars"    }, "name": "Front left tire warning pressure"},
+    {"id": "911_TID_FL", "path": "Tires", "fmt": {           "len": 32, "max": 4294967295,                                         "unit": "scalar"  }, "name": "Front left tire sensor id"},
+    {"id": "911_TP_FL",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25,   "unit": "bars"    }, "name": "Front left tire current pressure",   "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "911_TT_FL",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,                   "add": -40, "nullmax": 100,  "unit": "celsius" }, "name": "Front left tire temperature",        "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "911_TPS_FL", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,       "div": 10,             "nullmax": 25.5, "unit": "bars"    }, "name": "Front left tire specified pressure"},
+    {"id": "911_TPW_FL", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,       "div": 10,                              "unit": "bars"    }, "name": "Front left tire warning pressure"},
     {"id": "911_TPOS_FL", "path": "Tires", "name": "Tire 4 position", "fmt": {"bix": 32, "len": 8, "map": {
           "0": { "description": "Front left",  "value": "FL" },
           "1": { "description": "Front right", "value": "FR" },

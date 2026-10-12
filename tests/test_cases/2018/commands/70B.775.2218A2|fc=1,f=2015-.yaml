@@ -1,7 +1,7 @@
 command_id: 70B.775.2218A2|fc=1,f=2015-
 test_cases:
 - expected_values:
-    911_TID_RR: 100
+    911_TID_RR: 550062635
     911_TPOS_RR: RR
     911_TPS_RR: 2.5
     911_TPW_RR: 8
