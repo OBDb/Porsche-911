@@ -222,11 +222,11 @@
   "signals": [
     {"id": "911_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11C4"}, "freq": 30, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "11C4"}, "freq": 30, "filter": { "to": 2012, "from": 2019 }, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "911_OIL_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, max"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11C5"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "11C5"}, "freq": 30, "filter": { "to": 2012, "from": 2019 }, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "911_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, min"}
   ]},
@@ -238,7 +238,7 @@
   "signals": [
     {"id": "911_DPF_DIFF_P_DYNAMIC_OFFSET", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Particulate filter differential pressure, dynamic offset"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2024, "from": 2027 },
+{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "filter": { "to": 2012, "from": 2019 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "911_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
