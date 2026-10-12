@@ -1,7 +1,7 @@
 command_id: 70B.775.2218A1|fc=1,f=2015-
 test_cases:
 - expected_values:
-    911_TID_FR: 100
+    911_TID_FR: 565359742
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 7.3
@@ -11,7 +11,7 @@ test_cases:
     775100D6218A121B2B4
     775217E01FF122C1449
 - expected_values:
-    911_TID_FR: 100
+    911_TID_FR: 565359742
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 7.3
@@ -21,7 +21,7 @@ test_cases:
     775100D6218A121B2B4
     775217E01FF122F1449
 - expected_values:
-    911_TID_FR: 100
+    911_TID_FR: 565359742
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 7.3
@@ -31,7 +31,7 @@ test_cases:
     775100D6218A121B2B4
     775217E01FF12301449
 - expected_values:
-    911_TID_FR: 100
+    911_TID_FR: 565359742
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 12.7
@@ -41,7 +41,7 @@ test_cases:
     775100D6218A121B2B4
     775217E01FF133B147F
 - expected_values:
-    911_TID_FR: 100
+    911_TID_FR: 565359742
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 7
@@ -51,7 +51,7 @@ test_cases:
     775100D6218A121B2B4
     775217E01FF15441446
 - expected_values:
-    911_TID_FR: 100
+    911_TID_FR: 565359742
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 12.7
