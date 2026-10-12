@@ -300,8 +300,8 @@ unsupported_commands_by_ecu:
   - 7E0.221164
   - 7E0.221187
   - 7E0.2211BA:911_OIL_LEVEL
-  - 7E0.2211C4:911_OIL_MAX
-  - 7E0.2211C5:911_OIL_MIN
+  - 7E0.2211C4
+  - 7E0.2211C5
   - 7E0.2211CC
   - 7E0.2211F6
   - 7E0.22123C
@@ -318,7 +318,7 @@ unsupported_commands_by_ecu:
   - 7E0.22178C
   - 7E0.22269A
   - 7E0.22269B
-  - 7E0.22295A:911_ODO
+  - 7E0.22295A
   - 7E0.22F42C
   - 7E0.22F469
   - 7E0.7E8.22028D
@@ -466,6 +466,7 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.222062
   - 7E0.7E8.2220A1
   - 7E0.7E8.222609
+  - 7E0.7E8.22295A
   - 7E0.7E8.2229D4
   - 7E0.7E8.222AE1
   - 7E0.7E8.222AE2
