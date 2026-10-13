@@ -67,7 +67,7 @@
   "signals": [
     {"id": "911_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A06"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A06"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "911_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
@@ -111,7 +111,7 @@
   "signals": [
     {"id": "911_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage, at rest"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A1C"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "911_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -141,7 +141,7 @@
     {"id": "911_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 5"},
     {"id": "911_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 6"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "4F00"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "4F00"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "911_GEN_V_ACT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Generator voltage, actual"}
   ]},
@@ -152,7 +152,7 @@
     {"id": "911_RL_WHL_SPD_713", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "911_RR_WHL_SPD_713", "path": "Tires", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2005"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "2005"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "911_P_BRAKE_SERVO_UNIT", "path": "Control", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in brake servo unit"}
   ]},
@@ -172,7 +172,7 @@
   "signals": [
     {"id": "911_TIRE_RR_SPD_713", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "nullmax": 1000, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2B21"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "2B21"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "911_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 458.8288, "min": -543.8501, "mul": 152999, "div": 10000000, "add": -42.503, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},

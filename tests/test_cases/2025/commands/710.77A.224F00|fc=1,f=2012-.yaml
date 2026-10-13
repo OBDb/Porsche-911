@@ -1,0 +1,5 @@
+command_id: 710.77A.224F00|fc=1,f=2012-
+test_cases:
+- expected_values:
+    911_GEN_V_ACT: 10.6
+  response: 77A04624F0000
