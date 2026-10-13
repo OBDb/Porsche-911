@@ -45,3 +45,12 @@ test_cases:
   response: |-
     775100C6218A124D91C
     77521E002FFA78000CC
+- expected_values:
+    911_TID_FR: 643701329
+    911_TPOS_FR: RL
+    911_TPS_FR: 0
+    911_TP_FR: 16.7
+    911_TT_FR: 92
+  response: |-
+    775100C6218A1265E1A
+    775215102FFA78400CC
