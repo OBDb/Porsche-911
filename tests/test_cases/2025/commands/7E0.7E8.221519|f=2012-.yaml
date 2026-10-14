@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221519|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_CONS_ACT_DRIVE: 0
+  response: '7E8056215190000'
+- expected_values:
+    911_FUEL_CONS_ACT_DRIVE: 0.01
+  response: '7E8056215190001'
+- expected_values:
+    911_FUEL_CONS_ACT_DRIVE: 0.02
+  response: '7E8056215190002'
+- expected_values:
+    911_FUEL_CONS_ACT_DRIVE: 0.08
+  response: '7E8056215190008'
+- expected_values:
+    911_FUEL_CONS_ACT_DRIVE: 0.09
+  response: '7E8056215190009'

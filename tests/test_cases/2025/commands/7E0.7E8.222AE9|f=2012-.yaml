@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.222AE9|f=2012-
+test_cases:
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 202.89296
+  response: 7E805622AE94F55
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 218.29304
+  response: 7E805622AE951E6
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 231.30224
+  response: 7E805622AE95411
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 255.09384
+  response: 7E805622AE95808
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 261.3992
+  response: 7E805622AE95915
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 277.69
+  response: 7E805622AE95BCC
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 278.69792
+  response: 7E805622AE95BF7
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 279.70584
+  response: 7E805622AE95C22
+- expected_values:
+    911_EXH_GAS_T_CALC_AFTER: 280.69032
+  response: 7E805622AE95C4C

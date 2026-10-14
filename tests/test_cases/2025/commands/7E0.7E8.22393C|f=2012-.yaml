@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.22393C|f=2012-
+test_cases:
+- expected_values:
+    911_CAM_ADJ_INT_TEST_1: 1
+    911_CAM_ADJ_OUTLET_TEST_1: 1
+    911_KNOCK_SENS_1_TEST: 1
+    911_KNOCK_SENS_2_TEST: 1
+    911_KNOCK_SENS_3_TEST: 0
+    911_KNOCK_SENS_4_TEST: 0
+  response: 7E80462393CCF

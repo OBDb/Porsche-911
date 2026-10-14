@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221013|f=2012-
+test_cases:
+- expected_values:
+    911_CURRENT_TYPE_DRIVER: 1911
+  response: 7E90662101307773C

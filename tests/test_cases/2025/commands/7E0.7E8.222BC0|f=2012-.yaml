@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222BC0|f=2012-
+test_cases:
+- expected_values:
+    911_ENG_PROTECTION_TQ: 1000
+  response: 7E805622BC02710

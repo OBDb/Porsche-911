@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221101|f=2012-
+test_cases:
+- expected_values:
+    911_ADPT_CNT_TSF_LOCKUP: 0
+  response: '7E90762110100000200'

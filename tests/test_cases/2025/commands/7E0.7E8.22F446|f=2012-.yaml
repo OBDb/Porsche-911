@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F446|f=2012-
+test_cases:
+- expected_values:
+    911_AAT_V4: 27
+  response: 7E80462F44643
+- expected_values:
+    911_AAT_V4: 28
+  response: 7E80462F44644
+- expected_values:
+    911_AAT_V4: 29
+  response: 7E80462F44645
+- expected_values:
+    911_AAT_V4: 215
+  response: 7E80462F446FF

@@ -48,3 +48,11 @@ test_cases:
   response: |-
     775100C6218A3265E38
     775216902FFA79400CC
+- expected_values:
+    911_TID_FL: 643709033
+    911_TPOS_FL: RL
+    911_TPS_FL: 5.4
+    911_TP_FL: 16.7
+  response: |-
+    775100C6218A3265E38
+    775216902FFA79436CC

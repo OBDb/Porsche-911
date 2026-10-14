@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224649|f=2012-
+test_cases:
+- expected_values:
+    911_MAX_ECU_T: 50
+  response: 7E8056246490C9F

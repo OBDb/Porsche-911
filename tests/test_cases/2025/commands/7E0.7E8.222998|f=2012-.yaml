@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.222998|f=2012-
+test_cases:
+- expected_values:
+    911_MANUAL_ENG_STARTS: 0
+  response: '7E8056229980000'

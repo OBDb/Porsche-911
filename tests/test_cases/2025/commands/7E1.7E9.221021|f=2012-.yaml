@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221021|f=2012-
+test_cases:
+- expected_values:
+    911_TCM_DRAG_TQ: 498
+  response: 7E90562102101F2
+- expected_values:
+    911_TCM_DRAG_TQ: 2363
+  response: 7E905621021093B
+- expected_values:
+    911_TCM_DRAG_TQ: 2485
+  response: 7E90562102109B5

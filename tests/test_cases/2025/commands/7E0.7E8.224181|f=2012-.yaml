@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224181|f=2012-
+test_cases:
+- expected_values:
+    911_TIM_DEV_AFTER_OTHER_REPAIRS_INT_1: 0
+  response: '7E8056241810000'

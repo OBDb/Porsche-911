@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22201E|f=2012-
+test_cases:
+- expected_values:
+    911_CAM_ADJ_INT_ACT: 95.5
+  response: 7E80562201E03BB
+- expected_values:
+    911_CAM_ADJ_INT_ACT: 104.3
+  response: 7E80562201E0413
+- expected_values:
+    911_CAM_ADJ_INT_ACT: 125.4
+  response: 7E80562201E04E6
+- expected_values:
+    911_CAM_ADJ_INT_ACT: 125.5
+  response: 7E80562201E04E7
+- expected_values:
+    911_CAM_ADJ_INT_ACT: 127.8
+  response: 7E80562201E04FE
+- expected_values:
+    911_CAM_ADJ_INT_ACT: 172.8
+  response: 7E80562201E06C0

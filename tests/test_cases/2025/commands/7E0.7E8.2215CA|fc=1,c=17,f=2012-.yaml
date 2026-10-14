@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215CA|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 0.02
+  response: 7E8056215CA0002

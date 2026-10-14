@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221027|f=2012-
+test_cases:
+- expected_values:
+    911_CURRENT_N233_P_CTRL_5: 0
+  response: '7E9056210270000'
