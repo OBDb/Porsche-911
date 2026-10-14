@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224FF5|f=2012-
+test_cases:
+- expected_values:
+    911_CAM_ADPT_INT_DEV: 0
+  response: 7E805624FF50000

@@ -43,6 +43,14 @@ test_cases:
 - expected_values:
     911_TID_RR: 643708813
     911_TPOS_RR: RL
+    911_TPS_RR: 5.4
+    911_TP_RR: 7.4
+  response: |-
+    775100C6218A2265E37
+    775218D02944A9436CC
+- expected_values:
+    911_TID_RR: 643708813
+    911_TPOS_RR: RL
     911_TPS_RR: 0
     911_TP_RR: 16.7
   response: |-

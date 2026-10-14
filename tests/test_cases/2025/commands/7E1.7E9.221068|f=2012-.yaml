@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221068|f=2012-
+test_cases:
+- expected_values:
+    911_ANALYSIS_CLU_1_T_3: 0
+  response: '7E90762106800000000'

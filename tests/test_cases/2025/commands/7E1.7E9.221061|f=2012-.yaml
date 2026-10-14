@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221061|f=2012-
+test_cases:
+- expected_values:
+    911_DES_TQ_RAW: -32720
+  response: '7E90762106180301276'

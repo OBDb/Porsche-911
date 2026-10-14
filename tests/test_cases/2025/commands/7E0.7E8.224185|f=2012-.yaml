@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224185|f=2012-
+test_cases:
+- expected_values:
+    911_TIM_DEV_CURRENT_EXH_1: 0
+  response: '7E8056241850000'

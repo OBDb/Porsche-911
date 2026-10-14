@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22F449|f=2012-
+test_cases:
+- expected_values:
+    911_ACCEL_PEDAL_POS: 14.90196
+  response: 7E90462F44926

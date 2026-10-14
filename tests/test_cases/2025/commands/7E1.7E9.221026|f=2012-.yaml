@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221026|f=2012-
+test_cases:
+- expected_values:
+    911_CURRENT_N216_P_CTRL_2: 100
+  response: 7E90562102603E8

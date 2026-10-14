@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22292B|f=2012-
+test_cases:
+- expected_values:
+    911_ADPT_THROTTLE_VLV: 0
+  response: 7E80462292B00
+- expected_values:
+    911_ADPT_THROTTLE_VLV: 4
+  response: 7E80462292B04

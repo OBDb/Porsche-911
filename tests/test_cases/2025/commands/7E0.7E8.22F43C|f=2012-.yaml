@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F43C|f=2012-
+test_cases:
+- expected_values:
+    911_EXH_GAS_T: 387.3
+  response: 7E80562F43C10B1
+- expected_values:
+    911_EXH_GAS_T: 403.5
+  response: 7E80562F43C1153
+- expected_values:
+    911_EXH_GAS_T: 412.6
+  response: 7E80562F43C11AE
+- expected_values:
+    911_EXH_GAS_T: 417.7
+  response: 7E80562F43C11E1
+- expected_values:
+    911_EXH_GAS_T: 422.1
+  response: 7E80562F43C120D
+- expected_values:
+    911_EXH_GAS_T: 423.6
+  response: 7E80562F43C121C

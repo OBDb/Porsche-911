@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221022|f=2012-
+test_cases:
+- expected_values:
+    911_TCM_TQ_LOSSES: 498
+  response: 7E90562102201F2
+- expected_values:
+    911_TCM_TQ_LOSSES: 2358
+  response: '7E9056210220936'
+- expected_values:
+    911_TCM_TQ_LOSSES: 2597
+  response: 7E9056210220A25

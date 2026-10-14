@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211DF|f=2012-
+test_cases:
+- expected_values:
+    911_POWERTRAIN_OVERALL: 6.48
+  response: 7E8056211DF0288
+- expected_values:
+    911_POWERTRAIN_OVERALL: 9.57
+  response: 7E8056211DF03BD
+- expected_values:
+    911_POWERTRAIN_OVERALL: 14.76
+  response: 7E8056211DF05C4

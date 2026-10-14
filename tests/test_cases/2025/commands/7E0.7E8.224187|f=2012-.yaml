@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224187|f=2012-
+test_cases:
+- expected_values:
+    911_CHAIN_ELONGATION_NO_1: 0
+  response: '7E80462418700'

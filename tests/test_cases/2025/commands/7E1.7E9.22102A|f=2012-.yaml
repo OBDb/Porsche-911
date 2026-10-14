@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22102A|f=2012-
+test_cases:
+- expected_values:
+    911_CLU_CENTER_CENTRAL_T: 8192
+  response: 7E90762102A00200000
+- expected_values:
+    911_CLU_CENTER_CENTRAL_T: 15616
+  response: 7E90762102A003DE000

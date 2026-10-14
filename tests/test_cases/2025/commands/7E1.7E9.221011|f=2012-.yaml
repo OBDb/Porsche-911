@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221011|f=2012-
+test_cases:
+- expected_values:
+    911_ADAPTIVE_MODE: 0
+  response: '7E9056210110000'
+- expected_values:
+    911_ADAPTIVE_MODE: 0
+  response: '7E9056210110034'

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22F40D|f=2012-
+test_cases:
+- expected_values:
+    911_VSS_7E1: 0
+  response: 7E90462F40D00

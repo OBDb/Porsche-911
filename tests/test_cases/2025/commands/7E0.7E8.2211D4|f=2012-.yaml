@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211D4|f=2012-
+test_cases:
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 321.79688
+  response: 7E8056211D41017
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 376.01562
+  response: 7E8056211D412CD
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 393.67188
+  response: 7E8056211D413AF
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 430.23438
+  response: 7E8056211D41583
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 473.28125
+  response: 7E8056211D417AA
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 998.20312
+  response: 7E8056211D431E9
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 998.28125
+  response: 7E8056211D431EA

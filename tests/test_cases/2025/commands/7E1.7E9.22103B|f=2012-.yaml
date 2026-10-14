@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22103B|f=2012-
+test_cases:
+- expected_values:
+    911_TIME_SINCE_RESET: 0
+  response: 7E90462103B00
+- expected_values:
+    911_TIME_SINCE_RESET: 60
+  response: 7E90462103B02

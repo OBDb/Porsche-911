@@ -1,0 +1,5 @@
+command_id: 710.77A.222A25|fc=1,f=2012-
+test_cases:
+- expected_values:
+    911_BAT_INTERNAL_RES_RAW: 3.6
+  response: 77A04622A2512
