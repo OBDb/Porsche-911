@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22100B|f=2012-
+test_cases:
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 0
+  response: 7E80462100B00
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 3.13725
+  response: 7E80462100B08
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 7.84314
+  response: 7E80462100B14
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 14.11765
+  response: 7E80462100B24

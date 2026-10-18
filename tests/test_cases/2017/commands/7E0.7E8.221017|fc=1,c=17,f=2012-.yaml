@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221017|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_A_C_REFRIGERANT_PRES: 24454
+  response: 7E8056210172FC3
+- expected_values:
+    911_A_C_REFRIGERANT_PRES: 24468
+  response: 7E8056210172FCA

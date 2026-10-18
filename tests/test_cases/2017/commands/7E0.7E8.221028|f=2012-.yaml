@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221028|f=2012-
+test_cases:
+- expected_values:
+    911_DOWNSHIFT_ADAPT_V: 0
+  response: '7E8056210280000'

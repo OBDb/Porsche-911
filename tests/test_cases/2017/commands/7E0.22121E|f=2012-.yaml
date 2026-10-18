@@ -1,0 +1,11 @@
+command_id: 7E0.22121E|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_P_REG_SPEC: 120000
+  response: 7E80562121E04B0
+- expected_values:
+    911_FUEL_P_REG_SPEC: 120500
+  response: 7E80562121E04B5
+- expected_values:
+    911_FUEL_P_REG_SPEC: 122600
+  response: 7E80562121E04CA

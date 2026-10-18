@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F40C|f=2012-
+test_cases:
+- expected_values:
+    911_RPM: 771
+  response: 7E80562F40C0C0C
+- expected_values:
+    911_RPM: 774
+  response: 7E80562F40C0C18
+- expected_values:
+    911_RPM: 958
+  response: 7E80562F40C0EF8

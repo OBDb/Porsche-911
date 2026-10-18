@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22102E|f=2012-2019
+test_cases:
+- expected_values:
+    911_ACCEL_PEDAL_SENS_2: 0
+  response: 7E80762102E00000000

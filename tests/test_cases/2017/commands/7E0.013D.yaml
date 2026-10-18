@@ -1,8 +1,8 @@
 command_id: 7E0.013D
 test_cases:
 - expected_values:
-    CATEMP21: 502.9
-  response: 7E804413D1535
+    CATEMP21: 392.2
+  response: 7E804413D10E2
 - expected_values:
     CATEMP21: 523
   response: 7E804413D15FE

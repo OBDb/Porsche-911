@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221134|f=2012-
+test_cases:
+- expected_values:
+    911_SEG_AD_MMV_ER_MID_2: 0
+  response: '7E8056211340000'

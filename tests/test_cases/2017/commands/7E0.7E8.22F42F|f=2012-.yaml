@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F42F|f=2012-
+test_cases:
+- expected_values:
+    911_FLI_INPUT: 32.15686
+  response: 7E80462F42F52
+- expected_values:
+    911_FLI_INPUT: 100
+  response: 7E80462F42FFF

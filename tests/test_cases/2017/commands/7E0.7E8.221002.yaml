@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221002
+test_cases:
+- expected_values:
+    911_AC_COMP_T: 77.7
+  response: '7E8056210020309'
+- expected_values:
+    911_AC_COMP_T: 80.3
+  response: '7E8056210020323'
