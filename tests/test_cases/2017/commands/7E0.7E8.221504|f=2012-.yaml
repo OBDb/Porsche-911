@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221504|f=2012-
 test_cases:
 - expected_values:
+    911_ENG_OIL_LEVEL_7E0: 337
+  response: '7E8056215040151'
+- expected_values:
+    911_ENG_OIL_LEVEL_7E0: 511
+  response: 7E80562150401FF
+- expected_values:
     911_ENG_OIL_LEVEL_7E0: 525
   response: 7E805621504020D
-- expected_values:
-    911_ENG_OIL_LEVEL_7E0: 535
-  response: '7E8056215040217'
-- expected_values:
-    911_ENG_OIL_LEVEL_7E0: 547
-  response: '7E8056215040223'

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221503|f=2012-
 test_cases:
 - expected_values:
-    911_EOP: 20.76442
-  response: 7E80562150321BE
+    911_EOP: 0
+  response: '7E8056215030000'
 - expected_values:
-    911_EOP: 23.57212
-  response: 7E805621503264E
+    911_EOP: 27.01683
+  response: 7E8056215032BE7
 - expected_values:
-    911_EOP: 25.3149
-  response: '7E8056215032923'
+    911_EOP: 45.1875
+  response: 7E805621503496E

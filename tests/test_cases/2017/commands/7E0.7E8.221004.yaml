@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221004
 test_cases:
 - expected_values:
-    911_AAT_V2: 95.55469
-  response: 7E8056210042FC7
+    911_AAT_V2: 94.24219
+  response: 7E8056210042F1F
 - expected_values:
-    911_AAT_V2: 95.57812
-  response: 7E8056210042FCA
+    911_AAT_V2: 95.625
+  response: 7E8056210042FD0

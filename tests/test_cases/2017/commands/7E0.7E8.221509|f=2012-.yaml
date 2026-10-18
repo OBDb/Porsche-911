@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.221509|f=2012-
 test_cases:
 - expected_values:
-    911_AMBIENT_AIR_P: 250.263
-  response: '7E8056215091911'
+    911_AMBIENT_AIR_P: 199.641
+  response: 7E80562150913FF
 - expected_values:
-    911_AMBIENT_AIR_P: 252.837
-  response: '7E8056215091953'
+    911_AMBIENT_AIR_P: 249.795
+  response: '7E8056215091905'
 - expected_values:
-    911_AMBIENT_AIR_P: 255.918
-  response: 7E80562150919A2
-- expected_values:
-    911_AMBIENT_AIR_P: 258.141
-  response: 7E80562150919DB
+    911_AMBIENT_AIR_P: 318.279
+  response: 7E8056215091FE1

@@ -4,8 +4,5 @@ test_cases:
     911_EOT_7E0: 16
   response: '7E80462110238'
 - expected_values:
-    911_EOT_7E0: 23
-  response: 7E8046211023F
-- expected_values:
-    911_EOT_7E0: 25
-  response: '7E80462110241'
+    911_EOT_7E0: 92
+  response: '7E80462110284'

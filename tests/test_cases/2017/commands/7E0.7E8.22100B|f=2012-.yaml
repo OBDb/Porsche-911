@@ -10,5 +10,20 @@ test_cases:
     911_ENG_RADIATOR_FAN_REQ: 7.84314
   response: 7E80462100B14
 - expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 10.19608
+  response: 7E80462100B1A
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 13.33333
+  response: 7E80462100B22
+- expected_values:
     911_ENG_RADIATOR_FAN_REQ: 14.11765
   response: 7E80462100B24
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 14.90196
+  response: 7E80462100B26
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 19.60784
+  response: 7E80462100B32
+- expected_values:
+    911_ENG_RADIATOR_FAN_REQ: 20.39216
+  response: 7E80462100B34

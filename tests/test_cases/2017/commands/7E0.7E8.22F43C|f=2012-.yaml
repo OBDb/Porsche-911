@@ -4,8 +4,11 @@ test_cases:
     911_EXH_GAS_T: 393.3
   response: 7E80562F43C10ED
 - expected_values:
-    911_EXH_GAS_T: 401.1
-  response: 7E80562F43C113B
+    911_EXH_GAS_T: 574.3
+  response: 7E80562F43C17FF
 - expected_values:
-    911_EXH_GAS_T: 444.5
-  response: 7E80562F43C12ED
+    911_EXH_GAS_T: 575.8
+  response: 7E80562F43C180E
+- expected_values:
+    911_EXH_GAS_T: 683.8
+  response: 7E80562F43C1C46

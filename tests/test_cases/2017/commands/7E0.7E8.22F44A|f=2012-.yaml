@@ -4,5 +4,5 @@ test_cases:
     911_ACCEL_PEDAL_POS_2: 15.29412
   response: 7E80462F44A27
 - expected_values:
-    911_ACCEL_PEDAL_POS_2: 19.60784
-  response: 7E80462F44A32
+    911_ACCEL_PEDAL_POS_2: 33.72549
+  response: 7E80462F44A56
