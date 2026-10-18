@@ -35,6 +35,16 @@ test_cases:
     911_TPOS_FR: FR
     911_TPS_FR: 2
     911_TPW_FR: 12.7
+    911_TP_FR: 2.3
+    911_TT_FR: 45
+  response: |-
+    775100D6218A121B2B4
+    775217E01FF1755147F
+- expected_values:
+    911_TID_FR: 565359742
+    911_TPOS_FR: FR
+    911_TPS_FR: 2
+    911_TPW_FR: 12.7
   response: |-
     775100D6218A121B2B4
     775217E01FFFFFF147F
