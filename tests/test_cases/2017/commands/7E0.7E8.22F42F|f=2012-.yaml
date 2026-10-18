@@ -4,5 +4,8 @@ test_cases:
     911_FLI_INPUT: 32.15686
   response: 7E80462F42F52
 - expected_values:
+    911_FLI_INPUT: 98.03922
+  response: 7E80462F42FFA
+- expected_values:
     911_FLI_INPUT: 100
   response: 7E80462F42FFF

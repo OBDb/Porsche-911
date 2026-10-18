@@ -4,5 +4,5 @@ test_cases:
     911_ENGINE_TORQUE: 2.9
   response: 7E805621010001D
 - expected_values:
-    911_ENGINE_TORQUE: 3
-  response: 7E805621010001E
+    911_ENGINE_TORQUE: 5.8
+  response: 7E805621010003A

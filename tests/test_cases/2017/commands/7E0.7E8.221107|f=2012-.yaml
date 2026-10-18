@@ -4,11 +4,11 @@ test_cases:
     911_INJ_QTY_DEV_CYL_5: 21.33
   response: '7E8056211070855'
 - expected_values:
-    911_INJ_QTY_DEV_CYL_5: 22.34
-  response: 7E80562110708BA
+    911_INJ_QTY_DEV_CYL_5: 35.83
+  response: 7E8056211070DFF
 - expected_values:
-    911_INJ_QTY_DEV_CYL_5: 24.6
-  response: 7E805621107099C
+    911_INJ_QTY_DEV_CYL_5: 38.45
+  response: 7E8056211070F05
 - expected_values:
-    911_INJ_QTY_DEV_CYL_5: 25.86
-  response: 7E8056211070A1A
+    911_INJ_QTY_DEV_CYL_5: 64.97
+  response: '7E8056211071961'

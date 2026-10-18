@@ -4,5 +4,8 @@ test_cases:
     911_ENVD_CAM_IN_1: 0
   response: '7E8056212130000'
 - expected_values:
-    911_ENVD_CAM_IN_1: 253
-  response: 7E805621213FDB0
+    911_ENVD_CAM_IN_1: 255
+  response: 7E805621213FF2C
+- expected_values:
+    911_ENVD_CAM_IN_1: 255
+  response: 7E805621213FFFD

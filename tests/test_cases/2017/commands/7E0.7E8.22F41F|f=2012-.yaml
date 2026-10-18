@@ -4,11 +4,11 @@ test_cases:
     911_RUNTM: 21
   response: 7E80562F41F0015
 - expected_values:
-    911_RUNTM: 84
-  response: 7E80562F41F0054
+    911_RUNTM: 761
+  response: 7E80562F41F02F9
 - expected_values:
-    911_RUNTM: 119
-  response: 7E80562F41F0077
+    911_RUNTM: 1039
+  response: 7E80562F41F040F
 - expected_values:
-    911_RUNTM: 153
-  response: 7E80562F41F0099
+    911_RUNTM: 1552
+  response: 7E80562F41F0610

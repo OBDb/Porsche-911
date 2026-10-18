@@ -4,8 +4,20 @@ test_cases:
     911_AAT_V4: 18
   response: 7E80462F4463A
 - expected_values:
+    911_AAT_V4: 19
+  response: 7E80462F4463B
+- expected_values:
     911_AAT_V4: 20
   response: 7E80462F4463C
 - expected_values:
+    911_AAT_V4: 21
+  response: 7E80462F4463D
+- expected_values:
     911_AAT_V4: 22
   response: 7E80462F4463E
+- expected_values:
+    911_AAT_V4: 25
+  response: 7E80462F44641
+- expected_values:
+    911_AAT_V4: 215
+  response: 7E80462F446FF

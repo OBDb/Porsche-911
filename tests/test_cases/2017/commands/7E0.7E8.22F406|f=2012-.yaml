@@ -4,8 +4,5 @@ test_cases:
     911_SHORT_TERM_FUEL_TRIM_1: -3.90625
   response: 7E80462F4067B
 - expected_values:
-    911_SHORT_TERM_FUEL_TRIM_1: 0
-  response: 7E80462F40680
-- expected_values:
-    911_SHORT_TERM_FUEL_TRIM_1: 3.125
-  response: 7E80462F40684
+    911_SHORT_TERM_FUEL_TRIM_1: 13.28125
+  response: 7E80462F40691

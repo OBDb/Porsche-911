@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     911_ACCEL_PEDAL_POS_1: 14.90196
   response: 7E80462F44926
+- expected_values:
+    911_ACCEL_PEDAL_POS_1: 35.29412
+  response: 7E80462F4495A

@@ -4,5 +4,14 @@ test_cases:
     911_AAT_7E0_2: 57
   response: 7E8046210008C
 - expected_values:
+    911_AAT_7E0_2: 58.5
+  response: 7E8046210008E
+- expected_values:
     911_AAT_7E0_2: 59.25
   response: 7E8046210008F
+- expected_values:
+    911_AAT_7E0_2: 60
+  response: '7E80462100090'
+- expected_values:
+    911_AAT_7E0_2: 60.75
+  response: '7E80462100091'

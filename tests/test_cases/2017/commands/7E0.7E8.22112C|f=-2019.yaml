@@ -4,8 +4,5 @@ test_cases:
     911_SPARK_EFFICIENCY_DEV: 43.736
   response: 7E80462112C38
 - expected_values:
-    911_SPARK_EFFICIENCY_DEV: 45.298
-  response: 7E80462112C3A
-- expected_values:
-    911_SPARK_EFFICIENCY_DEV: 46.079
-  response: 7E80462112C3B
+    911_SPARK_EFFICIENCY_DEV: 62.48
+  response: 7E80462112C50

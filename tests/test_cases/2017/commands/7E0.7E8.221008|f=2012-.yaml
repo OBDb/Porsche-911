@@ -4,5 +4,8 @@ test_cases:
     911_FLI: 20
   response: '7E80462100814'
 - expected_values:
+    911_FLI: 61
+  response: 7E8046210083D
+- expected_values:
     911_FLI: 62
   response: 7E8046210083E

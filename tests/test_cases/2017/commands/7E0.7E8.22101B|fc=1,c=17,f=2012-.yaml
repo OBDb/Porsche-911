@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22101B|fc=1,c=17,f=2012-
 test_cases:
 - expected_values:
+    911_GENERATOR_TORQUE_REQUEST: 2.5
+  response: 7E80562101B0019
+- expected_values:
     911_GENERATOR_TORQUE_REQUEST: 3.4
   response: 7E80562101B0022

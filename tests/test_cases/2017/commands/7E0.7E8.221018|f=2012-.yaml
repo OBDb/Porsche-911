@@ -4,11 +4,11 @@ test_cases:
     911_CLT_FAN_REQ_AC: 20.3979
   response: '7E8056210180687'
 - expected_values:
-    911_CLT_FAN_REQ_AC: 42.65126
-  response: 7E8056210180DA6
+    911_CLT_FAN_REQ_AC: 46.7406
+  response: 7E8056210180EF5
 - expected_values:
-    911_CLT_FAN_REQ_AC: 45.92273
-  response: 7E8056210180EB2
+    911_CLT_FAN_REQ_AC: 50.02429
+  response: '7E8056210181002'
 - expected_values:
-    911_CLT_FAN_REQ_AC: 47.55847
-  response: 7E8056210180F38
+    911_CLT_FAN_REQ_AC: 53.29576
+  response: 7E805621018110E

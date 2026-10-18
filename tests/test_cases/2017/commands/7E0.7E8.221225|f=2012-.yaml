@@ -4,8 +4,8 @@ test_cases:
     911_TQ_LOSS_ADPT_IDLE: 792.2
   response: 7E8056212251EF2
 - expected_values:
-    911_TQ_LOSS_ADPT_IDLE: 839.6
-  response: 7E80562122520CC
+    911_TQ_LOSS_ADPT_IDLE: 1254.6
+  response: '7E8056212253102'
 - expected_values:
-    911_TQ_LOSS_ADPT_IDLE: 941.9
-  response: 7E80562122524CB
+    911_TQ_LOSS_ADPT_IDLE: 1438.8
+  response: '7E8056212253834'

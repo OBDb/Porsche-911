@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     911_CLR_DIST: 17
   response: 7E80562F4310011
+- expected_values:
+    911_CLR_DIST: 18
+  response: 7E80562F4310012
+- expected_values:
+    911_CLR_DIST: 19
+  response: 7E80562F4310013
+- expected_values:
+    911_CLR_DIST: 20
+  response: 7E80562F4310014
