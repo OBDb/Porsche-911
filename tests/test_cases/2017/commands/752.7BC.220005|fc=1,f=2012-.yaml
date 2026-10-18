@@ -1,0 +1,6 @@
+command_id: 752.7BC.220005|fc=1,f=2012-
+test_cases:
+- expected_values:
+    911_PARKING_BRAKE_AIR: 2.471
+    911_PARKING_BRAKE_AIR_GAP: 2.062
+  response: 7BC0762000509A7080E

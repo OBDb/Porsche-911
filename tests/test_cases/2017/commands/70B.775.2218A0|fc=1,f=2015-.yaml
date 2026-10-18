@@ -5,6 +5,16 @@ test_cases:
     911_TPOS_RL: RL
     911_TPS_RL: 2.2
     911_TPW_RL: 7.1
+    911_TP_RL: 2.3
+    911_TT_RL: 14
+  response: |-
+    775100D6218A021ACC8
+    775215A02FF17361647
+- expected_values:
+    911_TID_RL: 564971610
+    911_TPOS_RL: RL
+    911_TPS_RL: 2.2
+    911_TPW_RL: 7.1
     911_TP_RL: 2.5
     911_TT_RL: 26
   response: |-

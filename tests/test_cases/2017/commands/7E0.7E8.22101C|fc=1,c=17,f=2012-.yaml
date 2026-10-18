@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22101C|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_GENERATOR_LOAD_SIG: 10.79
+  response: 7E80562101C0437
+- expected_values:
+    911_GENERATOR_LOAD_SIG: 22.54
+  response: 7E80562101C08CE

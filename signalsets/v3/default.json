@@ -208,7 +208,7 @@
   "signals": [
     {"id": "911_CRASH_CNT_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
-{ "hdr": "752", "rax": "7BC", "fcm1": true, "dbg": true, "cmd": {"22": "0005"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "752", "rax": "7BC", "fcm1": true, "cmd": {"22": "0005"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_PARKING_BRAKE_AIR",     "path": "Control", "fmt": {           "len": 16, "max": 65.53, "div": 1000, "unit": "millimeters" }, "name": "Parking brake, air gap - left"},
     {"id": "911_PARKING_BRAKE_AIR_GAP", "path": "Control", "fmt": {"bix": 16, "len": 16, "max": 65.53, "div": 1000, "unit": "millimeters" }, "name": "Parking brake, air gap - right"}
@@ -234,7 +234,7 @@
   "signals": [
     {"id": "911_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level, min"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "121E"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "121E"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "911_FUEL_P_REG_SPEC", "path": "Fuel", "fmt": { "len": 16, "max": 3276700, "min": -3276800, "mul": 100, "sign": true, "unit": "unknown" }, "name": "Fuel pressure regulator valve specified rail pressure"}
   ]},
@@ -250,63 +250,63 @@
   "signals": [
     {"id": "911_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1000"}, "freq": 5, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1000"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_AAT_7E0_2", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1001"}, "freq": 5, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1001"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_IAT_7E0", "path": "Engine", "fmt": { "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1002"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1002"}, "freq": 1, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "911_AC_COMP_T", "path": "Climate", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "A/c compressor torque, requested"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "911_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1007"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1007"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2018 },
   "signals": [
     {"id": "911_CAM_POS_START_PHASE", "path": "Engine", "fmt": { "len": 16, "max": 719, "min": -720, "mul": 0.021973, "sign": true, "unit": "degrees" }, "name": "Camshaft position, start of phase window"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1008"}, "freq": 30, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1008"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Fuel level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "100B"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100B"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_ENG_RADIATOR_FAN_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Engine radiator fan request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100D"}, "freq": 0.25, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100D"}, "freq": 0.25, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2018 },
   "signals": [
     {"id": "911_GEAR_ENGAGED", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1010"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1010"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_ENGINE_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1017"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1017"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_A_C_REFRIGERANT_PRES", "path": "Engine", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "unknown" }, "name": "A/C refrigerant pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1018"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1018"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_CLT_FAN_REQ_AC", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -399.9989, "mul": 12207, "div": 1000000, "sign": true, "unit": "percent" }, "name": "Coolant fan, requested by A/C"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "101A"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101A"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_A_C_COMPRESSOR_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "A/C compressor torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101B"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101B"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_GENERATOR_TORQUE_REQUEST", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Generator torque request"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "101C"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "101C"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_GENERATOR_LOAD_SIG", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Generator load signal"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1028"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1028"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_DOWNSHIFT_ADAPT_V", "path": "Control", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Downshift point adaptation voltage"}
   ]},
@@ -322,7 +322,7 @@
   "signals": [
     {"id": "911_ACCEL_PEDAL_SENS_2_V", "path": "Battery", "fmt": { "len": 16, "max": 13107, "div": 5, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 2 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102E"}, "freq": 0.25, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "102E"}, "freq": 0.25, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2018 },
   "signals": [
     {"id": "911_ACCEL_PEDAL_SENS_2", "path": "Movement", "fmt": { "len": 16, "max": 6553, "min": -6553, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal, sensor 2"}
   ]},
@@ -406,23 +406,23 @@
   "signals": [
     {"id": "911_VLV_TIM_DIFF_ACT_SET", "path": "Engine", "fmt": { "len": 16, "max": 511.9843, "min": -512, "div": 64, "sign": true, "unit": "degrees" }, "name": "Valve timing, the difference between the, actual and the set angle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1102"}, "freq": 5, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1102"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_EOT_7E0", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1106"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1106"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_INJ_QTY_DEV_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1107"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1107"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_INJ_QTY_DEV_CYL_5", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Injection quantity deviation cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1114"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1114"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2018 },
   "signals": [
     {"id": "911_CLT_FAN_2_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "percent" }, "name": "Coolant fan 2 duty"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1116"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2017 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1116"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2018 },
   "signals": [
     {"id": "911_COOL_FAN_1_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Coolant fan 1 duty cycle"}
   ]},
@@ -430,7 +430,7 @@
   "signals": [
     {"id": "911_AAT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1124"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1124"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_CAMSHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "mul": 2500, "div": 10000, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
@@ -442,11 +442,11 @@
   "signals": [
     {"id": "911_CAM_ADPT_EXH_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, exhaust bank 1, phase position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112C"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2017] },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112C"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015] },
   "signals": [
     {"id": "911_SPARK_EFFICIENCY_DEV", "path": "Engine", "fmt": { "len": 8, "max": 199, "mul": 781, "div": 1000, "unit": "percent" }, "name": "Spark efficiency deviation at idle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "112D"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "112D"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_SPARK_EFF_DEV_PART", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 78.1, "div": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load"}
   ]},
@@ -454,23 +454,23 @@
   "signals": [
     {"id": "911_SEG_AD_MMV_ER_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "dbg": true, "cmd": {"22": "1130"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1130"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_COOLANT_FAN_1_ACTIVATION", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 10000, "sign": true, "unit": "percent" }, "name": "Coolant fan 1, activation"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1134"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1134"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_SEG_AD_MMV_ER_MID_2", "path": "Engine", "fmt": { "len": 16, "max": 7.8123, "min": -7.8125, "mul": 78123, "div": 327670000, "sign": true, "unit": "percent" }, "name": "SEG_AD_MMV_ER_MID, 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "911_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1136"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1136"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_HEIGHT_CORR", "path": "Engine", "fmt": { "len": 16, "max": 3.9999, "mul": 0.0000610348, "unit": "scalar" }, "name": "Height correction"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1137"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1137"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_FUEL_PART_EVAP", "path": "Fuel", "fmt": { "len": 8, "max": 0.9918, "min": -0.9996, "mul": 781, "div": 100000, "sign": true, "unit": "scalar" }, "name": "Fuel part from EVAP system"}
   ]},
@@ -674,7 +674,7 @@
   "signals": [
     {"id": "911_KNOCK_SENS_CYL_2", "path": "Engine", "fmt": { "len": 32, "max": 3272, "mul": 0.000000762, "unit": "scalar" }, "name": "Knock sensor, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1213"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1213"}, "freq": 1, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2019 },
   "signals": [
     {"id": "911_ENVD_CAM_IN_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Environment data camshaft input 1"}
   ]},
@@ -682,27 +682,27 @@
   "signals": [
     {"id": "911_REL_LOAD", "path": "Engine", "fmt": { "len": 16, "max": 1536.1605, "mul": 0.0234403081, "unit": "scalar" }, "name": "Relative load value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "121C"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "121C"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_AIR_FILLING", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 11719, "div": 500000, "unit": "percent" }, "name": "Air filling"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "years": [2017], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1221"}, "freq": 0.25, "filter": { "from": 2012, "to": 2019 }, "dbgfilter": { "to": 2015, "from": 2019 },
   "signals": [
     {"id": "911_ACCEL_PED_1", "path": "Movement", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "millivolts" }, "name": "Accelerator pedal sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1222"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1222"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_TQ_LOSS_ADPT_AC_COMP", "path": "Transmission", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation, A/C compressor + gear engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1223"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1223"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_TQ_LOSS_ADPT_AC_COMP_7E0", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation, A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1224"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1224"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_TQ_LOSS_ADPT_GEAR", "path": "Transmission", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation, gear engaged"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1225"}, "freq": 0.25, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1225"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_TQ_LOSS_ADPT_IDLE", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque loss adaptation at idle"}
   ]},
@@ -934,11 +934,11 @@
   "signals": [
     {"id": "911_MAIN_CAT_OSC_AGE_CORRECTION_FACTOR", "path": "Engine", "fmt": { "len": 16, "max": 2, "mul": 2, "div": 65535, "unit": "scalar" }, "name": "Main cat oxygen storage capacity age correction factor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1503"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1503"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_EOP", "path": "Engine", "fmt": { "len": 16, "max": 157, "div": 416, "unit": "psi" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1504"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1504"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_ENG_OIL_LEVEL_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "millimeters" }, "name": "Engine oil level"}
   ]},
@@ -946,11 +946,11 @@
   "signals": [
     {"id": "911_CAT_CONVERTER_OXYGEN_STORAGE_CAPACITY_MEASURED", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "mul": 1000, "div": 10000, "unit": "unknown" }, "name": "Cat. converter oxygen storage capacity measured"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1509"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1509"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_AMBIENT_AIR_P", "path": "Engine", "fmt": { "len": 16, "max": 2555.8649, "mul": 39, "div": 1000, "unit": "unknown" }, "name": "Ambient air pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1519"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1519"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_FUEL_CONS_ACT_DRIVE", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel consumption - actual drive cycle"}
   ]},
@@ -1134,7 +1134,7 @@
   "signals": [
     {"id": "911_INT_PHASE_DEV_ACT", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "Intake phase deviation, actual value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "180A"}, "freq": 1, "filter": { "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "180A"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "911_FUEL_RATE_DIFF_INJ", "path": "Fuel", "fmt": { "len": 16, "max": 127.9944, "min": -127.9983, "mul": 19531, "div": 5000000, "sign": true, "unit": "liters" }, "name": "Fuel rate difference, injector/sensor"}
   ]},
@@ -1142,19 +1142,19 @@
   "signals": [
     {"id": "911_OIL_FILL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 1966.02, "min": -1966.08, "mul": 0.06, "sign": true, "unit": "millimeters" }, "name": "Oil fill level"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200A"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200A"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIMING_ANGLE_RETARDATION_CYL_1", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200B"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200B"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIMING_ANGLE_RETARDATION_CYL_2", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200C"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200C"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIMING_ANGLE_RETARDATION_CYL_3", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200D"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "200D"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIMING_ANGLE_RETARDATION_CYL_4", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 4"}
   ]},
@@ -1182,7 +1182,7 @@
   "signals": [
     {"id": "911_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "nullmax": 65, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2206"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2206"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_FUEL_LEVEL_7E0_2206", "path": "Fuel", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "liters" }, "name": "Fuel level"}
   ]},
@@ -1231,35 +1231,35 @@
   "signals": [
     {"id": "911_OIL_LEVEL_STATIC", "path": "Engine", "fmt": { "len": 16, "max": 3968, "min": -127, "div": 16, "add": -127, "unit": "millimeters" }, "name": "Oil level, static measurement"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417B"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417B"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIM_DEV_AFTER_CHAIN_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after chain replacement, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417D"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417D"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIM_DEV_AFTER_CHAIN_REPLACEMENT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after chain replacement, exhaust bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "417F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIM_DEV_AFTER_OTHER_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after other repairs, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4181"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4181"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIM_DEV_AFTER_OTHER_REPAIRS_INT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation after other repairs, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4183"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4183"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIM_DEV_CURRENT_INT_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation current value intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4185"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4185"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_TIM_DEV_CURRENT_EXH_1", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "degrees" }, "name": "Timing deviation current value exhaust bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4187"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4187"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_CHAIN_ELONGATION_NO_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Chain elongation, no of valid initial values, intake bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4189"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4189"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_CHAIN_ELONGATION_NO_VALID_1", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Chain elongation, no of valid initial values, exhaust bank 1"}
   ]},
@@ -1295,63 +1295,63 @@
   "signals": [
     {"id": "911_ENG_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 100, "min": -327.68, "div": 100, "sign": true, "unit": "percent" }, "name": "Engine oil level current value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_SHORT_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Short term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_LONG_TERM_FUEL_TRIM_1", "path": "Fuel", "fmt": { "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Long term fuel trim bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_RPM", "path": "Movement", "fmt": { "len": 16, "max": 7000, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since dtcs cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_BARO", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_EXH_GAS_T", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Exhaust gas temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2017, 2019, 2020, 2021, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "911_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F446"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_AAT_V4", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F449"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_ACCEL_PEDAL_POS_1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F44A"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_ACCEL_PEDAL_POS_2", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position 2"}
   ]},

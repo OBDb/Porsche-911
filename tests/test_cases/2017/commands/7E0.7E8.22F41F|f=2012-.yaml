@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F|f=2012-
+test_cases:
+- expected_values:
+    911_RUNTM: 21
+  response: 7E80562F41F0015
+- expected_values:
+    911_RUNTM: 84
+  response: 7E80562F41F0054
+- expected_values:
+    911_RUNTM: 119
+  response: 7E80562F41F0077
+- expected_values:
+    911_RUNTM: 153
+  response: 7E80562F41F0099

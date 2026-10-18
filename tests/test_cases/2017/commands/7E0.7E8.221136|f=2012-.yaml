@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221136|f=2012-
+test_cases:
+- expected_values:
+    911_HEIGHT_CORR: 0.19531
+  response: 7E8056211360C80

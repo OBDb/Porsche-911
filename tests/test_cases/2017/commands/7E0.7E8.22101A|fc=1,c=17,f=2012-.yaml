@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22101A|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_A_C_COMPRESSOR_TORQUE: 59.2
+  response: 7E80562101A0250
+- expected_values:
+    911_A_C_COMPRESSOR_TORQUE: 62
+  response: 7E80562101A026C

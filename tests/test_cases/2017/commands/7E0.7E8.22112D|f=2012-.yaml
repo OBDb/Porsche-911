@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22112D|f=2012-
+test_cases:
+- expected_values:
+    911_SPARK_EFF_DEV_PART: 44.517
+  response: 7E80462112D39
+- expected_values:
+    911_SPARK_EFF_DEV_PART: 45.298
+  response: 7E80462112D3A
+- expected_values:
+    911_SPARK_EFF_DEV_PART: 48.422
+  response: 7E80462112D3E
+- expected_values:
+    911_SPARK_EFF_DEV_PART: 49.984
+  response: 7E80462112D40
+- expected_values:
+    911_SPARK_EFF_DEV_PART: 54.67
+  response: 7E80462112D46

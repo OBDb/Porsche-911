@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221106|f=2012-
+test_cases:
+- expected_values:
+    911_INJ_QTY_DEV_CYL_2: 20.77
+  response: 7E805621106081D
+- expected_values:
+    911_INJ_QTY_DEV_CYL_2: 22.37
+  response: 7E80562110608BD
+- expected_values:
+    911_INJ_QTY_DEV_CYL_2: 23.49
+  response: 7E805621106092D

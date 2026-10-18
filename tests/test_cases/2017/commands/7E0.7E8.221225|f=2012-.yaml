@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221225|f=2012-
+test_cases:
+- expected_values:
+    911_TQ_LOSS_ADPT_IDLE: 792.2
+  response: 7E8056212251EF2
+- expected_values:
+    911_TQ_LOSS_ADPT_IDLE: 839.6
+  response: 7E80562122520CC
+- expected_values:
+    911_TQ_LOSS_ADPT_IDLE: 941.9
+  response: 7E80562122524CB
