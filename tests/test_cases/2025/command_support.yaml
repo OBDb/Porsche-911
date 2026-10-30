@@ -1086,6 +1086,7 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.22F45B
   "7E6":
   - 7E6.7EE.0104
+  - 7E6.7EE.0105
   "7E7":
   - 7E7.7EF.0104
   - 7E7.7EF.0105
