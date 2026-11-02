@@ -914,7 +914,7 @@
   "signals": [
     {"id": "911_RATED_DRIVE_TQ", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Rated drive torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14B4"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14B4"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2017, "years": [2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "911_FUEL_LEVEL_INPUT_V1", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "div": 100, "nullmax": 327.67, "unit": "liters" }, "name": "Fuel level input, v1", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -1319,7 +1319,7 @@
   "signals": [
     {"id": "911_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "911_FLI_INPUT", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Fuel level input %", "suggestedMetric": "fuelTankLevel"}
   ]},
