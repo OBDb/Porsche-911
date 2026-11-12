@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22110B|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_UPPER_ADAPTED_COUPLING_POINT_K1_FROM_MACRO_SLIP_PATH_ADAPT: 0
+  response: 7E90762110B00000000

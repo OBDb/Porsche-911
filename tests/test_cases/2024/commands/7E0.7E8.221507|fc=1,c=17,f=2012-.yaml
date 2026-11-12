@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221507|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_CAT_CONVERTER_OXYGEN_STORAGE_CAPACITY_MEASURED: 0
+  response: '7E8056215070000'

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221137|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_PART_EVAP: 0
+  response: '7E80462113700'
+- expected_values:
+    911_FUEL_PART_EVAP: -0.00781
+  response: 7E804621137FF

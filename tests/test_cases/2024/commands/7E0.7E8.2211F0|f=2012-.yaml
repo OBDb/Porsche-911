@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211F0|f=2012-
+test_cases:
+- expected_values:
+    911_BOOST_P_ACT: 101.41406
+  response: 7E8056211F032B5
+- expected_values:
+    911_BOOST_P_ACT: 101.88281
+  response: 7E8056211F032F1
+- expected_values:
+    911_BOOST_P_ACT: 124.02344
+  response: 7E8056211F03E03

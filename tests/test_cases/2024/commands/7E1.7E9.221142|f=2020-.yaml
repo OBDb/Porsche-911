@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221142|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_NEUTRAL_POS_GEAR_SELECTOR_5_N: 23.04
+  response: '7E9056211420009'

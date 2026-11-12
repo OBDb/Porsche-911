@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221421|f=2012-
+test_cases:
+- expected_values:
+    911_EXH_T_BEFORE_CAT: 357.1
+  response: 7E805621421189E
+- expected_values:
+    911_EXH_T_BEFORE_CAT: 495.3
+  response: 7E8056214211E04
+- expected_values:
+    911_EXH_T_BEFORE_CAT: 519.3
+  response: 7E8056214211EF4
+- expected_values:
+    911_EXH_T_BEFORE_CAT: 641
+  response: 7E80562142123B5

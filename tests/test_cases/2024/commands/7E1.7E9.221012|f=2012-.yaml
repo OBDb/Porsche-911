@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221012|f=2012-
+test_cases:
+- expected_values:
+    911_ID_CURRENT_DRIVING: 0
+  response: '7E90462101200'
+- expected_values:
+    911_ID_CURRENT_DRIVING: 1
+  response: '7E90462101201'

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221134|f=2012-
+test_cases:
+- expected_values:
+    911_SEG_AD_MMV_ER_MID_2: 0.7155
+  response: 7E8056211340BB9
+- expected_values:
+    911_SEG_AD_MMV_ER_MID_2: 0.71717
+  response: 7E8056211340BC0
+- expected_values:
+    911_SEG_AD_MMV_ER_MID_2: 0.71907
+  response: 7E8056211340BC8
+- expected_values:
+    911_SEG_AD_MMV_ER_MID_2: 0.72074
+  response: 7E8056211340BCF

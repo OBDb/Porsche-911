@@ -1,0 +1,14 @@
+command_id: 710.77A.222A0F|f=2020-
+test_cases:
+- expected_values:
+    911_SSB_AH: 25
+  response: 77A04622A0F19
+- expected_values:
+    911_SSB_AH: 26
+  response: 77A04622A0F1A
+- expected_values:
+    911_SSB_AH: 27
+  response: 77A04622A0F1B
+- expected_values:
+    911_SSB_AH: 28
+  response: 77A04622A0F1C

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2251D4|f=2012-
+test_cases:
+- expected_values:
+    911_CYL_BLOCK_T_SENS: 0
+  response: 7E8056251D40AAB

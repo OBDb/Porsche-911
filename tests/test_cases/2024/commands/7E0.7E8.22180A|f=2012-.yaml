@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22180A|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_RATE_DIFF_INJ: 0
+  response: 7E80562180A0000
+- expected_values:
+    911_FUEL_RATE_DIFF_INJ: 0.98436
+  response: 7E80562180A00FC
+- expected_values:
+    911_FUEL_RATE_DIFF_INJ: -0.34375
+  response: 7E80562180AFFA8

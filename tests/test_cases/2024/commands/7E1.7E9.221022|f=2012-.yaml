@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221022|f=2012-
+test_cases:
+- expected_values:
+    911_TCM_TQ_LOSSES: 0
+  response: '7E9056210220000'

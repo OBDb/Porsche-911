@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22128C|f=2012-
+test_cases:
+- expected_values:
+    911_AVG_INJ_TIME: 0.2028
+  response: 7E80762128C000001FB
+- expected_values:
+    911_AVG_INJ_TIME: 0.4092
+  response: 7E80762128C000003FF
+- expected_values:
+    911_AVG_INJ_TIME: 0.41
+  response: 7E80762128C00000401
+- expected_values:
+    911_AVG_INJ_TIME: 1.2828
+  response: 7E80762128C00000C87

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215C0|f=2012-
+test_cases:
+- expected_values:
+    911_IAT_RAW: 30.2
+  response: 7E8056215C00BD9
+- expected_values:
+    911_IAT_RAW: 33.7
+  response: 7E8056215C00BFC
+- expected_values:
+    911_IAT_RAW: 34.5
+  response: 7E8056215C00C04

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22127D|f=2012-
+test_cases:
+- expected_values:
+    911_VARIABLE_VLV_TIM_INT_1_ON: 0
+  response: 7E80562127D0000
+- expected_values:
+    911_VARIABLE_VLV_TIM_INT_1_ON: 45.29109
+  response: 7E80562127D39F9
+- expected_values:
+    911_VARIABLE_VLV_TIM_INT_1_ON: 52.58784
+  response: 7E80562127D4350

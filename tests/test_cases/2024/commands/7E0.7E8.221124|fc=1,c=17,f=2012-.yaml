@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221124|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_CAMSHAFT_VSS: 322.5
+  response: 7E805621124050A
+- expected_values:
+    911_CAMSHAFT_VSS: 511.75
+  response: 7E80562112407FF
+- expected_values:
+    911_CAMSHAFT_VSS: 513
+  response: '7E8056211240804'
+- expected_values:
+    911_CAMSHAFT_VSS: 858.5
+  response: 7E8056211240D6A

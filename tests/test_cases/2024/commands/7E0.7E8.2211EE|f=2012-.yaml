@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211EE|f=2012-
+test_cases:
+- expected_values:
+    911_P_BEFORE_THROTTLE_ACT: 1017.03125
+  response: 7E8056211EE32DA
+- expected_values:
+    911_P_BEFORE_THROTTLE_ACT: 1019.84375
+  response: 7E8056211EE32FE
+- expected_values:
+    911_P_BEFORE_THROTTLE_ACT: 1020.3125
+  response: 7E8056211EE3304
+- expected_values:
+    911_P_BEFORE_THROTTLE_ACT: 1101.32812
+  response: 7E8056211EE3711

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221712|f=2012-
+test_cases:
+- expected_values:
+    911_RAT_EVAPORATED_FUEL_MAX: 0
+  response: '7E80462171200'

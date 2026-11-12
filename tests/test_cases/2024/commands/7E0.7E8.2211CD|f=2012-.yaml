@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211CD|f=2012-
+test_cases:
+- expected_values:
+    911_TCO_1_SYS: -40
+  response: 7E8056211CD0000
+- expected_values:
+    911_TCO_1_SYS: 215
+  response: 7E8056211CDFF51
+- expected_values:
+    911_TCO_1_SYS: 215
+  response: 7E8056211CDFFFE

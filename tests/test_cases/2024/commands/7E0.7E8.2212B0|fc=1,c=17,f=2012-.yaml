@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2212B0|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_ACCELERATION_29BIT: 0
+  response: 7E8056212B00000
+- expected_values:
+    911_ACCELERATION_29BIT: 0.213
+  response: 7E8056212B000D5
+- expected_values:
+    911_ACCELERATION_29BIT: -0.25
+  response: 7E8056212B0FF06

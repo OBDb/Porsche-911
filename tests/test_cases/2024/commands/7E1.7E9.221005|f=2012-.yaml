@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221005|f=2012-
+test_cases:
+- expected_values:
+    911_VSS_ESP: 139.4
+  response: '7E9056210053674'
+- expected_values:
+    911_VSS_ESP: 140.73
+  response: 7E90562100536F9
+- expected_values:
+    911_VSS_ESP: 141.01
+  response: '7E9056210053715'

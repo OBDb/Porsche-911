@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221130|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_COOLANT_FAN_1_ACTIVATION: 10.15
+  response: 7E80562113003F7
+- expected_values:
+    911_COOLANT_FAN_1_ACTIVATION: 23.04
+  response: '7E8056211300900'
+- expected_values:
+    911_COOLANT_FAN_1_ACTIVATION: 28.12
+  response: 7E8056211300AFC
+- expected_values:
+    911_COOLANT_FAN_1_ACTIVATION: 40.23
+  response: 7E8056211300FB7

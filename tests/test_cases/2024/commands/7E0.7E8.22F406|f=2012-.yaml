@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22F406|f=2012-
+test_cases:
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: -3.90625
+  response: 7E80462F4067B
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: -2.34375
+  response: 7E80462F4067D
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: -1.5625
+  response: 7E80462F4067E
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: -0.78125
+  response: 7E80462F4067F
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: 0
+  response: 7E80462F40680
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: 0.78125
+  response: 7E80462F40681
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: 2.34375
+  response: 7E80462F40683
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: 3.125
+  response: 7E80462F40684
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: 4.6875
+  response: 7E80462F40686
+- expected_values:
+    911_SHORT_TERM_FUEL_TRIM_1: 6.25
+  response: 7E80462F40688

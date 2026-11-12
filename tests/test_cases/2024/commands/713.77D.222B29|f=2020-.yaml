@@ -1,0 +1,11 @@
+command_id: 713.77D.222B29|f=2020-
+test_cases:
+- expected_values:
+    911_STEER_ANGLE: 0.001
+  response: 77D05622B290001
+- expected_values:
+    911_STEER_ANGLE: -0.226
+  response: 77D05622B29FF1E
+- expected_values:
+    911_STEER_ANGLE: -0.017
+  response: 77D05622B29FFEF

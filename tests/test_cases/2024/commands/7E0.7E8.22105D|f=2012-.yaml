@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22105D|f=2012-
+test_cases:
+- expected_values:
+    911_BRAKE_PEDAL_POS: 0
+  response: 7E80562105D0000
+- expected_values:
+    911_BRAKE_PEDAL_POS: 0.40283
+  response: 7E80562105D0021
+- expected_values:
+    911_BRAKE_PEDAL_POS: 4.0039
+  response: 7E80562105D0148
+- expected_values:
+    911_BRAKE_PEDAL_POS: 7.20213
+  response: 7E80562105D024E
+- expected_values:
+    911_BRAKE_PEDAL_POS: 8.39842
+  response: 7E80562105D02B0
+- expected_values:
+    911_BRAKE_PEDAL_POS: 9.99753
+  response: 7E80562105D0333
+- expected_values:
+    911_BRAKE_PEDAL_POS: 10.40036
+  response: 7E80562105D0354
+- expected_values:
+    911_BRAKE_PEDAL_POS: 11.20603
+  response: 7E80562105D0396

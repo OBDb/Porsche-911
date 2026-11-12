@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22128A|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_T: 48.75
+  response: 7E80462128A81
+- expected_values:
+    911_FUEL_T: 90
+  response: 7E80462128AB8

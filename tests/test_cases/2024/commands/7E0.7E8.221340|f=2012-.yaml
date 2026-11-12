@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221340|f=2012-
+test_cases:
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -50036.7
+  response: 7E807621340FFF85D71
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -40763.3
+  response: 7E807621340FFF9C7AF
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -32440.3
+  response: 7E807621340FFFB0CCD
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -21954.5
+  response: 7E807621340FFFCA667
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -19267.5
+  response: 7E807621340FFFD0F5D
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -15958
+  response: 7E807621340FFFD90A4
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -12058.6
+  response: 7E807621340FFFE28F6
+- expected_values:
+    911_TQ_INCREASE_REQ_ESP: -9568.2
+  response: 7E807621340FFFE8A3E

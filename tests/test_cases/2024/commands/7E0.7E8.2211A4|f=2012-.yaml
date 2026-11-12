@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211A4|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_PMP_CMD_DUTY: 10.00058
+  response: 7E8056211A4199A
+- expected_values:
+    911_FUEL_PMP_CMD_DUTY: 16.79988
+  response: 7E8056211A42B02
+- expected_values:
+    911_FUEL_PMP_CMD_DUTY: 18.74842
+  response: 7E8056211A42FFF

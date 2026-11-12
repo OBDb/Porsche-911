@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221063|f=2020-
+test_cases:
+- expected_values:
+    911_CLUTCH_1_CHAR_CURVE_SHIFT: 2.38336
+  response: 7E9076210638009CD18

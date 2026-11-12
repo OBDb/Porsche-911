@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221644|f=2012-
+test_cases:
+- expected_values:
+    911_LATERAL_ACCEL: 0
+  response: '7E8056216440000'
+- expected_values:
+    911_LATERAL_ACCEL: -0.21
+  response: 7E805621644FFEB
+- expected_values:
+    911_LATERAL_ACCEL: -0.01
+  response: 7E805621644FFFF

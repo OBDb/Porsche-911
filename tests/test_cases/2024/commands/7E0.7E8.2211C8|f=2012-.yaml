@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211C8|f=2012-
+test_cases:
+- expected_values:
+    911_LOW_FUEL_P_ACT: 522.5
+  response: 7E8056211C81469
+- expected_values:
+    911_LOW_FUEL_P_ACT: 537.4
+  response: 7E8056211C814FE
+- expected_values:
+    911_LOW_FUEL_P_ACT: 538.7
+  response: 7E8056211C8150B
+- expected_values:
+    911_LOW_FUEL_P_ACT: 638.3
+  response: 7E8056211C818EF

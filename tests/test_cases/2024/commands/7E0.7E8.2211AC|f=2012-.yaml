@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211AC|f=2012-
+test_cases:
+- expected_values:
+    911_MAF_THROUGH_THROTTLE: 11.8
+  response: 7E8056211AC0076
+- expected_values:
+    911_MAF_THROUGH_THROTTLE: 24.9
+  response: 7E8056211AC00F9
+- expected_values:
+    911_MAF_THROUGH_THROTTLE: 104.4
+  response: 7E8056211AC0414

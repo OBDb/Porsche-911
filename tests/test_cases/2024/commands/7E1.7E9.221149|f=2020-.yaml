@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221149|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_2_4: 486.48
+  response: 7E90562114908BE
+- expected_values:
+    911_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_2_4: 560.72
+  response: 7E90562114908DB

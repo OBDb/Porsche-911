@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221212|f=2012-
+test_cases:
+- expected_values:
+    911_KNOCK_SENS_CYL_2: 0.01686
+  response: '7E80762121200005673'
+- expected_values:
+    911_KNOCK_SENS_CYL_2: 0.01873
+  response: '7E80762121200006001'
+- expected_values:
+    911_KNOCK_SENS_CYL_2: 0.03218
+  response: 7E8076212120000A4F8
+- expected_values:
+    911_KNOCK_SENS_CYL_2: 0.04173
+  response: 7E8076212120000D5F0

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2214B4|f=2012-
+test_cases:
+- expected_values:
+    911_FUEL_LEVEL_INPUT_V1: 25
+  response: 7E8056214B409C4
+- expected_values:
+    911_FUEL_LEVEL_INPUT_V1: 26
+  response: 7E8056214B40A28
+- expected_values:
+    911_FUEL_LEVEL_INPUT_V1: 27
+  response: 7E8056214B40A8C

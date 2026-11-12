@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211AD|f=2012-
+test_cases:
+- expected_values:
+    911_MAF_CMD: 11.7
+  response: 7E8056211AD0075
+- expected_values:
+    911_MAF_CMD: 23.2
+  response: 7E8056211AD00E8
+- expected_values:
+    911_MAF_CMD: 52.1
+  response: 7E8056211AD0209
+- expected_values:
+    911_MAF_CMD: 78.9
+  response: 7E8056211AD0315

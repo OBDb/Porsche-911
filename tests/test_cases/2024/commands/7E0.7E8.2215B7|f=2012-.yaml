@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215B7|f=2012-
+test_cases:
+- expected_values:
+    911_ENG_OIL_SUMP_T: 86.12
+  response: 7E8056215B70BDA
+- expected_values:
+    911_ENG_OIL_SUMP_T: 91.88
+  response: 7E8056215B70BFA
+- expected_values:
+    911_ENG_OIL_SUMP_T: 185.84
+  response: 7E8056215B70E04

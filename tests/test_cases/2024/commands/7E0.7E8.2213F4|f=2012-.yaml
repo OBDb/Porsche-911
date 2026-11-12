@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213F4|f=2012-
+test_cases:
+- expected_values:
+    911_IGA_CYL_KNK_2: -0.75
+  response: 7E8056213F47EB5
+- expected_values:
+    911_IGA_CYL_KNK_2: -0.75
+  response: 7E8056213F47EBB
+- expected_values:
+    911_IGA_CYL_KNK_2: -0.75
+  response: 7E8056213F47EC6

@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221133|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_I_UPPER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT: 445
+  response: '7E90462113359'
+- expected_values:
+    911_DQ250_I_UPPER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT: 450
+  response: 7E9046211335A
+- expected_values:
+    911_DQ250_I_UPPER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT: 680
+  response: '7E90462113388'

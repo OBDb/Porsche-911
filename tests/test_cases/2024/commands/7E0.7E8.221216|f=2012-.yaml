@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221216|f=2012-
+test_cases:
+- expected_values:
+    911_REL_LOAD: 13.52506
+  response: '7E8056212160241'
+- expected_values:
+    911_REL_LOAD: 24.1904
+  response: '7E8056212160408'
+- expected_values:
+    911_REL_LOAD: 35.67615
+  response: 7E80562121605F2
+- expected_values:
+    911_REL_LOAD: 66.9924
+  response: 7E8056212160B2A

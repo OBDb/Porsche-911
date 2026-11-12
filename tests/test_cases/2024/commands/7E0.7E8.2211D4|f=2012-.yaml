@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211D4|f=2012-
+test_cases:
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 265.70312
+  response: 7E8056211D40D49
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 440.85938
+  response: 7E8056211D4160B
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 739.21875
+  response: 7E8056211D424F6
+- expected_values:
+    911_TURBOCHARGER_INLET_P: 1017.57812
+  response: 7E8056211D432E1

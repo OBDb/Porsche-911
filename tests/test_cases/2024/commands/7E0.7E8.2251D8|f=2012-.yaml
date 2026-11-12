@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2251D8|f=2012-
+test_cases:
+- expected_values:
+    911_TANK_FILL_LEVEL: 640
+  response: 7E8056251D81900
+- expected_values:
+    911_TANK_FILL_LEVEL: 742.4
+  response: 7E8056251D81D00

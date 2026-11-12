@@ -1,0 +1,11 @@
+command_id: 710.77A.222A1C|fc=1,f=2012-
+test_cases:
+- expected_values:
+    911_GEN_CURRENT: 49.3
+  response: 77A05622A1C0193
+- expected_values:
+    911_GEN_CURRENT: 59.3
+  response: 77A05622A1C01F7
+- expected_values:
+    911_GEN_CURRENT: 60.4
+  response: 77A05622A1C0202

@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22100B|f=2020-
+test_cases:
+- expected_values:
+    911_TCM_DRIVER_DEMAND_TORQUE: 0
+  response: 7E90562100B0000
+- expected_values:
+    911_TCM_DRIVER_DEMAND_TORQUE: 50.95
+  response: 7E90562100B03FB
+- expected_values:
+    911_TCM_DRIVER_DEMAND_TORQUE: 78.8
+  response: 7E90562100B0628

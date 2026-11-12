@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211D5|f=2012-
+test_cases:
+- expected_values:
+    911_HIGH_FUEL_P: 0
+  response: 7E8056211D50000
+- expected_values:
+    911_HIGH_FUEL_P: -0.06
+  response: 7E8056211D5FF88
+- expected_values:
+    911_HIGH_FUEL_P: -0.002
+  response: 7E8056211D5FFFC

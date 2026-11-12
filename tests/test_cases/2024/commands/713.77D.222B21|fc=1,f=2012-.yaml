@@ -1,0 +1,37 @@
+command_id: 713.77D.222B21|fc=1,f=2012-
+test_cases:
+- expected_values:
+    911_BRAKE_P: 0.00012
+  response: |-
+    77D1009622B210ADAFF
+    77D21FEFFFE00000000
+- expected_values:
+    911_BRAKE_P: 1.57601
+  response: |-
+    77D1009622B210B41FF
+    77D21FEFFFE00000000
+- expected_values:
+    911_BRAKE_P: 3.565
+  response: |-
+    77D1009622B210BC3FF
+    77D21FEFFFE00000000
+- expected_values:
+    911_BRAKE_P: 3.7027
+  response: |-
+    77D1009622B210BCCFF
+    77D21FEFFFE00000000
+- expected_values:
+    911_BRAKE_P: 4.52889
+  response: |-
+    77D1009622B210C02FF
+    77D21FEFFFE00000000
+- expected_values:
+    911_BRAKE_P: 5.79878
+  response: |-
+    77D1009622B210C55FF
+    77D21FEFFFE00000000
+- expected_values:
+    911_BRAKE_P: 6.88508
+  response: |-
+    77D1009622B210C9CFF
+    77D21FEFFFE00000000

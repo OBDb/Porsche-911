@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221136|f=2012-
+test_cases:
+- expected_values:
+    911_HEIGHT_CORR: 1.00494
+  response: '7E8056211364051'
+- expected_values:
+    911_HEIGHT_CORR: 1.00567
+  response: 7E805621136405D

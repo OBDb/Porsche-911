@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EB|f=2012-
+test_cases:
+- expected_values:
+    911_CRANK_ROT_ANG: 15
+  response: 7E8056210EB0096
+- expected_values:
+    911_CRANK_ROT_ANG: 51
+  response: 7E8056210EB01FE
+- expected_values:
+    911_CRANK_ROT_ANG: 51.2
+  response: 7E8056210EB0200

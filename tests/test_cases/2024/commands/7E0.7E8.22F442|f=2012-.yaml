@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F442|f=2012-
+test_cases:
+- expected_values:
+    911_VPWR: 12.1
+  response: 7E80562F4422F44
+- expected_values:
+    911_VPWR: 13.82
+  response: 7E80562F44235FC
+- expected_values:
+    911_VPWR: 14.08
+  response: 7E80562F4423700

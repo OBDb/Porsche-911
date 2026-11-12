@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213A0|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_COOLANT_T_MODELED_VALUE: 42.5
+  response: 7E8056213A00C54
+- expected_values:
+    911_COOLANT_T_MODELED_VALUE: 58.5
+  response: 7E8056213A00CF4
+- expected_values:
+    911_COOLANT_T_MODELED_VALUE: 59.8
+  response: 7E8056213A00D01

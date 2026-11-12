@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211DC|f=2012-
+test_cases:
+- expected_values:
+    911_MAP_RAW: 280.9375
+  response: 7E8056211DC0E0C
+- expected_values:
+    911_MAP_RAW: 399.84375
+  response: 7E8056211DC13FE
+- expected_values:
+    911_MAP_RAW: 980.46875
+  response: 7E8056211DC3106
+- expected_values:
+    911_MAP_RAW: 1015.70312
+  response: 7E8056211DC32C9

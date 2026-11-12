@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211D1|f=2012-
+test_cases:
+- expected_values:
+    911_BRAKE_BOOSTER_RAW_P: 0
+  response: 7E8056211D10000

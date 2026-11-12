@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221001|fc=1,f=2012-
+test_cases:
+- expected_values:
+    911_IAT_7E0: -48
+  response: '7E80462100100'

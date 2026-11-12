@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221290|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 718.21166
+  response: 7E805621290A53B
+- expected_values:
+    911_OXYGEN_SNS_1_BANK_1_CERAMIC_T: 720.86004
+  response: 7E805621290A5AC
