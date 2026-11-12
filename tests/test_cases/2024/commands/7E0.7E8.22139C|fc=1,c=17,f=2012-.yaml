@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22139C|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 301.3
+  response: 7E80562139C1670
+- expected_values:
+    911_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 391.6
+  response: 7E80562139C19F7
+- expected_values:
+    911_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE: 418.3
+  response: 7E80562139C1B02

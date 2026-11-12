@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211AB|f=2012-
+test_cases:
+- expected_values:
+    911_INT_MODEL_AIR_MASS: 0
+  response: 7E8056211AB0000
+- expected_values:
+    911_INT_MODEL_AIR_MASS: 75.9
+  response: 7E8056211AB02F7
+- expected_values:
+    911_INT_MODEL_AIR_MASS: 103.7
+  response: 7E8056211AB040D

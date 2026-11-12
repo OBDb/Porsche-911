@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221065|f=2012-
+test_cases:
+- expected_values:
+    911_CYL_HEAD_T: 133.82
+  response: 7E8056210650CE3
+- expected_values:
+    911_CYL_HEAD_T: 137.96
+  response: 7E8056210650CFA
+- expected_values:
+    911_CYL_HEAD_T: 187.1
+  response: 7E8056210650E0B

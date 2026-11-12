@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22107D|f=2012-
+test_cases:
+- expected_values:
+    911_TQ_LIM: 1000
+  response: 7E80562107D2710

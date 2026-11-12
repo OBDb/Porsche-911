@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0A|f=2020-
+test_cases:
+- expected_values:
+    911_SSB_SENSOR_T: 30
+  response: 77A04622A0A46
+- expected_values:
+    911_SSB_SENSOR_T: 31
+  response: 77A04622A0A47

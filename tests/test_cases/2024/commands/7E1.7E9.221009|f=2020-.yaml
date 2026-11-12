@@ -1,0 +1,32 @@
+command_id: 7E1.7E9.221009|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 4096
+  response: '7E9056210090010'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210090222'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210090332'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210090444'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210092223'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210093222'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210094554'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210094555'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210095444'
+- expected_values:
+    911_DQ250_SPD_OUTPUT: 7000
+  response: '7E9056210095666'

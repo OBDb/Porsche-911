@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211E0|f=2012-
+test_cases:
+- expected_values:
+    911_CMD_CRANK_TQ: 2.9
+  response: 7E8056211E0001D
+- expected_values:
+    911_CMD_CRANK_TQ: 25.5
+  response: 7E8056211E000FF
+- expected_values:
+    911_CMD_CRANK_TQ: -25.5
+  response: 7E8056211E0FF01

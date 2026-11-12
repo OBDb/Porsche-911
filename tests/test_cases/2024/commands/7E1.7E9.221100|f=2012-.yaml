@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221100|f=2012-
+test_cases:
+- expected_values:
+    911_ADPT_INFLATION_TIME: 0
+  response: '7E90762110000000000'

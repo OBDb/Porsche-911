@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221272|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 357.2
+  response: 7E805621272189F
+- expected_values:
+    911_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 391.3
+  response: 7E80562127219F4
+- expected_values:
+    911_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 521.9
+  response: 7E8056212721F0E

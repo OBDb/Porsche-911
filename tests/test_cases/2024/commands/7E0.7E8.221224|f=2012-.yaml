@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221224|f=2012-
+test_cases:
+- expected_values:
+    911_TQ_LOSS_ADPT_GEAR: -3.8
+  response: 7E805621224FFDA

@@ -1,0 +1,65 @@
+command_id: 70B.775.2218A1|fc=1,f=2015-
+test_cases:
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 6.9
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23634558FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 6.9
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23644558FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 7
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23644658FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 7
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23654658FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 7.1
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23654758FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 7.2
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23654858FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 7.3
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23654958FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 7.2
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23664858FFAA
+- expected_values:
+    911_TID_FR: 610703900
+    911_TP_FR: 16.7
+    911_TT_FR: 48
+  response: |-
+    775100C6218A124669A
+    775211C23FFA758FFAA

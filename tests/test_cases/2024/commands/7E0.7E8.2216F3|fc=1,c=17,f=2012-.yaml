@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216F3|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_CRANKSHAFT_VSS: 627.5
+  response: 7E8056216F304E7
+- expected_values:
+    911_CRANKSHAFT_VSS: 1149
+  response: 7E8056216F308FA
+- expected_values:
+    911_CRANKSHAFT_VSS: 1153
+  response: 7E8056216F30902
+- expected_values:
+    911_CRANKSHAFT_VSS: 1686
+  response: 7E8056216F30D2C

@@ -1,0 +1,11 @@
+command_id: 713.77D.222B1B|f=2019-
+test_cases:
+- expected_values:
+    911_TIRE_FL_SPD_713: 0
+  response: 77D05622B1B0000
+- expected_values:
+    911_TIRE_FL_SPD_713: 24.4
+  response: 77D05622B1B00F4
+- expected_values:
+    911_TIRE_FL_SPD_713: 78.2
+  response: 77D05622B1B030E

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221065|f=2012-
+test_cases:
+- expected_values:
+    911_CLU_1_T_TIME_RANGE_0: 0
+  response: '7E90762106500000000'

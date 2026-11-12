@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221779|f=2012-
+test_cases:
+- expected_values:
+    911_LONG_TERM_FUEL_TRIM: 0.15259
+  response: '7E8056217791388'

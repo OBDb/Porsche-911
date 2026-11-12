@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221633|f=2012-
+test_cases:
+- expected_values:
+    911_LONGITUDINAL_ACCEL: 0.009
+  response: '7E8056216330009'
+- expected_values:
+    911_LONGITUDINAL_ACCEL: -0.771
+  response: 7E805621633FCFD
+- expected_values:
+    911_LONGITUDINAL_ACCEL: -0.508
+  response: 7E805621633FE04
+- expected_values:
+    911_LONGITUDINAL_ACCEL: -0.247
+  response: 7E805621633FF09

@@ -1,0 +1,29 @@
+command_id: 7E0.2210E0
+test_cases:
+- expected_values:
+    911_ODO_2: 20427
+  response: 7E8076210E000004FCB
+- expected_values:
+    911_ODO_2: 20428
+  response: 7E8076210E000004FCC
+- expected_values:
+    911_ODO_2: 20429
+  response: 7E8076210E000004FCD
+- expected_values:
+    911_ODO_2: 20430
+  response: 7E8076210E000004FCE
+- expected_values:
+    911_ODO_2: 20431
+  response: 7E8076210E000004FCF
+- expected_values:
+    911_ODO_2: 20432
+  response: 7E8076210E000004FD0
+- expected_values:
+    911_ODO_2: 20433
+  response: 7E8076210E000004FD1
+- expected_values:
+    911_ODO_2: 20434
+  response: 7E8076210E000004FD2
+- expected_values:
+    911_ODO_2: 20435
+  response: 7E8076210E000004FD3

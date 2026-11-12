@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221125|f=2012-
+test_cases:
+- expected_values:
+    911_CAM_ADPT_INT_BANK_1: 654.66
+  response: 7E8056211257FDD
+- expected_values:
+    911_CAM_ADPT_INT_BANK_1: 654.74
+  response: 7E8056211257FE1
+- expected_values:
+    911_CAM_ADPT_INT_BANK_1: 654.76
+  response: 7E8056211257FE2
+- expected_values:
+    911_CAM_ADPT_INT_BANK_1: 654.8
+  response: 7E8056211257FE4
+- expected_values:
+    911_CAM_ADPT_INT_BANK_1: 654.84
+  response: 7E8056211257FE6
+- expected_values:
+    911_CAM_ADPT_INT_BANK_1: 655.34
+  response: 7E8056211257FFF

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221021|f=2012-
+test_cases:
+- expected_values:
+    911_TCM_DRAG_TQ: 500
+  response: 7E90562102101F4

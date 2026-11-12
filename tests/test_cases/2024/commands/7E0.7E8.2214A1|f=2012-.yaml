@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2214A1|f=2012-
+test_cases:
+- expected_values:
+    911_RATED_DRIVE_TQ: 0
+  response: 7E8076214A100000000
+- expected_values:
+    911_RATED_DRIVE_TQ: 178.5
+  response: 7E8076214A1000006F9
+- expected_values:
+    911_RATED_DRIVE_TQ: -240
+  response: 7E8076214A1FFFFF6A0
+- expected_values:
+    911_RATED_DRIVE_TQ: -6
+  response: 7E8076214A1FFFFFFC4

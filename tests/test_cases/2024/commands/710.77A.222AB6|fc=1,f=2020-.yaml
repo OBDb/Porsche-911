@@ -1,0 +1,22 @@
+command_id: 710.77A.222AB6|fc=1,f=2020-
+test_cases:
+- expected_values:
+    911_RANGE_V2: 185
+  response: |-
+    77A100A622AB600B900
+    77A21B907FD00AAAAAA
+- expected_values:
+    911_RANGE_V2: 190
+  response: |-
+    77A100A622AB600BE00
+    77A21BE07FD00AAAAAA
+- expected_values:
+    911_RANGE_V2: 192
+  response: |-
+    77A100A622AB600C000
+    77A21C007FD00AAAAAA
+- expected_values:
+    911_RANGE_V2: 203
+  response: |-
+    77A100A622AB600CB00
+    77A21CB07FD00AAAAAA

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221175|f=2012-
+test_cases:
+- expected_values:
+    911_INTEGRATED_MASS_AIR: 0
+  response: '7E8056211750000'
+- expected_values:
+    911_INTEGRATED_MASS_AIR: 4638.2802
+  response: 7E80562117532F5
+- expected_values:
+    911_INTEGRATED_MASS_AIR: 17436.30684
+  response: 7E805621175BF8F

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221063|f=2012-
+test_cases:
+- expected_values:
+    911_ENG_OUTLET_ECT_CALC: 56.8
+  response: 7E8056210630CE3
+- expected_values:
+    911_ENG_OUTLET_ECT_CALC: 59.2
+  response: 7E8056210630CFB
+- expected_values:
+    911_ENG_OUTLET_ECT_CALC: 60.6
+  response: 7E8056210630D09
+- expected_values:
+    911_ENG_OUTLET_ECT_CALC: 86.3
+  response: 7E8056210630E0A

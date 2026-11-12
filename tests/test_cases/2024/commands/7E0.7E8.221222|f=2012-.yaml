@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221222|f=2012-
+test_cases:
+- expected_values:
+    911_TQ_LOSS_ADPT_AC_COMP: -5.7
+  response: 7E805621222FFC7
+- expected_values:
+    911_TQ_LOSS_ADPT_AC_COMP: -5.5
+  response: 7E805621222FFC9

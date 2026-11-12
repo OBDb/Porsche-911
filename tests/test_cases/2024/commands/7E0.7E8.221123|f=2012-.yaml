@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221123|f=2012-
+test_cases:
+- expected_values:
+    911_AAT_7E0: 28.5
+  response: 7E8056211230BC8
+- expected_values:
+    911_AAT_7E0: 28.6
+  response: 7E8056211230BC9
+- expected_values:
+    911_AAT_7E0: 28.7
+  response: 7E8056211230BCA
+- expected_values:
+    911_AAT_7E0: 29
+  response: 7E8056211230BCD
+- expected_values:
+    911_AAT_7E0: 29.2
+  response: 7E8056211230BCF
+- expected_values:
+    911_AAT_7E0: 29.5
+  response: 7E8056211230BD2

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2211DF|f=2012-
+test_cases:
+- expected_values:
+    911_POWERTRAIN_OVERALL: 2.92
+  response: 7E8056211DF0124
+- expected_values:
+    911_POWERTRAIN_OVERALL: 3.09
+  response: 7E8056211DF0135
+- expected_values:
+    911_POWERTRAIN_OVERALL: 3.68
+  response: 7E8056211DF0170
+- expected_values:
+    911_POWERTRAIN_OVERALL: 4.87
+  response: 7E8056211DF01E7
+- expected_values:
+    911_POWERTRAIN_OVERALL: 6.7
+  response: 7E8056211DF029E
+- expected_values:
+    911_POWERTRAIN_OVERALL: 8.41
+  response: 7E8056211DF0349
+- expected_values:
+    911_POWERTRAIN_OVERALL: 9.9
+  response: 7E8056211DF03DE
+- expected_values:
+    911_POWERTRAIN_OVERALL: 12.44
+  response: 7E8056211DF04DC
+- expected_values:
+    911_POWERTRAIN_OVERALL: 15.27
+  response: 7E8056211DF05F7

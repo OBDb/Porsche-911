@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22121C|f=2012-
+test_cases:
+- expected_values:
+    911_AIR_FILLING: 15.09407
+  response: 7E80562121C0284
+- expected_values:
+    911_AIR_FILLING: 41.18057
+  response: 7E80562121C06DD
+- expected_values:
+    911_AIR_FILLING: 42.21184
+  response: 7E80562121C0709
+- expected_values:
+    911_AIR_FILLING: 56.64965
+  response: 7E80562121C0971

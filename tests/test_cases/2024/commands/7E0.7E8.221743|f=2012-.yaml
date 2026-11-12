@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221743|f=2012-
+test_cases:
+- expected_values:
+    911_INTEGRATED_MASS_AIR_SINCE: 3129.99468
+  response: '7E8056217432263'
+- expected_values:
+    911_INTEGRATED_MASS_AIR_SINCE: 5917.94064
+  response: '7E8056217434104'
+- expected_values:
+    911_INTEGRATED_MASS_AIR_SINCE: 7552.80552
+  response: 7E80562174352FA
+- expected_values:
+    911_INTEGRATED_MASS_AIR_SINCE: 17504.2188
+  response: 7E805621743C04E

@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22105A|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_BATTERY_V: 13.98
+  response: 7E80562105A02BB
+- expected_values:
+    911_BATTERY_V: 14
+  response: 7E80562105A02BC
+- expected_values:
+    911_BATTERY_V: 14.02
+  response: 7E80562105A02BD
+- expected_values:
+    911_BATTERY_V: 14.04
+  response: 7E80562105A02BE
+- expected_values:
+    911_BATTERY_V: 14.06
+  response: 7E80562105A02BF
+- expected_values:
+    911_BATTERY_V: 14.08
+  response: 7E80562105A02C0
+- expected_values:
+    911_BATTERY_V: 14.1
+  response: 7E80562105A02C1
+- expected_values:
+    911_BATTERY_V: 14.12
+  response: 7E80562105A02C2
+- expected_values:
+    911_BATTERY_V: 14.14
+  response: 7E80562105A02C3
+- expected_values:
+    911_BATTERY_V: 14.16
+  response: 7E80562105A02C4

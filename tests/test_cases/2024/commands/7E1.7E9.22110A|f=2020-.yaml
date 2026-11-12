@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22110A|f=2020-
+test_cases:
+- expected_values:
+    911_DQ250_LOWER_ADAPTED_COUPLING_POINT_K2_FROM_MICRO_SLIP_PATH_ADAPT: 0
+  response: 7E90762110A00000000

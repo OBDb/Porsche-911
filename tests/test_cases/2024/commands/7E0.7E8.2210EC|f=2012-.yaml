@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EC|f=2012-
+test_cases:
+- expected_values:
+    911_VLV_TIM_DIFF_ACT_SET: 0
+  response: 7E8056210EC0000
+- expected_values:
+    911_VLV_TIM_DIFF_ACT_SET: -2.17188
+  response: 7E8056210ECFF75
+- expected_values:
+    911_VLV_TIM_DIFF_ACT_SET: -0.01562
+  response: 7E8056210ECFFFF

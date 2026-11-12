@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216C5|f=2012-
+test_cases:
+- expected_values:
+    911_THROTTLE_REGULATOR: 1.21094
+  response: 7E8056216C5009B
+- expected_values:
+    911_THROTTLE_REGULATOR: 1.99219
+  response: 7E8056216C500FF
+- expected_values:
+    911_THROTTLE_REGULATOR: 4.09375
+  response: 7E8056216C5020C
+- expected_values:
+    911_THROTTLE_REGULATOR: 18.47656
+  response: 7E8056216C5093D

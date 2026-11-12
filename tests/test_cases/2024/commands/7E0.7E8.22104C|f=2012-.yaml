@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22104C|f=2012-
+test_cases:
+- expected_values:
+    911_AIR_MASS_SPEC: 0
+  response: 7E80562104C0000

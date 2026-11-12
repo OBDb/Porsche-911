@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221097|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 848.232
+  response: 7E805621097005A
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 895.356
+  response: 7E805621097005F
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 942.48
+  response: '7E8056210970064'
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 999.0288
+  response: 7E805621097006A
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 1046.1528
+  response: 7E805621097006F
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 1093.2768
+  response: '7E8056210970074'
+- expected_values:
+    911_GENERATOR_PERFORMANCE: 1149.8256
+  response: 7E805621097007A

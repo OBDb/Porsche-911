@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211DA|f=2012-
+test_cases:
+- expected_values:
+    911_INT_MANIFOLD_P: 264.92188
+  response: 7E8056211DA0D3F
+- expected_values:
+    911_INT_MANIFOLD_P: 319.84375
+  response: 7E8056211DA0FFE
+- expected_values:
+    911_INT_MANIFOLD_P: 920.9375
+  response: 7E8056211DA2E0C
+- expected_values:
+    911_INT_MANIFOLD_P: 1017.57812
+  response: 7E8056211DA32E1

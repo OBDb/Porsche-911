@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221111|f=2012-
+test_cases:
+- expected_values:
+    911_OP_TIME_T_RANGE_1: 0
+  response: '7E90762111100000000'

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210A4|f=2012-
+test_cases:
+- expected_values:
+    911_INJ_SPD_INJ_0: 0
+  response: 7E8056210A40000

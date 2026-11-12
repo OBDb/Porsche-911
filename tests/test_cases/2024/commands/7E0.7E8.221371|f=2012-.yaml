@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221371|f=2012-
+test_cases:
+- expected_values:
+    911_CAM_ADJ_EXH_BANK_1_SPEC: 0.168
+  response: '7E8056213710015'
+- expected_values:
+    911_CAM_ADJ_EXH_BANK_1_SPEC: 4.064
+  response: 7E80562137101FC
+- expected_values:
+    911_CAM_ADJ_EXH_BANK_1_SPEC: -10.24
+  response: 7E805621371FB00
+- expected_values:
+    911_CAM_ADJ_EXH_BANK_1_SPEC: -1.288
+  response: 7E805621371FF5F

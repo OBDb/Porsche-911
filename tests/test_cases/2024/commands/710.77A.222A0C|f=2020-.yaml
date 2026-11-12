@@ -1,0 +1,20 @@
+command_id: 710.77A.222A0C|f=2020-
+test_cases:
+- expected_values:
+    911_SSB_SOC: 57
+  response: 77A04622A0C39
+- expected_values:
+    911_SSB_SOC: 58
+  response: 77A04622A0C3A
+- expected_values:
+    911_SSB_SOC: 59
+  response: 77A04622A0C3B
+- expected_values:
+    911_SSB_SOC: 60
+  response: 77A04622A0C3C
+- expected_values:
+    911_SSB_SOC: 61
+  response: 77A04622A0C3D
+- expected_values:
+    911_SSB_SOC: 62
+  response: 77A04622A0C3E

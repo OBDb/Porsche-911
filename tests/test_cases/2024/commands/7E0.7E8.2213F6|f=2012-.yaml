@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2213F6|f=2012-
+test_cases:
+- expected_values:
+    911_NL_PRE_0: 2.45484
+  response: 7E8056213F67DB0
+- expected_values:
+    911_NL_PRE_0: 2.45644
+  response: 7E8056213F67DC5
+- expected_values:
+    911_NL_PRE_0: 2.45667
+  response: 7E8056213F67DC8
+- expected_values:
+    911_NL_PRE_0: 2.45674
+  response: 7E8056213F67DC9

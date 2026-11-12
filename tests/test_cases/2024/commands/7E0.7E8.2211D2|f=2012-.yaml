@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211D2|f=2012-
+test_cases:
+- expected_values:
+    911_HIGH_P_CTRL_ADPT: 0
+  response: 7E8056211D20000
+- expected_values:
+    911_HIGH_P_CTRL_ADPT: -0.008
+  response: 7E8056211D2FFF0
+- expected_values:
+    911_HIGH_P_CTRL_ADPT: -0.0005
+  response: 7E8056211D2FFFF

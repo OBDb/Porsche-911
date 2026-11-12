@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2214CB|f=2012-
+test_cases:
+- expected_values:
+    911_GEAR_V2: 0
+  response: 7E8046214CB00
+- expected_values:
+    911_GEAR_V2: 1
+  response: 7E8046214CB01
+- expected_values:
+    911_GEAR_V2: 2
+  response: 7E8046214CB02
+- expected_values:
+    911_GEAR_V2: 3
+  response: 7E8046214CB03
+- expected_values:
+    911_GEAR_V2: 4
+  response: 7E8046214CB04
+- expected_values:
+    911_GEAR_V2: 5
+  response: 7E8046214CB05
+- expected_values:
+    911_GEAR_V2: 6
+  response: 7E8046214CB06

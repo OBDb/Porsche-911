@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2215CF|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_LONGTITUDINAL_ACCELERATION_RAW_VALUE: 0
+  response: 7E8056215CF0000

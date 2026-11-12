@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221161|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_ENGINE_RPM_AT_IDLE_REQUIRED: 650
+  response: '7E8056211610514'

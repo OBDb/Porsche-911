@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22100C|f=2020-
+test_cases:
+- expected_values:
+    911_TCM_ENGINE_TORQUE: -204.35
+  response: 7E90562100C09F0
+- expected_values:
+    911_TCM_ENGINE_TORQUE: 26.35
+  response: 7E90562100C0F02
+- expected_values:
+    911_TCM_ENGINE_TORQUE: -152.5
+  response: 7E90562100C16F4
+- expected_values:
+    911_TCM_ENGINE_TORQUE: -997.1
+  response: 7E90562100C1AB2

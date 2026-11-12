@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22159F|f=2012-
+test_cases:
+- expected_values:
+    911_HIGH_FUEL_P_ACT: 16.614
+  response: 7E80562159F81CC
+- expected_values:
+    911_HIGH_FUEL_P_ACT: 18.94
+  response: 7E80562159F93F8
+- expected_values:
+    911_HIGH_FUEL_P_ACT: 19.84
+  response: 7E80562159F9B00
+- expected_values:
+    911_HIGH_FUEL_P_ACT: 20.116
+  response: 7E80562159F9D28

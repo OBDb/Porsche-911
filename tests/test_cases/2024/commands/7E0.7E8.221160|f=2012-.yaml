@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221160|f=2012-
+test_cases:
+- expected_values:
+    911_ODO_HD: 9421.755
+  response: 7E807621160008FC3BB
+- expected_values:
+    911_ODO_HD: 9427.968
+  response: 7E807621160008FDC00
+- expected_values:
+    911_ODO_HD: 9428.223
+  response: 7E807621160008FDCFF
+- expected_values:
+    911_ODO_HD: 9429.269
+  response: 7E807621160008FE115

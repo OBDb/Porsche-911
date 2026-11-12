@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211B8|f=2012-
+test_cases:
+- expected_values:
+    911_AIR_LEAKAGE: 4.8
+  response: 7E8056211B80030
+- expected_values:
+    911_AIR_LEAKAGE: 4.9
+  response: 7E8056211B80031
+- expected_values:
+    911_AIR_LEAKAGE: 5
+  response: 7E8056211B80032
+- expected_values:
+    911_AIR_LEAKAGE: 5.1
+  response: 7E8056211B80033

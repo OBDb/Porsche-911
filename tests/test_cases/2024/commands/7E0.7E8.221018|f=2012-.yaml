@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221018|f=2012-
+test_cases:
+- expected_values:
+    911_CLT_FAN_REQ_AC: 0
+  response: '7E8056210180000'
+- expected_values:
+    911_CLT_FAN_REQ_AC: 31.20109
+  response: 7E80562101809FC
+- expected_values:
+    911_CLT_FAN_REQ_AC: 48.40076
+  response: 7E8056210180F7D

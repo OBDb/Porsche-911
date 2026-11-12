@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2215CA|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 22.54
+  response: 7E8056215CA08CE
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 25.78
+  response: 7E8056215CA0A12
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 29
+  response: 7E8056215CA0B54
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 32.21
+  response: 7E8056215CA0C95
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 51.54
+  response: 7E8056215CA1422
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 54.76
+  response: 7E8056215CA1564
+- expected_values:
+    911_GENERATOR_LOAD_NORMALIZED_VALUE: 57.98
+  response: 7E8056215CA16A6

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221010|fc=1,c=17,f=2012-
+test_cases:
+- expected_values:
+    911_ENGINE_TORQUE: 0
+  response: '7E8056210100000'
+- expected_values:
+    911_ENGINE_TORQUE: 176.3
+  response: 7E80562101006E3
+- expected_values:
+    911_ENGINE_TORQUE: 189
+  response: '7E8056210100762'

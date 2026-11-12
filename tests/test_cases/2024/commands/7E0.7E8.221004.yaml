@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221004
+test_cases:
+- expected_values:
+    911_AAT_V2: 0
+  response: '7E8056210040000'
+- expected_values:
+    911_AAT_V2: -1.34375
+  response: 7E805621004FF54
+- expected_values:
+    911_AAT_V2: -0.01562
+  response: 7E805621004FFFE

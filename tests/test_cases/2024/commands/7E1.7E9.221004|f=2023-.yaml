@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221004|f=2023-
+test_cases:
+- expected_values:
+    911_TIRE_RL_SPD: null
+  response: 7E905621004366B
+- expected_values:
+    911_TIRE_RL_SPD: null
+  response: 7E90562100436D4
+- expected_values:
+    911_TIRE_RL_SPD: null
+  response: 7E905621004370B

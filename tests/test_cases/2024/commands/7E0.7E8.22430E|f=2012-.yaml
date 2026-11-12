@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22430E|f=2012-
+test_cases:
+- expected_values:
+    911_NUM_INJECTIONS: 0
+  response: 7E80562430E0000
+- expected_values:
+    911_NUM_INJECTIONS: 251
+  response: 7E80562430E00FB
+- expected_values:
+    911_NUM_INJECTIONS: 65071
+  response: 7E80562430EFE2F

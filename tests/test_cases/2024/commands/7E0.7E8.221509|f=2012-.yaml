@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221509|f=2012-
+test_cases:
+- expected_values:
+    911_AMBIENT_AIR_P: 1016.223
+  response: 7E80562150965C9
+- expected_values:
+    911_AMBIENT_AIR_P: 1016.418
+  response: 7E80562150965CE
+- expected_values:
+    911_AMBIENT_AIR_P: 1016.613
+  response: 7E80562150965D3
+- expected_values:
+    911_AMBIENT_AIR_P: 1016.808
+  response: 7E80562150965D8
+- expected_values:
+    911_AMBIENT_AIR_P: 1017.003
+  response: 7E80562150965DD
+- expected_values:
+    911_AMBIENT_AIR_P: 1017.198
+  response: 7E80562150965E2
+- expected_values:
+    911_AMBIENT_AIR_P: 1017.393
+  response: 7E80562150965E7
