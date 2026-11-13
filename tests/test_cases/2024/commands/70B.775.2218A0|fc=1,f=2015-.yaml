@@ -9,11 +9,11 @@ test_cases:
     77521B922614458FFAA
 - expected_values:
     911_TID_RL: 610700473
-    911_TP_RL: 7.8
+    911_TP_RL: 7.9
     911_TT_RL: 48
   response: |-
     775100C6218A024668C
-    77521B922674E58FFAA
+    77521B922684F58FFAA
 - expected_values:
     911_TID_RL: 610700473
     911_TP_RL: 16.7
