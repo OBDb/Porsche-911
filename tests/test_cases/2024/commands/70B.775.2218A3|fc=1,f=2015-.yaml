@@ -2,25 +2,32 @@ command_id: 70B.775.2218A3|fc=1,f=2015-
 test_cases:
 - expected_values:
     911_TID_FL: 610779672
-    911_TP_FL: 6.9
+    911_TP_FL: 6.8
     911_TT_FL: 40
   response: |-
     775100C6218A32467C2
-    775211821684550FFAA
+    775211821674450FFAA
 - expected_values:
     911_TID_FL: 610779672
-    911_TP_FL: 7
+    911_TP_FL: 7.9
     911_TT_FL: 40
   response: |-
     775100C6218A32467C2
-    775211821694650FFAA
+    7752118216E4F50FFAA
 - expected_values:
     911_TID_FL: 610779672
-    911_TP_FL: 7.1
+    911_TP_FL: 8
     911_TT_FL: 40
   response: |-
     775100C6218A32467C2
-    775211821694750FFAA
+    7752118216E5050FFAA
+- expected_values:
+    911_TID_FL: 610779672
+    911_TP_FL: 8.4
+    911_TT_FL: 40
+  response: |-
+    775100C6218A32467C2
+    775211821705450FFAA
 - expected_values:
     911_TID_FL: 610779672
     911_TP_FL: 16.7
