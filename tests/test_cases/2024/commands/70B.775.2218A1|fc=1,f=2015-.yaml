@@ -9,11 +9,11 @@ test_cases:
     775211C23634458FFAA
 - expected_values:
     911_TID_FR: 610703900
-    911_TP_FR: 7.8
+    911_TP_FR: 7.9
     911_TT_FR: 48
   response: |-
     775100C6218A124669A
-    775211C23684E58FFAA
+    775211C23684F58FFAA
 - expected_values:
     911_TID_FR: 610703900
     911_TP_FR: 16.7
