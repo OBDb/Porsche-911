@@ -2,11 +2,11 @@ command_id: 70B.775.2218A0|fc=1,f=2015-
 test_cases:
 - expected_values:
     911_TID_RL: 610700473
-    911_TP_RL: 6.8
+    911_TP_RL: 6.7
     911_TT_RL: 48
   response: |-
     775100C6218A024668C
-    77521B922614458FFAA
+    77521B922614358FFAA
 - expected_values:
     911_TID_RL: 610700473
     911_TP_RL: 7.9
@@ -14,6 +14,13 @@ test_cases:
   response: |-
     775100C6218A024668C
     77521B922684F58FFAA
+- expected_values:
+    911_TID_RL: 610700473
+    911_TP_RL: 8
+    911_TT_RL: 48
+  response: |-
+    775100C6218A024668C
+    77521B922685058FFAA
 - expected_values:
     911_TID_RL: 610700473
     911_TP_RL: 16.7
