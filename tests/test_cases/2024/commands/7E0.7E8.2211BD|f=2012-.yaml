@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211BD|f=2012-
 test_cases:
 - expected_values:
-    911_OIL_LEVEL_WARN: 1.2764
-  response: 7E8056211BD0C77
+    911_OIL_LEVEL_WARN: 1.2632
+  response: 7E8056211BD0C56
 - expected_values:
     911_OIL_LEVEL_WARN: 1.4284
   response: 7E8056211BD0DF3

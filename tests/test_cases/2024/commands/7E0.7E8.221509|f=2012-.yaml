@@ -21,3 +21,6 @@ test_cases:
 - expected_values:
     911_AMBIENT_AIR_P: 1017.393
   response: 7E80562150965E7
+- expected_values:
+    911_AMBIENT_AIR_P: 1017.588
+  response: 7E80562150965EC

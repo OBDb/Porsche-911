@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     911_ODO_HD: 9429.269
   response: 7E807621160008FE115
+- expected_values:
+    911_ODO_HD: 9461.262
+  response: 7E80762116000905E0E
