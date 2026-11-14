@@ -20,3 +20,8 @@ test_cases:
   response: |-
     77A100D622AB500CA00
     77A21CA07FF07FF0000
+- expected_values:
+    911_RANGE_EST_CAN: 2047
+  response: |-
+    77A100D622AB5028B02
+    77A218B07FF07FF0000
