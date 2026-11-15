@@ -4,5 +4,5 @@ test_cases:
     911_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    911_VSS: 110
-  response: 7E80462F40D6E
+    911_VSS: 114
+  response: 7E80462F40D72
