@@ -1310,7 +1310,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023], "from": 2027 },
   "signals": [
-    {"id": "911_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
+    {"id": "911_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2015, "years": [2019, 2020, 2021, 2023], "from": 2027 },
   "signals": [
@@ -1938,7 +1938,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
-    {"id": "911_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
+    {"id": "911_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
