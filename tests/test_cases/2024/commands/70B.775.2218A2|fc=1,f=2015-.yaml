@@ -2,6 +2,11 @@ command_id: 70B.775.2218A2|fc=1,f=2015-
 test_cases:
 - expected_values:
     911_TID_RR: 610779663
+    911_TP_RR: 7.8
+    911_TT_RR: 40
+  response: "775 10 0C 62 18 A2 24 67 C2 \n775 21 0F 20 67 4E 50 FF AA "
+- expected_values:
+    911_TID_RR: 610779663
     911_TP_RR: 6.7
     911_TT_RR: 40
   response: |-
