@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     911_FUEL_LEVEL_INPUT_V1: 27
   response: 7E8056214B40A8C
+- expected_values:
+    911_FUEL_LEVEL_INPUT_V1: 50
+  response: 7E8056214B41388

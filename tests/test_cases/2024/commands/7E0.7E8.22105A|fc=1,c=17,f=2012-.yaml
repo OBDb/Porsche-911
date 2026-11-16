@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.22105A|fc=1,c=17,f=2012-
 test_cases:
 - expected_values:
+    911_BATTERY_V: 14.04
+  response: '7E8 05 62 10 5A 02 BE '
+- expected_values:
     911_BATTERY_V: 11.94
   response: 7E80562105A0255
 - expected_values:
-    911_BATTERY_V: 14.28
-  response: 7E80562105A02CA
+    911_BATTERY_V: 14.36
+  response: 7E80562105A02CE
