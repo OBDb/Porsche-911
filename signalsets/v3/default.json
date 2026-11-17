@@ -247,7 +247,7 @@
   "signals": [
     {"id": "911_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1, "filter": { "to": 2011, "from": 2020 }, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2020, 2021, 2022, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1, "filter": { "to": 2011, "from": 2020 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "911_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
@@ -1175,11 +1175,11 @@
   "signals": [
     {"id": "911_CHARGE_AIR_P_ACTUAL", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25, "filter": { "to": 2011, "from": 2020 }, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2020, 2021, 2022, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2061"}, "freq": 0.25, "filter": { "to": 2011, "from": 2020 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "911_APP_POS1", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "nullmax": 65, "unit": "volts" }, "name": "Accelerator pedal position sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25, "filter": { "to": 2011, "from": 2020 }, "dbgfilter": { "to": 2004, "years": [2006, 2007, 2008, 2009, 2010, 2011, 2020, 2021, 2022, 2023, 2024], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2062"}, "freq": 0.25, "filter": { "to": 2011, "from": 2020 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "911_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "nullmax": 65, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
   ]},
@@ -1367,19 +1367,19 @@
     {"id": "911_BRAKE_PRESSED",        "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake"},
     {"id": "911_BRAKE_LIGHT_ON",       "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake light"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "to": 2023, "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1001"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
     {"id": "911_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1002"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "to": 2023, "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1002"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
     {"id": "911_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1003"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "to": 2023, "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1003"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
     {"id": "911_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25, "filter": { "from": 2023 }, "dbgfilter": { "to": 2023, "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1004"}, "freq": 0.25, "filter": { "from": 2023 },
   "signals": [
     {"id": "911_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
